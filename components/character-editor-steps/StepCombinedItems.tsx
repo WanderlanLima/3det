@@ -241,6 +241,10 @@ const StepCombinedItems: React.FC<Props> = ({ formData, updateFormData, compendi
         </select>
       </div>
 
+      {allSelectableItems.length === 0 && (
+        <p className="text-center text-sm text-slate-400 mb-2">Nenhum item encontrado.</p>
+      )}
+
       {renderGroup("Truques (10XP)", truques, "border-sky-500")}
       {renderGroup("Técnicas Comuns (10XP)", tecnicasComuns, "border-purple-500")}
       {renderGroup("Técnicas Lendárias (20XP)", tecnicasLendarias, "border-amber-500")}
