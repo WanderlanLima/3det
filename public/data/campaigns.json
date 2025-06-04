@@ -1,0 +1,30 @@
+
+[
+  {
+    "id": "camp1",
+    "name": "A Sombra Ancestral de Eldoria",
+    "description": "Uma antiga profecia se cumpre e uma escuridão primordial ameaça consumir o reino de Eldoria. Heróis de diferentes origens devem se unir para desvendar os mistérios e enfrentar o mal que ressurge das profundezas.",
+    "status": "ativa",
+    "gm": "Mestre Elara",
+    "imageUrl": "https://source.unsplash.com/random/600x400/?dark,fantasy,castle",
+    "playerCount": 4
+  },
+  {
+    "id": "camp2",
+    "name": "Os Cristais Perdidos de Aethel",
+    "description": "Fragmentos de um poderoso artefato, os Cristais de Aethel, foram espalhados pelo continente. Uma corrida contra o tempo se inicia para recuperá-los antes que caiam em mãos erradas e desencadeiem o caos.",
+    "status": "finalizada",
+    "gm": "Mestre Kael",
+    "imageUrl": "https://source.unsplash.com/random/600x400/?crystal,magic,ruins",
+    "playerCount": 3
+  },
+  {
+    "id": "camp3",
+    "name": "Expedição às Montanhas Uivantes",
+    "description": "Rumores de tesouros esquecidos e perigos ancestrais ecoam das Montanhas Uivantes. A Guilda dos Aventureiros busca bravos exploradores para mapear a região e descobrir seus segredos.",
+    "status": "planejada",
+    "gm": "Mestre Theron",
+    "imageUrl": "https://source.unsplash.com/random/600x400/?mountain,snow,fantasy",
+    "playerCount": 0
+  }
+]

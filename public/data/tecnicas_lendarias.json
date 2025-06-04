@@ -1,0 +1,215 @@
+[
+  {
+    "id": "tec_len_001",
+    "name": "Abrir Chakra",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Atributo 4, Luta.\nAlcance: Pessoal.\nCusto de uso: 15PM.\nDuração: Duradoura.\nVocê desbloqueia um chakra, um vórtice de energia espiritual em seu corpo. Cada atributo tem um chakra correspondente, que são técnicas separadas. Abrir o chakra usa um movimento. Até o fim da cena, você tem Ganho e um crítico automático em testes do atributo correspondente (incluindo testes de ataque e defesa). Cada atributo também tem um efeito extra quando seu chakra é aberto:\n• Poder: O alvo tem Perda em testes de defesa.\n• Habilidade: Seus PM não podem ser reduzidos (por Ataque Especial Espiritual, etc.) nem seus Pontos de Ação (por dano em atributos, etc.). Seus Pontos de Atributo podem ser trocados por uma ação extra, mas você só pode realizar um ataque extra por rodada, independente de quantas ações realizar.\n• Resistência: Você recebe 20PV extras e todas as suas defesas são perfeitas.\nQuando o efeito termina você cai exausto, com o recurso daquele atributo reduzido a zero. Caso seja Resistência, você cai derrotado e inconsciente (pois não tem mais PV). Para os demais, tem Perda em todos os testes devido ao cansaço, até se recuperar.\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "buff",
+      "poder interior",
+      "luta",
+      "chakra",
+      "lendária"
+    ],
+    "source": "Manual 3DeT Victory (p. 159-160)"
+  },
+  {
+    "id": "tec_len_002",
+    "name": "Bomba Vital",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Resistência 4, Luta.\nAlcance: Longe.\nCusto de uso: Veja a seguir.\nDuração: Instantânea.\nVocê absorve energia da própria natureza, acumulando magia ambiente bruta e moldando-a como uma esfera brilhante, arremessada contra um oponente. Use uma ação completa e faça um teste de Resistência (9). Para cada ponto que seu teste superar a meta, você acumula 1PM na bomba, até uma quantidade máxima por rodada igual ao atributo. Você pode demorar mais para acumular mais energia, até um limite de rodadas igual à sua Resistência. Quando chegar a esse limite, precisa arremessar a bomba ou dissipá-la. Enquanto está acumulando energia, aliados Perto podem doar PM a você. Cada ação de um aliado doa 1D PM. Diferente de você, seus aliados gastam os próprios PM. Quando estiver pronto, você pode usar outra ação completa para arremessar a bomba. Este ataque atinge todos os alvos Perto do alvo principal, com um bônus de Poder igual aos PM acumulados. Para 20PM ou mais, o ataque tem Ganho. Mesmo não usando sua própria energia, a exaustão faz seus PM caírem a zero. Você também tem Perda em todos os testes até descansar.\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "ataque energético",
+      "carregamento",
+      "área",
+      "luta",
+      "lendária",
+      "natureza"
+    ],
+    "source": "Manual 3DeT Victory (p. 160)"
+  },
+  {
+    "id": "tec_len_003",
+    "name": "Dim Mak",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisito: Habilidade 5, Luta.\nAlcance: Perto.\nCusto de uso: 5PM.\nDuração: Instantânea.\nVocê sabe atingir pontos de pressão no corpo do oponente, para paralisar membros ou órgãos vitais, e até matar com um simples toque! Quando usa o Dim Mak, você faz um ataque com chance de crítico máxima (4, 5 ou 6) que não pode ser combinado com nenhuma outra vantagem ou técnica. Superando a defesa, em vez de causar dano, o alvo perde 2 pontos em um atributo à sua escolha. Cada crítico faz perder 1 ponto adicional. Caso o atributo seja reduzido a 0, é considerado nulo. O alvo perde os recursos desse atributo, e não pode fazer testes que o utilizem. Caso seja Resistência, o alvo entra em coma e deve fazer imediatamente um teste de morte. Se sobreviver, a recuperação será demorada: 1 ponto de atributo para cada 1D dias de repouso absoluto.\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "pontos de pressão",
+      "letal",
+      "luta",
+      "controle",
+      "lendária",
+      "habilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 160-161)"
+  },
+  {
+    "id": "tec_len_004",
+    "name": "Mata-Kaiju",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Habilidade 5, Magia.\nAlcance: Muito Longe.\nCusto de uso: 10PM + bônus de Magia.\nDuração: Instantânea.\nUma das mais poderosas magias de destruição conhecidas, dispara uma avassaladora descarga de energia que destrói uma grande área ao redor do ponto de impacto. Mata-Kaiju requer três rodadas para ser conjurada. A primeira, usando Magia para aumentar o seu ataque ao máximo, gastando PM para ter bônus no teste; a segunda, concentrando e intensificando a energia reunida; e a terceira, para fazer o disparo. O teste de ataque tem dois críticos automáticos (duas escalas acima!) e atinge todos os alvos Longe do alvo principal (é melhor estar Muito Longe quando utilizá-la!). Devido à imensa área do ataque, todos os testes de defesa recebem duas Perdas.\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "ataque mágico",
+      "destruição em área",
+      "kaiju",
+      "magia",
+      "lendária",
+      "poderoso"
+    ],
+    "source": "Manual 3DeT Victory (p. 162)"
+  },
+  {
+    "id": "tec_len_005",
+    "name": "Megalon Superior",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Habilidade 6, Megalon.\nAlcance: Perto.\nCusto de uso: 25 ou 50PM.\nDuração: Duradoura.\nVersão aprimorada da magia Megalon, capaz de transformar o alvo em algo realmente titânico! O alvo é elevado uma escala acima (25PM) ou duas (50PM).\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "transformação",
+      "gigante",
+      "buff",
+      "magia",
+      "lendária",
+      "megalon"
+    ],
+    "source": "Manual 3DeT Victory (p. 162)"
+  },
+  {
+    "id": "tec_len_006",
+    "name": "Metamagia",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Habilidade 5, Magia, Maestria (Mística).\nAlcance: Veja abaixo.\nCusto de uso: Veja abaixo.\nDuração: Instantânea.\nVocê domina as artes místicas com tamanha precisão que pode modificar todos os seus parâmetros! Este é um conjunto de truques lendários, que altera o efeito da vantagem Magia e qualquer técnica que a tenha entre os requisitos. Sempre que usar Magia ou suas técnicas, você pode gastar mais PM para adicionar os seguintes efeitos (máximo de efeitos igual à Habilidade):\n• Acelerar magia: +5PM para diminuir o tipo de ação da magia em um passo (de ação para movimento, por exemplo).\n• Alvos extras: +1PM por alvo extra, até um máximo de alvos iguais à sua Habilidade. O efeito da magia deve ser dividido entre eles.\n• Duplicar magia: Cria um efeito extra da magia na mesma ação, pagando duas vezes o custo em PM. (Conta como dois efeitos para o limite).\n• Estender magia: +3PM para aumentar o alcance de magia um passo (Perto para Longe, etc.). Mais PM para estender mais. (Cada distância além de Perto é um efeito extra).\n• Expandir magia: +3PM para afetar todos Perto do alvo, +9PM para todos Longe, e +15PM para todos Muito Longe. Cada passo de distância impõe Perda em testes de defesa para evitar. (Cada distância são dois efeitos).\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "magia",
+      "mística",
+      "metafeitiço",
+      "controle arcano",
+      "lendária",
+      "habilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 163)"
+  },
+  {
+    "id": "tec_len_007",
+    "name": "Morte Estelar",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Habilidade 9, Magia.\nAlcance: Muito Longe.\nCusto de uso: 100PM.\nDuração: Instantânea.\nEsta talvez seja a magia mais destrutiva de todo o universo conhecido! Usada pela própria semideusa Vitória para derrotar o deus-monstro K’Athanoa, consome toda a energia de uma estrela, que desaparece do céu. Essa energia então é convertida em um único disparo, destruindo imediatamente o alvo — não importando ser uma criatura, uma cidade, um planeta ou mesmo um deus! Obviamente, cada vez que essa técnica é usada, um sol morre em algum lugar do universo — existindo uma chance de extinção para mundos ou civilizações inteiras. Caso isso ocorra (resultado 1 em 1D), entidades cósmicas mantenedoras do equilíbrio universal procuram o conjurador para aplicar penalidades adequadas. Pode ir fazendo outro personagem!\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "destruição",
+      "ataque supremo",
+      "magia",
+      "lendária",
+      "cósmico",
+      "habilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 163-164)"
+  },
+  {
+    "id": "tec_len_008",
+    "name": "Percepção Cósmica",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Habilidade 5, Maestria (Percepção).\nAlcance: Pessoal.\nCusto de uso: 5 PM para ativar, 1 PM por rodada para manter.\nDuração: Enquanto pagar o custo.\nVocê é uno com o mundo! Com uma ação e 5PM, pode entrar em um estado de conexão profunda com o universo, e enxergar as próprias linhas de energia que ligam os seres vivos e o mundo ao seu redor. Você deve gastar 1PM no começo do seu turno para manter esse estado de conexão cósmica. Enquanto está com a técnica ativa, você tem Ganho e um crítico automático em todos os testes de Percepção. Além disso, pode gastar 1PM para adquirir qualquer Sentido por uma rodada, ou trocar a perícia de qualquer teste (inclusive ataque e defesa) por Percepção.\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "percepção",
+      "consciência cósmica",
+      "sentidos",
+      "lendária",
+      "habilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 164)"
+  },
+  {
+    "id": "tec_len_009",
+    "name": "Rapsódia das Arcas",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Poder 4, Maestria (Arte).\nAlcance: Perto.\nCusto de uso: 3PM por rodada.\nDuração: 4 rodadas.\nVocê executa uma longa canção épica, exaltando os feitos de seus companheiros, tornando-os a melhor versão de si mesmos. A cada rodada você faz um teste de Poder com meta crescente. Para cada sucesso, seus aliados Perto recebem um novo benefício:\n• 1ª Rodada (6): Todas as vantagens e técnicas de seus aliados custam –2PM.\n• 2ª Rodada (9): Seus aliados recuperam 5PV e 5PM no começo de seu turno.\n• 3ª Rodada (12): Seus aliados conseguem crítico com 5 ou 6.\n• 4ª Rodada (15): Seus aliados têm defesa perfeita e Ganho em um teste na rodada.\nOs benefícios são cumulativos. Após a quarta rodada, a música termina no início de seu próximo turno. Quando isso acontece, ou se você falhar em algum teste, todos os benefícios são perdidos. Mas se o público pedir bis, você pode começar de novo!\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "buff em área",
+      "música",
+      "arte",
+      "suporte",
+      "lendária",
+      "poder"
+    ],
+    "source": "Manual 3DeT Victory (p. 164)"
+  },
+  {
+    "id": "tec_len_010",
+    "name": "Sabedoria Selvagem",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Habilidade 4, Sabedoria dos Ermos (Técnica Comum).\nAlcance: Pessoal.\nCusto de uso: 5 ou 10PM.\nDuração: Instantânea.\nVocê é ainda mais eficiente em encontrar itens de utilidade em locais com os quais é familiarizado. Quando está na sua Arena, você pode gastar 5PM para usar um item raro, ou 10PM para um item lendário. Não, você não pode usar esse item para recuperar os PM que gastou na própria técnica!\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "utilidade",
+      "sobrevivência",
+      "arena",
+      "recurso",
+      "lendária",
+      "habilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 164-165)"
+  },
+  {
+    "id": "tec_len_011",
+    "name": "Trapacear o Destino",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Habilidade 5, Maestria (Manha).\nCusto de uso: 5 a 15 PM.\nAlcance: Pessoal.\nDuração: Instantânea.\nVocê é tão esguio e trapaceiro que nem o próprio destino consegue pegá-lo! Sempre que rolar 1 em um dado, você pode gastar 5PM para virá-lo do outro lado e trocá-lo por um 6 (e um acerto crítico). Você pode até transformar uma falha crítica em um sucesso devastador! Diferente de outras técnicas, este custo nunca pode ser reduzido por vantagens, poderes ou outros meios.\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "sorte",
+      "manipulação de dados",
+      "manha",
+      "lendária",
+      "habilidade",
+      "trapaça"
+    ],
+    "source": "Manual 3DeT Victory (p. 165)"
+  },
+  {
+    "id": "tec_len_012",
+    "name": "Visão do Futuro",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisito: Habilidade 5.\nAlcance: Pessoal.\nCusto de uso: 3PM.\nDuração: Instantânea.\nO futuro é show! Você consegue enxergar alguns instantes no futuro e, talvez, fazer algo para mudá-lo. Sempre que alguém faz um teste contra você, seja um ataque, defesa ou teste resistido, você pode gastar 3PM como reação para fazê-lo rolar esse teste duas vezes, e ficar com o resultado que você escolher.\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "precognição",
+      "defesa",
+      "controle de dados",
+      "lendária",
+      "habilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 165)"
+  }
+]

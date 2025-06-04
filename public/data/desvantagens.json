@@ -1,0 +1,324 @@
+[
+  {
+    "id": "des_001",
+    "name": "Ambiente",
+    "type": "Desvantagem",
+    "description": "Você é mais acostumado a certo ambiente: água, clima muito quente ou gelado, atmosfera de metano, shopping, home theater, fliperama, cozinha de restaurante totalmente equipada, ou outro lugar/clima/terreno que não existe em abundância no local da campanha. No início de cada cena, role 1D. Com um resultado 1, nada relacionado a seu ambiente existe ali, e você tem Perda em todos os testes. O mestre pode julgar situações especiais e dispensar a rolagem.",
+    "cost": -1,
+    "tags": ["contextual", "penalidade", "ambiente"],
+    "source": "Manual 3DeT Victory (p. 65)"
+  },
+  {
+    "id": "des_002",
+    "name": "Amnésia",
+    "type": "Desvantagem",
+    "description": "Você não sabe quem é. Talvez seja um espião que sofreu lavagem cerebral, ou um androide com dados apagados, ou algum grande trauma tirou sua memória. Se você decide ter esta desvantagem, o mestre faz sua ficha em segredo. Você pode tentar fazer coisas, e o mestre diz se conseguiu ou não — sem jamais dizer se você tem mesmo a perícia ou vantagem. Você pode ter Ganho ou Perda em testes sem saber a razão. Ainda, o mestre pode escolher rolar seus testes secretamente, apenas anunciando os resultados. Não vale perguntar! Você pode acabar descobrindo coisas por tentativa e erro, mas suas completas capacidades e limitações devem permanecer um mistério.",
+    "cost": -2,
+    "tags": ["mental", "história", "identidade", "roleplay"],
+    "source": "Manual 3DeT Victory (p. 66)"
+  },
+  {
+    "id": "des_003",
+    "name": "Antipático",
+    "type": "Desvantagem",
+    "description": "Você não consegue (ou não quer) se expressar bem. Pode ser por timidez, deselegância, orgulho, rabugice, aura de energia sinistra, ou você é apenas um baita chato! Quando faz um teste de Poder envolvendo interação social, você tem Perda e nunca tem acertos críticos. Você não pode ser Antipático e também Carismático.",
+    "cost": -1,
+    "tags": ["social", "interação", "personalidade", "penalidade"],
+    "source": "Manual 3DeT Victory (p. 67)"
+  },
+  {
+    "id": "des_004",
+    "name": "Assombrado",
+    "type": "Desvantagem",
+    "description": "Você é assombrado por um espírito, sentimento ruim, lembrança amarga ou outra coisa que tira a sua concentração.\n–1pt: Ao entrar em uma situação em que a assombração poderia afetá-lo — como um combate ou cena de ação —, role um dado. Com um resultado 1, todos os seus testes têm Perda até o fim da cena.\n–2pt: A assombração aparece com qualquer resultado ímpar.",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto para a assombração afetar com resultado 1 em 1D, ou –2 pontos para afetar com qualquer resultado ímpar.",
+    "min": 1,
+    "max": 2,
+    "tags": ["mental", "sobrenatural", "penalidade", "concentração"],
+    "source": "Manual 3DeT Victory (p. 67)"
+  },
+  {
+    "id": "des_005",
+    "name": "Atrapalhado",
+    "type": "Desvantagem",
+    "description": "Você se atrapalha com facilidade. Quando faz um teste de Habilidade envolvendo coordenação e agilidade, você tem Perda e nunca tem acertos críticos. Você não pode ser Atrapalhado e também Ágil.",
+    "cost": -1,
+    "tags": ["físico", "coordenação", "agilidade", "penalidade"],
+    "source": "Manual 3DeT Victory (p. 67)"
+  },
+  {
+    "id": "des_006",
+    "name": "Aura",
+    "type": "Desvantagem",
+    "description": "Você emana uma aura pesada de energia negativa, estática eletromagnética, karma ruim, mau-cheiro, ou pura uruca. Qualquer um pode senti-la e perceber que você é a fonte, causando Perda em testes sociais.\n–1pt: Qualquer teste de outras pessoas realizado Perto de você, seja de aliados ou inimigos, tem Perda.\n–2pt: Qualquer teste Longe de você ou menos.",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto para a aura afetar testes Perto, ou –2 pontos para afetar testes Longe ou menos.",
+    "min": 1,
+    "max": 2,
+    "tags": ["sobrenatural", "social", "penalidade", "energia negativa"],
+    "source": "Manual 3DeT Victory (p. 67)"
+  },
+  {
+    "id": "des_007",
+    "name": "Bateria",
+    "type": "Desvantagem",
+    "description": "Você tem uma reserva de energia para permanecer ativo. Sempre que ficar com 0PM você “desliga”, ficando inconsciente e indefeso. Além disso, quando está com pouco PM (abaixo de sua H), sua bateria está fraca e todos os seus testes têm Perda.",
+    "cost": -1,
+    "tags": ["recurso", "energia", "construto", "limitação"],
+    "source": "Manual 3DeT Victory (p. 67)"
+  },
+  {
+    "id": "des_008",
+    "name": "Código",
+    "type": "Desvantagem",
+    "description": "Você segue um código de conduta que o impede de fazer (ou deixar de fazer) alguma coisa. Sempre que violar seu código, a culpa o deixará com Perda em todos os testes, até que consiga se redimir de alguma forma (compensando o mal que causou, ou cumprindo o código na próxima oportunidade). Exemplos: 1ª Lei de Asimov, 2ª Lei de Asimov, Código do Caçador, Código do Combate, Código da Derrota, Código da Gratidão, Código dos Heróis, Código da Honestidade, Código da Redenção. Você pode ter mais de um Código. Custa –1pt cada.",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto por cada Código de Conduta escolhido. O mestre pode limitar o número de Códigos.",
+    "min": 1,
+    "tags": ["comportamento", "ético", "moral", "roleplay", "restrição"],
+    "source": "Manual 3DeT Victory (p. 68)"
+  },
+  {
+    "id": "des_009",
+    "name": "Dependência",
+    "type": "Desvantagem",
+    "description": "O personagem depende de algo raro, proibido ou desumano para viver. Pode ser um vampiro que bebe sangue, um zumbi que devora cérebros, ou um viciado em alguma substância ilícita — quase sempre será algo que envolve crime grave. A Dependência deve ser satisfeita todos os dias. Se não o fizer, o personagem tem Perda em todos os testes, até que ele satisfaça a Dependência. Esta desvantagem é para vilões NPCs. Não é para você. Não se meta a besta.",
+    "cost": -2,
+    "tags": ["vício", "necessidade", "sobrevivência", "roleplay", "restrição"],
+    "source": "Manual 3DeT Victory (p. 68)"
+  },
+  {
+    "id": "des_010",
+    "name": "Diferente",
+    "type": "Desvantagem",
+    "description": "Seu corpo é muito diferente de um corpo humanoide comum. Muito maior, menor, com membros a mais, ou em lugares incomuns, ou outro motivo. Você tem problemas para usar as armas, roupas, equipamentos, máquinas e veículos disponíveis — pode usar apenas aqueles feitos especialmente para você. O inverso também é válido: coisas feitas para você não servem bem para outros personagens. Pertences escolhidos durante a criação do personagem (Relíquia, Utensílio…) são feitos para você. Se você recebe esta desvantagem por ser membro de uma espécie fantástica (goblin, hynne, ogro…), então pode usar itens feitos para membros da mesma raça. Você tem Perda ao usar itens feitos para outros. Por outro lado, o mestre pode decidir que seu corpo é vantajoso em algumas situações — um pequeno goblin teria mais facilidade para agir furtivamente com um teste de Manha. Nestes casos especiais, você pode até receber Ganho.",
+    "cost": -1,
+    "tags": ["físico", "aparência", "equipamento", "interação"],
+    "source": "Manual 3DeT Victory (p. 69)"
+  },
+  {
+    "id": "des_011",
+    "name": "Elo Vital",
+    "type": "Desvantagem",
+    "description": "Escolha um aliado, que também deve ter esta desvantagem. Sempre que um de vocês sofre dano, o outro também perde PV na mesma quantidade. Se os personagens pertencem a escalas diferentes, o dano é ajustado de forma proporcional. Como quando um robô gigante recebe dano e seu piloto também fica ferido. O contrário não é verdadeiro: curar um não cura o outro.",
+    "cost": -1,
+    "tags": ["conexão", "dano", "vulnerabilidade", "social", "dependência"],
+    "source": "Manual 3DeT Victory (p. 69)"
+  },
+  {
+    "id": "des_012",
+    "name": "Fracote",
+    "type": "Desvantagem",
+    "description": "Você é fraco, falta ódio… e força. Ao fazer um teste de Poder envolvendo esforço físico, como para mover uma pedra ou derrubar uma porta, você tem Perda e nunca tem acertos críticos. Você não pode ser Fracote e também Forte.",
+    "cost": -1,
+    "tags": ["físico", "força", "penalidade", "combate"],
+    "source": "Manual 3DeT Victory (p. 69)"
+  },
+  {
+    "id": "des_013",
+    "name": "Frágil",
+    "type": "Desvantagem",
+    "description": "Você tem pouco vigor físico. Ao fazer um teste de Resistência envolvendo saúde física, como para resistir doenças, venenos e testes de morte, você tem Perda e nunca tem acertos críticos. Você não pode ser Frágil e também Vigoroso.",
+    "cost": -1,
+    "tags": ["físico", "resistência", "saúde", "penalidade", "vulnerabilidade"],
+    "source": "Manual 3DeT Victory (p. 69)"
+  },
+  {
+    "id": "des_014",
+    "name": "Fraqueza",
+    "type": "Desvantagem",
+    "description": "Existe um objeto, elemento ou condição à qual você é especialmente vulnerável. Enquanto você estiver Perto dessa coisa, todos os seus testes têm Perda. O valor da desvantagem depende de quão comum é a fonte da Fraqueza:\n• Incomum (–1pt): A Fraqueza é algo que aparece raramente (1 em 1D). Livros. Espelhos. Gatos. Objetos de bronze. Cor roxa. Gente de chapéu. Aquela pedra verde brilhante.\n• Comum (–2pt): A Fraqueza é algo que aparece mais frequentemente (1-3 em 1D). Lugares escuros (ou iluminados). Vento. Água. Plantas. Cor vermelha.",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto se a fonte da Fraqueza for incomum, ou –2 pontos se for comum.",
+    "min": 1,
+    "max": 2,
+    "tags": ["vulnerabilidade", "contextual", "penalidade", "específico"],
+    "source": "Manual 3DeT Victory (p. 69-70)"
+  },
+  {
+    "id": "des_015",
+    "name": "Fúria",
+    "type": "Desvantagem",
+    "description": "Sempre que você sofre dano ou fica irritado por qualquer motivo (a critério do mestre), deve fazer um teste de Resistência (9 ou igual ao dano, o que for maior). Se falhar, você entra em frenesi de batalha e ataca imediatamente o alvo de sua irritação. Na falta deste, ataca o coitado que estiver mais perto. Durante a Fúria todos os seus testes que não sejam de ataque têm Perda, inclusive testes de defesa. Além disso, todas as suas vantagens gastam o dobro de PM. A Fúria termina quando você ou seu oponente é derrotado, ou caso o oponente consiga fugir. Você então fica imediatamente esgotado (seus PM caem para zero e você tem Perda em todos os testes até descansar).",
+    "cost": -2,
+    "tags": ["comportamento", "combate", "frenesi", "penalidade", "perda de controle"],
+    "source": "Manual 3DeT Victory (p. 70)"
+  },
+  {
+    "id": "des_016",
+    "name": "Inapto",
+    "type": "Desvantagem",
+    "description": "Escolha uma perícia que não possua. Você é um completo incompetente quando se trata dela. Sempre que o mestre pede um teste com a perícia escolhida, você está em Perda. Além disso, qualquer falha é considerada uma falha crítica (como se todos os resultados fossem 1). Se rolar mesmo uma falha crítica, algo ainda pior acontece.",
+    "cost": -1,
+    "tags": ["perícia", "incompetência", "penalidade", "falha crítica"],
+    "source": "Manual 3DeT Victory (p. 70)"
+  },
+  {
+    "id": "des_017",
+    "name": "Inculto",
+    "type": "Desvantagem",
+    "description": "Você não tem familiaridade com a cultura local. Talvez seja estrangeiro (alienígena?), tenha acabado de chegar de uma Convergência, não recebeu educação própria, é muito ingênuo, ou literalmente nasceu ontem. Você não sabe ler a língua local, ou acha muito difícil fazê-lo (teste Difícil). Você tem a mesma dificuldade para se comunicar, exceto com seus aliados — e mesmo para eles o mestre pode, às vezes, pedir testes para entendê-lo. Testes sociais com personagens que não o entendem têm Perda.",
+    "cost": -1,
+    "tags": ["social", "cultural", "comunicação", "penalidade", "roleplay"],
+    "source": "Manual 3DeT Victory (p. 71)"
+  },
+  {
+    "id": "des_018",
+    "name": "Indeciso",
+    "type": "Desvantagem",
+    "description": "Você tem pouca convicção e muita dificuldade para tomar decisões importantes. Em testes de Resistência envolvendo força de vontade, você tem Perda e nunca tem acertos críticos. Você não pode ser Indeciso e também Resoluto.",
+    "cost": -1,
+    "tags": ["mental", "vontade", "personalidade", "penalidade"],
+    "source": "Manual 3DeT Victory (p. 71)"
+  },
+  {
+    "id": "des_019",
+    "name": "Infame",
+    "type": "Desvantagem",
+    "description": "Você é muito conhecido, mas não por uma boa razão. Quando faz testes sociais relacionados a um NPC que o reconhece (normalmente 1-4 em 1D), você está sempre em Perda. Você não pode ser Infame e também Famoso.",
+    "cost": -1,
+    "tags": ["social", "reputação", "penalidade", "roleplay"],
+    "source": "Manual 3DeT Victory (p. 71)"
+  },
+  {
+    "id": "des_020",
+    "name": "Lento",
+    "type": "Desvantagem",
+    "description": "Você se move devagar. Em testes de iniciativa, está sempre em Perda, e também gasta um movimento a mais para cruzar cada distância. Você não pode ser Lento e também ter Aceleração.",
+    "cost": -1,
+    "tags": ["movimento", "velocidade", "iniciativa", "penalidade", "físico"],
+    "source": "Manual 3DeT Victory (p. 71)"
+  },
+  {
+    "id": "des_021",
+    "name": "Maldição",
+    "type": "Desvantagem",
+    "description": "Você é vítima de uma maldição que o perturba quase o tempo inteiro. A natureza e efeito exatos podem ser inventados por você, mas devem ser autorizados pelo mestre.\n–1pt: A Maldição é suave, mais irritante ou constrangedora que qualquer outra coisa. Ex: bicho mágico chato o persegue, vantagens só funcionam quando tira a roupa, muda de sexo quando molhado. Normalmente não tem efeito em regras, mas pode distrair e causar Perda.\n–2pt: A Maldição é muito grave, desafiadora. Ex: sempre que causa dano a alguém, recebe o mesmo dano de volta; em testes de um atributo escolhido, falhas são críticas; nunca pode curar PV exceto com descanso; monstro o ataca todas as noites.",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto para uma Maldição suave, ou –2 pontos para uma Maldição grave.",
+    "min": 1,
+    "max": 2,
+    "tags": ["sobrenatural", "penalidade", "roleplay", "restrição"],
+    "source": "Manual 3DeT Victory (p. 71)"
+  },
+  {
+    "id": "des_022",
+    "name": "Monstruoso",
+    "type": "Desvantagem",
+    "description": "Você tem uma aparência grotesca, que causa repulsa àqueles que podem vê-lo. Outros personagens estão sempre de prontidão contra você: exceto quando os pega de surpresa, você sempre tem Perda em testes de iniciativa. Você também tem Perda em testes sociais que envolvem aparência. Você não pode ser Monstruoso e também Inofensivo.",
+    "cost": -1,
+    "tags": ["aparência", "social", "iniciativa", "penalidade", "roleplay"],
+    "source": "Manual 3DeT Victory (p. 71-72)"
+  },
+  {
+    "id": "des_023",
+    "name": "Munição",
+    "type": "Desvantagem",
+    "description": "Sua arma ou técnica exige algum tipo de recarga cada vez que é utilizada. Podem ser balas, flechas, energia ki, poder mental, etc. Sempre que você usa uma ação para atacar, precisa usar um movimento para recarregar. Se fizer um ataque sem recarregar, você não soma seu Poder ao teste de ataque, nem pode somá-lo novamente em críticos.",
+    "cost": -1,
+    "tags": ["combate", "recurso", "restrição", "arma"],
+    "source": "Manual 3DeT Victory (p. 72)"
+  },
+  {
+    "id": "des_024",
+    "name": "Pacifista",
+    "type": "Desvantagem",
+    "description": "Você rejeita conflito e violência.\n–1pt: Você não se envolve em combate violento. Quando atacado, pode se defender, mas não fazer testes de ataque. Ainda pode reduzir PV e derrotar oponentes de outras formas (veja em Luta Não é Tudo).\n–2pt: Você não faz absolutamente nada que cause dano — até mesmo ferir com palavras é violento e ofensivo demais para você!\nSe violar seu pacifismo, a culpa o deixará em Perda até que você consiga se redimir de alguma forma.",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto para não se envolver em combate violento (apenas se defender), ou –2 pontos para não causar nenhum tipo de dano.",
+    "min": 1,
+    "max": 2,
+    "tags": ["comportamento", "ético", "não-violência", "roleplay", "restrição"],
+    "source": "Manual 3DeT Victory (p. 73)"
+  },
+  {
+    "id": "des_025",
+    "name": "Pobreza",
+    "type": "Desvantagem",
+    "description": "Você não tem recursos financeiros e, por qualquer razão, tende a não conseguir acumulá-los de nenhuma maneira. Todos os seus testes de compra são feitos em Perda. Você não pode ter Pobreza e também Riqueza.",
+    "cost": -1,
+    "tags": ["social", "recurso", "dinheiro", "penalidade"],
+    "source": "Manual 3DeT Victory (p. 73)"
+  },
+  {
+    "id": "des_026",
+    "name": "Ponto Fraco",
+    "type": "Desvantagem",
+    "description": "Você tem uma característica que seu adversário pode explorar. Pode ser um desequilíbrio em sua postura de luta, um tique nervoso, uma falha em sua linha de raciocínio, ou você perde as estribeiras sempre que alguém menciona aquele incidente passado… Seu Ponto Fraco pode ser descoberto por alguém que já tenha visto você em ação, ou por Telepatia, ou ser conhecido por todos se você é Famoso ou Infame. Um teste resistido de Percepção contra a perícia que você está usando também permite descobrir. Qualquer adversário que conhece seu Ponto Fraco pode gastar 1 PM para ter Ganho contra você em um teste que explora esse problema.",
+    "cost": -1,
+    "tags": ["vulnerabilidade", "combate", "social", "mental", "roleplay"],
+    "source": "Manual 3DeT Victory (p. 73)"
+  },
+  {
+    "id": "des_027",
+    "name": "Protegido",
+    "type": "Desvantagem",
+    "description": "Existe alguém que você precisa proteger de qualquer maneira, com a própria vida se necessário. Pode ser outro personagem jogador, ou um NPC que acompanha você. Manter um Protegido é arriscado, os vilões podem (vão!) tentar usá-lo como chantagem para vencer você. Sempre que o Protegido está desaparecido, indefeso ou ferido (qualquer quantidade de PV abaixo do total), todos os seus testes têm Perda. Se o Protegido morre ou desaparece para sempre, você adquire a versão severa de Assombrado (–2pt), sem ganhar o ponto de diferença.",
+    "cost": -1,
+    "tags": ["responsabilidade", "social", "roleplay", "vulnerabilidade"],
+    "source": "Manual 3DeT Victory (p. 73)"
+  },
+  {
+    "id": "des_028",
+    "name": "Restrição",
+    "type": "Desvantagem",
+    "description": "Certa condição torna mais difícil usar seus poderes. Quando ela acontece, você sempre gasta o dobro de PM para usar suas vantagens. O valor da desvantagem depende de quão comum é a Restrição:\n• Incomum (–1pt): Acontece raramente. Ex: molhado, com fome, noite de lua cheia, inimigo de certo arquétipo, alguém soltou pum.\n• Comum (–2pt): Acontece muito frequentemente. Ex: noite (ou dia), lugar fechado (ou aberto), alguém olhando, bardo não para de cantar.\nVocê não pode ter esta desvantagem se não tiver nenhuma vantagem que gasta PM.",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto se a condição da Restrição for incomum, ou –2 pontos se for comum.",
+    "min": 1,
+    "max": 2,
+    "tags": ["poder", "limitação", "contextual", "penalidade"],
+    "source": "Manual 3DeT Victory (p. 73-74)"
+  },
+  {
+    "id": "des_029",
+    "name": "Sem Vida",
+    "type": "Desvantagem",
+    "description": "Você não é um ser vivo. Pode ser um construto, morto-vivo, brinquedo com alma, etc. Boa notícia: não pode morrer (testes de morte nunca pior que Inconsciente). Má notícia: não recupera PV de formas normais (descanso, itens, Cura, Regeneração). Pode ser consertado/restaurado com outra perícia (Máquinas para construtos, Mística para mortos-vivos). Cada tentativa exige 1 hora e teste (9). Sucesso = PVs totais. Ainda precisa descansar para PA e PM.",
+    "cost": -2,
+    "tags": ["construto", "morto-vivo", "sobrevivência", "cura", "limitação"],
+    "source": "Manual 3DeT Victory (p. 74)"
+  },
+  {
+    "id": "des_030",
+    "name": "Tapado",
+    "type": "Desvantagem",
+    "description": "Você não é uma pessoa muito brilhante. Quando faz testes de Habilidade relacionado a inteligência e raciocínio, você tem Perda e nunca tem acertos críticos. Você não pode ser Tapado e também Gênio.",
+    "cost": -1,
+    "tags": ["mental", "inteligência", "raciocínio", "penalidade"],
+    "source": "Manual 3DeT Victory (p. 74)"
+  },
+  {
+    "id": "des_031",
+    "name": "Transtorno",
+    "type": "Desvantagem",
+    "description": "Você lida com um transtorno mental. Escolha um (ou mais, –1pt cada):\n• Cleptomania: Rouba coisas desnecessárias. Teste para evitar. Nunca devolve, luta para não o fazer.\n• Compulsão: Precisa fazer algo várias vezes por dia (tomar banho, comer lasanha, etc.). No começo da cena, tem Perda em todos os testes até gastar uma rodada cumprindo a compulsão.\n• Distração: Não consegue se concentrar no que não o interessa (não Devoto/Código). Nessas situações, não consegue críticos.\n• Fantasia: Acredita ser/fazer algo que não é/pode. Fala de si mesmo o tempo todo. Perda em testes sociais.\n• Fobia: Medo terrível de algo (lugares altos, insetos, etc.). Perto da fobia, só faz movimentos. Só age se passar em teste antes.\n• Megalomania: Acredita ser invencível, imortal, destinado a grande objetivo. Nunca se rende, segue lutando após derrotado.\n• Mitomania: Nunca diz a verdade, mesmo querendo. Precisa de teste para dizer algo verdadeiro, até para aliados.\n• Paranoia: Não confia em ninguém, nem aliados. Precisa de teste para aceitar ajuda (até cura!). Dorme mal: recuperação de recursos com descanso é metade do normal.\nSuperar transtorno pede teste de Resistência (9).",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto por cada Transtorno escolhido. O mestre pode limitar o número de Transtornos.",
+    "min": 1,
+    "tags": ["mental", "comportamento", "personalidade", "roleplay", "penalidade"],
+    "source": "Manual 3DeT Victory (p. 74-75)"
+  },
+  {
+    "id": "des_032",
+    "name": "Utensílio",
+    "type": "Desvantagem",
+    "description": "Você precisa de um item (arma, amuleto, etc.) para usar adequadamente uma perícia ou vantagens.\n–1pt: Escolha uma perícia que você tem. Sem o Utensílio, não consegue críticos nessa perícia.\n–2pt: Sem o Utensílio, não pode usar vantagens ou técnicas que gastam PM. Não pode usar PA (exceto para recuperar/improvisar Utensílio).\nSe rolar falha crítica usando Utensílio, ele cai (gasta movimento para recuperar). Acerto crítico contra você pode destruir Utensílio (perde item, não sofre dano). Utensílio destruído/perdido é recuperado após cena, ou gastando ação e 1PA para improvisá-lo. Pode ser algo grande (trailer, biblioteca), que não cai/perde/destrói, mas não pode levar sempre consigo.",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto se, sem o Utensílio, não consegue críticos na perícia escolhida. Custa –2 pontos se, sem o Utensílio, não pode usar vantagens/técnicas que gastam PM ou PA (exceto para recuperar/improvisar Utensílio).",
+    "min": 1,
+    "max": 2,
+    "tags": ["equipamento", "dependência", "restrição", "item"],
+    "source": "Manual 3DeT Victory (p. 75)"
+  }
+]

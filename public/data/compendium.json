@@ -1,0 +1,3014 @@
+[
+  {
+    "id": "per_001",
+    "name": "Animais",
+    "type": "Perícia",
+    "description": "Você sabe cuidar, adestrar, cavalgar e lidar com animais e outras criaturas irracionais, como vários monstros. Pode substituir Medicina (apenas para animais). Com bons resultados nos testes, você consegue até se comunicar com animais.\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": [
+      "interação",
+      "cuidado",
+      "montaria",
+      "social"
+    ],
+    "source": "Manual 3DeT Victory (p. 40)"
+  },
+  {
+    "id": "per_002",
+    "name": "Arte",
+    "type": "Perícia",
+    "description": "Você sabe fazer performances artísticas como cantar, dançar, tocar música, cozinhar, fazer cosplay (e se disfarçar), desenhar, avaliar objetos de arte e outras.\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": [
+      "performance",
+      "social",
+      "criatividade",
+      "cultural"
+    ],
+    "source": "Manual 3DeT Victory (p. 40)"
+  },
+  {
+    "id": "per_003",
+    "name": "Esporte",
+    "type": "Perícia",
+    "description": "Você conhece os muitos tipos de esportes e suas regras, além de ser capacitado em atividades físicas como correr, escalar, nadar, fazer acrobacias, equilibrar-se, saltar e outras.\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": [
+      "físico",
+      "movimento",
+      "agilidade",
+      "competição"
+    ],
+    "source": "Manual 3DeT Victory (p. 41)"
+  },
+  {
+    "id": "per_004",
+    "name": "Influência",
+    "type": "Perícia",
+    "description": "Você sabe convencer outros a acreditar em algo ou fazer o que você quer. Envolve coisas como diplomacia, liderança, intimidação, sedução, blefe, hipnose, lábia, barganha, obter informações e outros.\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": [
+      "social",
+      "mental",
+      "persuasão",
+      "liderança"
+    ],
+    "source": "Manual 3DeT Victory (p. 41)"
+  },
+  {
+    "id": "per_005",
+    "name": "Luta",
+    "type": "Perícia",
+    "description": "Você sabe atacar e se defender em combate, seja corpo a corpo ou à distância. Também envolve a parte teórica dos combates, como reconhecer estilos de luta, analisar técnicas de inimigos e desenvolver táticas ou planos de ação — incluindo confrontos entre grandes grupos, como exércitos. Conflitos violentos (quase) sempre exigem testes de Luta!\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": [
+      "combate",
+      "físico",
+      "marcial",
+      "estratégia"
+    ],
+    "source": "Manual 3DeT Victory (p. 41)"
+  },
+  {
+    "id": "per_006",
+    "name": "Manha",
+    "type": "Perícia",
+    "description": "Você sabe fazer coisas malandras ou ilegais, como construir (e sabotar) armadilhas, arrombar portas e fechaduras, bater carteiras, criar (e decifrar) mensagens criptografadas, se disfarçar, falsificar objetos, ser furtivo, intimidar, rastrear pistas e pegadas…\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": [
+      "crime",
+      "furtividade",
+      "enganação",
+      "investigação"
+    ],
+    "source": "Manual 3DeT Victory (p. 41)"
+  },
+  {
+    "id": "per_007",
+    "name": "Máquinas",
+    "type": "Perícia",
+    "description": "Você sabe operar, construir e consertar máquinas, veículos e aparelhos de todo tipo. Também sabe lidar com computadores, hackear sistemas, vasculhar a internet, jogar games ou agir em simulações e realidades virtuais. Pode substituir Medicina (apenas para construtos).\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": [
+      "tecnologia",
+      "engenharia",
+      "condução",
+      "informática"
+    ],
+    "source": "Manual 3DeT Victory (p. 41)"
+  },
+  {
+    "id": "per_008",
+    "name": "Medicina",
+    "type": "Perícia",
+    "description": "Você sabe realizar primeiros socorros, diagnósticos, tratar doenças e venenos, realizar cirurgias e todo tipo de conhecimento de saúde. Pode despertar um personagem inconsciente ou estabilizar um personagem quase morto.\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": [
+      "cura",
+      "ciência",
+      "suporte",
+      "conhecimento"
+    ],
+    "source": "Manual 3DeT Victory (p. 41)"
+  },
+  {
+    "id": "per_009",
+    "name": "Mística",
+    "type": "Perícia",
+    "description": "Você sabe sobre forças sobrenaturais e artes místicas. Quando atacar ou se defender com poderes mágicos ou sobrenaturais (como a vantagem Magia), use esta perícia. Também é usada para reconhecer, contra-atacar e teorizar sobre conhecimentos ocultos, magia e criaturas mágicas.\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": [
+      "magia",
+      "sobrenatural",
+      "conhecimento",
+      "arcano"
+    ],
+    "source": "Manual 3DeT Victory (p. 42)"
+  },
+  {
+    "id": "per_010",
+    "name": "Percepção",
+    "type": "Perícia",
+    "description": "Você sabe usar seus sentidos para perceber melhor o mundo ao redor. Usada para ouvir ruídos muito baixos, notar coisas e personagens distantes, escondidos ou sob disfarce, ler lábios, rastrear pistas, evitar ser surpreendido e até mesmo como um “sexto sentido” para tentar notar se alguém está mentindo ou agindo de forma suspeita.\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": [
+      "sensorial",
+      "investigação",
+      "alerta",
+      "mental"
+    ],
+    "source": "Manual 3DeT Victory (p. 42)"
+  },
+  {
+    "id": "per_011",
+    "name": "Saber",
+    "type": "Perícia",
+    "description": "Você sabe tudo sobre tudo, qualquer conhecimento teórico em ciências, idiomas e até assuntos sobrenaturais, ou como e onde pesquisá-los. Note que é uma perícia ampla, engloba todos os campos, própria para aqueles cientistas exagerados ou super nerds que sabem de tudo!\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": [
+      "conhecimento",
+      "ciência",
+      "idiomas",
+      "mental"
+    ],
+    "source": "Manual 3DeT Victory (p. 42)"
+  },
+  {
+    "id": "per_012",
+    "name": "Sobrevivência",
+    "type": "Perícia",
+    "description": "Você sabe subsistir e se orientar em condições adversas. Pode encontrar e produzir alimento, construir abrigos, rastrear pistas, reconhecer criaturas selvagens, construir e sabotar armadilhas, ser furtivo, nadar, prever o clima, entre outros.\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": [
+      "exploração",
+      "natureza",
+      "rastreamento",
+      "resistência"
+    ],
+    "source": "Manual 3DeT Victory (p. 42)"
+  },
+  {
+    "id": "van_001",
+    "name": "Aceleração",
+    "type": "Vantagem",
+    "description": "Você se move muito rápido. Pode gastar 1PM para realizar um movimento extra em seu turno. Você também pode gastar 1PM antes de rolar os dados para receber um Ganho na iniciativa, ou em testes de Habilidade para correr, fugir ou perseguir um oponente.",
+    "cost": 1,
+    "tags": [
+      "movimento",
+      "combate",
+      "velocidade",
+      "iniciativa"
+    ],
+    "source": "Manual 3DeT Victory (p. 45)"
+  },
+  {
+    "id": "van_002",
+    "name": "+Ação",
+    "type": "Vantagem",
+    "description": "Você tem mais Pontos de Ação, além daqueles oferecidos por seu Poder. Cada vez que compra esta vantagem você recebe +2PA. Então, se tem P3 (3PA) e paga 1 ponto por +Ação, agora tem 5PA. Você pode comprar esta vantagem várias vezes, para novos aumentos de +2PA.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "Custa 1 ponto por cada +2PA. Pode ser comprada várias vezes.",
+    "min": 1,
+    "tags": [
+      "recurso",
+      "combate",
+      "ação",
+      "estratégia"
+    ],
+    "source": "Manual 3DeT Victory (p. 45)"
+  },
+  {
+    "id": "van_003",
+    "name": "Acumulador",
+    "type": "Vantagem",
+    "description": "Quanto mais seus ataques acertam, mais forte você bate ou argumenta. Sempre que você acerta um ataque (ou seja, quando causa dano), pode gastar 2PM para ganhar Poder +1 no ataque seguinte. Se acertar de novo, pode gastar 2PM de novo para P+2. E assim por diante, até um máximo de P+5 (sempre 2PM por ataque). Os ataques podem ser contra o mesmo alvo ou alvos diferentes. Se você erra um ataque, ou por algum motivo deixa de atacar (fazendo qualquer coisa que não causa dano), os bônus acabam.",
+    "cost": 1,
+    "tags": [
+      "combate",
+      "poder",
+      "dano",
+      "progressivo"
+    ],
+    "source": "Manual 3DeT Victory (p. 45)"
+  },
+  {
+    "id": "van_004",
+    "name": "Ágil",
+    "type": "Vantagem",
+    "description": "Você tem grande agilidade e coordenação motora. Recebe H+2 em testes envolvendo agilidade, coordenação ou equilíbrio, incluindo testes de iniciativa. Este bônus é incluído em acertos críticos. Você também pode gastar 2PM antes de fazer um desses testes para conseguir acerto crítico com 5 ou 6. Faz parte do conjunto de vantagens/desvantagens físicas/mentais (ver p. 46).",
+    "cost": 1,
+    "tags": [
+      "agilidade",
+      "movimento",
+      "defesa",
+      "iniciativa",
+      "físico"
+    ],
+    "source": "Manual 3DeT Victory (p. 46)"
+  },
+  {
+    "id": "van_005",
+    "name": "Ajudante",
+    "type": "Vantagem",
+    "description": "Você tem algo ou alguém com quem pode contar, seja em combate ou outras situações. O ajudante pode ser uma pessoa, animal, monstro, robô, veículo, objeto encantado, etc. Uma vez por rodada, você pode gastar 2PM para invocar o ajudante. O tipo de ajuda depende de sua função:\n• Curandeiro: Cura 2D PV em você ou outro personagem Perto, ou permite repetir um teste de Resistência contra algum efeito negativo após ter falhado.\n• Especialista: Escolha uma perícia. Ganho em um teste com esta perícia, exceto para defender ou atacar.\n• Familiar: Este ajudante sobrenatural gasta 1PM para ser invocado (em vez de 2) e diminui à metade o custo em PM para usar outra vantagem na rodada.\n• Lutador: Ganho em um teste de ataque, ou em testes de defesa por uma rodada.\n• Montaria: Concede um movimento extra, ou um Ganho em um teste de iniciativa ou para correr ou perseguir um oponente. Custa 1PM.\nVocê pode comprar esta vantagem mais vezes para ter outros ajudantes (ou um mesmo ajudante com diferentes funções). Contudo, em ambos os casos, você pode receber apenas uma ajuda por rodada.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "Custa 1 ponto para cada ajudante ou para cada função adicional de um ajudante. Pode ser comprada várias vezes.",
+    "min": 1,
+    "tags": [
+      "companheiro",
+      "suporte",
+      "utilidade",
+      "combate",
+      "versátil"
+    ],
+    "source": "Manual 3DeT Victory (p. 46-47)"
+  },
+  {
+    "id": "van_006",
+    "name": "Alcance",
+    "type": "Vantagem",
+    "description": "Seus ataques acertam mais longe. Vale para todos os tipos de ataque, como atirar, jogar coisas, esticar, gritar mais alto…\n• 1pt: Você pode atingir inimigos que estejam Longe sem penalidades, e Muito Longe com uma Perda.\n• 2pt: Você também pode atingir Muito Longe sem penalidades.\nO Alcance também afeta suas outras vantagens. Você pode usar sua Cura em aliados distantes, ou Magia em alvos afastados. Sem Alcance, a menos que uma vantagem diga o contrário, você só pode usá-la contra alvos que estejam Perto.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "1 ponto para atingir Longe sem penalidades (Muito Longe com Perda). 2 pontos para atingir Muito Longe sem penalidades.",
+    "min": 1,
+    "max": 2,
+    "tags": [
+      "combate",
+      "distância",
+      "ataque",
+      "ranged"
+    ],
+    "source": "Manual 3DeT Victory (p. 47)"
+  },
+  {
+    "id": "van_007",
+    "name": "Anulação",
+    "type": "Vantagem",
+    "description": "Você consegue impedir o alvo de usar um de seus poderes. Após o uso de uma vantagem em sua presença (Longe ou menos), você pode tentar usar uma ação e 3PM para tentar anular essa vantagem. O alvo faz um teste de R (9 + Poder do anulador) para tentar evitar. Se falhar, não pode mais usar essa vantagem até o fim da cena, cancelar o efeito ou ser derrotado. Você também pode anular uma vantagem se souber, com antecedência, que o alvo a tem (por Telepatia, Fama, Infâmia, ou teste de perícia). A cada turno após o primeiro, o alvo pode fazer um teste de R (9 + Poder do anulador) para cancelar o efeito. Apenas uma vantagem pode ser anulada por vez.",
+    "cost": 2,
+    "tags": [
+      "controle",
+      "neutralização",
+      "poder",
+      "defesa"
+    ],
+    "source": "Manual 3DeT Victory (p. 48)"
+  },
+  {
+    "id": "van_008",
+    "name": "Arena",
+    "type": "Vantagem",
+    "description": "Você se dá melhor em um certo tipo de terreno. Quando está nesse lugar, pode gastar 2PM para ter Ganho em um teste. A Arena é escolhida pelo jogador, mas sempre com aprovação do mestre. Sugestões: Água, Céu, Cidades, Ermos, Subterrâneo, categoria de lugares específicos, um único lugar no mundo e vizinhanças.",
+    "cost": 1,
+    "tags": [
+      "ambiente",
+      "terreno",
+      "especialização",
+      "bônus"
+    ],
+    "source": "Manual 3DeT Victory (p. 48)"
+  },
+  {
+    "id": "van_009",
+    "name": "Artefato",
+    "type": "Vantagem",
+    "description": "Você possui um item especial, único. Apenas você pode utilizá-lo. Pode ser uma espada mágica, arma de raios experimental ou armadura robótica, à sua escolha. Diferente de algum equipamento comum, que não afeta as regras, seu artefato oferece benefícios de jogo. Cada ponto ao comprar esta vantagem vale 10XP para adquirir uma arma, armadura ou acessório (mas não um veículo) como descrito em Recompensas.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "Custa 1 ponto de personagem por cada 10XP para gastar em qualidades de artefato. Pode ser comprada várias vezes.",
+    "min": 1,
+    "tags": [
+      "equipamento",
+      "item mágico",
+      "único",
+      "poder"
+    ],
+    "source": "Manual 3DeT Victory (p. 48)"
+  },
+  {
+    "id": "van_010",
+    "name": "Ataque Especial",
+    "type": "Vantagem",
+    "description": "Ao fazer um ataque, você pode gastar PM para ativar alguma arma ou técnica superior. Escolha um dos efeitos abaixo (com seu custo em PM). Você pode comprar esta Vantagem mais vezes para ter acesso a mais efeitos, ou para aprimorar um efeito (conforme descrito em Potente).\n• Área: Todos os personagens Perto do alvo também recebem o ataque. (3PM)\n• Choque: Ataca usando Resistência em vez de Poder. (1PM)\n• Distante: Atinge um passo de distância além (cumulativo com Alcance). (1PM)\n• Espiritual: O alvo perde PM em vez de PV. (1PM)\n• Investida: Ao atacar Longe ou mais distante, move-se até o alvo com a mesma ação. (1PM)\n• Múltiplo: Atinge mais alvos ao alcance (1PM por alvo extra, máx. Habilidade). Cada alvo defende separadamente.\n• Penetrante: O alvo tem Perda de defesa. (2PM)\n• Perigoso: Ataque causa acerto crítico com 5 ou 6. (1PM)\n• Poderoso: Em crítico, gaste 2PM para somar o Poder mais uma vez.\n• Potente: Aumenta Poder do ataque em P+2 (1PM para cada P+2). Pode ser comprado várias vezes.\n• Preciso: Ataca usando Habilidade em vez de Poder. (1PM)\n• Titânico: Crítico automático no ataque. (3PM)\nPara efeitos que reduzem o custo em PM, um Ataque Especial com vários efeitos é considerado uma única vantagem.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "Custa 1 ponto por cada efeito de Ataque Especial escolhido, ou para aprimorar o efeito Potente (que pode ser comprado várias vezes). A vantagem Ataque Especial pode ser comprada múltiplas vezes para adquirir mais efeitos.",
+    "min": 1,
+    "tags": [
+      "combate",
+      "poder",
+      "dano",
+      "versátil",
+      "customizável"
+    ],
+    "source": "Manual 3DeT Victory (p. 49)"
+  },
+  {
+    "id": "van_011",
+    "name": "Base",
+    "type": "Vantagem",
+    "description": "Você tem uma base de operações, quartel-general, esconderijo, etc. Através de teleporte (ou outro meio), pode alcançar sua base em qualquer situação fora de combate (mestre decide sobre risco/perigo). Leva consigo até Poder+Habilidade aliados. Viagem de mão única. Sua base é ideal para descanso e recuperar recursos (testes ali têm Ganho).",
+    "cost": 1,
+    "tags": [
+      "utilidade",
+      "santuário",
+      "recuperação",
+      "transporte"
+    ],
+    "source": "Manual 3DeT Victory (p. 49-50)"
+  },
+  {
+    "id": "van_012",
+    "name": "Brutal",
+    "type": "Vantagem",
+    "description": "Ao atacar inimigos, além de causar dano, você recupera suas próprias energias. Comprar cada versão custa 1pt, e/ou a mesma versão várias vezes (efeitos acumulam).\n• Vida: Para cada 3 pontos de dano causados a um oponente em combate, recupera 1 PV.\n• Mana: Para cada 3 pontos de dano causados a um oponente em combate, recupera 1 PM.\n• Derrota: Cada vez que derrota um oponente em combate, recupera 3 PV e 1 PM.\nFunciona apenas em combates de verdade, contra oponentes de verdade.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "Custa 1 ponto para cada versão (Vida, Mana, Derrota) ou para comprar a mesma versão várias vezes (efeitos acumulam).",
+    "min": 1,
+    "tags": [
+      "combate",
+      "recuperação",
+      "sustentabilidade",
+      "agressivo"
+    ],
+    "source": "Manual 3DeT Victory (p. 50)"
+  },
+  {
+    "id": "van_013",
+    "name": "Carismático",
+    "type": "Vantagem",
+    "description": "Você tem facilidade para fazer com que gostem de você. Recebe P+2 em testes sociais ou que envolvam interações com outras pessoas. Este bônus é incluído em acertos críticos. Você também pode gastar 2PM antes de fazer um desses testes para conseguir acerto crítico com 5 ou 6. Faz parte do conjunto de vantagens/desvantagens físicas/mentais (ver p. 46).",
+    "cost": 1,
+    "tags": [
+      "social",
+      "influência",
+      "interação",
+      "mental"
+    ],
+    "source": "Manual 3DeT Victory (p. 50)"
+  },
+  {
+    "id": "van_014",
+    "name": "Clone",
+    "type": "Vantagem",
+    "description": "Você pode criar cópias exatas de si mesmo, gastando 2PM por clone e um movimento. Sempre que você recebe um ataque bem-sucedido, não sofre nenhum dano, mas uma cópia desaparece. Cópias restantes duram até o fim da cena. Clones podem ajudar em tarefas (critério do mestre), gerando Ganho. Um atacante com Sentido adequado pode testar Percepção (9 + Poder do copiador) para ignorar clones e atacar você.",
+    "cost": 1,
+    "tags": [
+      "duplicação",
+      "combate",
+      "defesa",
+      "estratégia"
+    ],
+    "source": "Manual 3DeT Victory (p. 51)"
+  },
+  {
+    "id": "van_015",
+    "name": "Confusão",
+    "type": "Vantagem",
+    "description": "Você é capaz de deixar os oponentes tontos. Faça um ataque e gaste 2PM. Se vencer a defesa do alvo, além de sofrer dano, ele fica confuso (alvos de perícias/vantagens escolhidos ao acaso). Dura até fim da cena ou até alvo sofrer dano. A cada turno, alvo testa R (9 + Poder do atacante) para cancelar.",
+    "cost": 1,
+    "tags": [
+      "controle",
+      "combate",
+      "debuff",
+      "mental"
+    ],
+    "source": "Manual 3DeT Victory (p. 51)"
+  },
+  {
+    "id": "van_016",
+    "name": "Cura",
+    "type": "Vantagem",
+    "description": "Você pode curar a si mesmo, ou a alguém que possa tocar. Gaste 2PM para curar 1D PV (limite de dados igual à Habilidade, ex: H2 cura até 2D PV por 4PM). Também pode gastar 2PM para um personagem repetir um teste de Resistência contra efeito negativo duradouro após falha.",
+    "cost": 1,
+    "tags": [
+      "suporte",
+      "cura",
+      "recuperação",
+      "defesa"
+    ],
+    "source": "Manual 3DeT Victory (p. 51)"
+  },
+  {
+    "id": "van_017",
+    "name": "Defesa Especial",
+    "type": "Vantagem",
+    "description": "Ao receber um ataque, você pode gastar PM para ativar alguma técnica de defesa. Escolha um dos efeitos abaixo (com seu custo em PM). Você pode comprar esta Vantagem mais vezes para ter acesso a mais efeitos.\n• Blindada: Defesa consegue crítico com 5 ou 6. (1PM)\n• Bloqueio: Defende usando Poder em vez de Resistência. (1PM)\n• Esquiva: Defende usando Habilidade em vez de Resistência. (1PM)\n• Proteção: Ajuda aliado Perto. Usa sua defesa no lugar da dele. (1PM por aliado)\n• Provocação: Atrai ataque contra aliado Perto para si. (1PM)\n• Reflexão: Devolve golpe. Se defesa > ataque, oponente sofre dano igual à diferença. (1PM)\n• Robusta: Em crítico na defesa, gaste 2PM para somar Resistência mais uma vez.\n• Tenaz: Aumenta Resistência em +2 na defesa (1PM para cada +2). Pode ser comprado várias vezes.\n• Titânica: Crítico automático na defesa (considerada perfeita). (3PM)\nPara efeitos que reduzem o custo em PM, uma Defesa Especial com vários efeitos é considerada uma única vantagem.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "Custa 1 ponto por cada efeito de Defesa Especial escolhido, ou para aprimorar o efeito Tenaz (que pode ser comprado várias vezes). A vantagem Defesa Especial pode ser comprada múltiplas vezes para adquirir mais efeitos.",
+    "min": 1,
+    "tags": [
+      "combate",
+      "defesa",
+      "proteção",
+      "versátil",
+      "customizável"
+    ],
+    "source": "Manual 3DeT Victory (p. 51-52)"
+  },
+  {
+    "id": "van_018",
+    "name": "Desgaste",
+    "type": "Vantagem",
+    "description": "Mesmo depois do ataque, seu alvo sofre mais dano (veneno, ácido, etc.). Faça um ataque e gaste 2PM. Se vencer a defesa do alvo e causar dano, ele vai sofrer o mesmo dano outra vez na próxima rodada. O dano extra pode ser evitado se o alvo gasta sua próxima ação para fazer isso (apagar chamas, etc.).",
+    "cost": 1,
+    "tags": [
+      "combate",
+      "dano contínuo",
+      "dano extra",
+      "elemental"
+    ],
+    "source": "Manual 3DeT Victory (p. 52)"
+  },
+  {
+    "id": "van_019",
+    "name": "Devoto",
+    "type": "Vantagem",
+    "description": "Você serve a uma causa ou crença (entidade superior, filosofia, mestre, promessa, vingança). Ao fazer um teste quando está seguindo/defendendo sua devoção, gaste 2PM para ter Ganho. Máximo duas vezes por cena.",
+    "cost": 1,
+    "tags": [
+      "crença",
+      "fé",
+      "bônus",
+      "social",
+      "mental"
+    ],
+    "source": "Manual 3DeT Victory (p. 53)"
+  },
+  {
+    "id": "van_020",
+    "name": "Elo Mental",
+    "type": "Vantagem",
+    "description": "Você tem uma ligação especial com outro personagem (jogador ou NPC), que também deve ter esta vantagem. Poderes:\n• Ver um ao outro: percebem pensamentos e comunicam-se sem sinal aparente.\n• Perigo: gaste PM de seu aliado para seu próprio uso, e vice-versa.\n• Ganho: antes de rolar, pode passar Ganho em teste para o aliado (usar no mesmo tipo de teste, primeira oportunidade).\nNão se vendo: sentem emoções gerais, distância e direção um do outro.",
+    "cost": 1,
+    "tags": [
+      "telepatia",
+      "conexão",
+      "suporte",
+      "social"
+    ],
+    "source": "Manual 3DeT Victory (p. 53)"
+  },
+  {
+    "id": "van_021",
+    "name": "Estender",
+    "type": "Vantagem",
+    "description": "Você pode estender o efeito de suas vantagens a seus companheiros. Ao usar uma vantagem pessoal (que afeta apenas você), pode gastar 1PM por turno para que ela também funcione com um aliado Perto. Vantagens que atacam ou prejudicam outros alvos não podem ser afetadas por Estender.",
+    "cost": 1,
+    "tags": [
+      "suporte",
+      "aura",
+      "buff",
+      "companheirismo"
+    ],
+    "source": "Manual 3DeT Victory (p. 53)"
+  },
+  {
+    "id": "van_022",
+    "name": "Famoso",
+    "type": "Vantagem",
+    "description": "Você é conhecido ao redor do mundo. Quando faz um teste em situações sociais envolvendo NPCs que o reconhecem (normalmente 1-4 em 1D), pode gastar 3PM para receber Ganho.",
+    "cost": 1,
+    "tags": [
+      "social",
+      "influência",
+      "reputação",
+      "celebridade"
+    ],
+    "source": "Manual 3DeT Victory (p. 53)"
+  },
+  {
+    "id": "van_023",
+    "name": "Foco",
+    "type": "Vantagem",
+    "description": "Você pode se concentrar para melhorar seu desempenho. Gaste 2PM e use um turno inteiro se concentrando (Perda na defesa, se sofrer dano perde concentração e PM). No turno seguinte, seu próximo teste recebe um crítico automático (atributo somado outra vez). Pode rolar mais críticos normalmente.",
+    "cost": 1,
+    "tags": [
+      "concentração",
+      "bônus",
+      "preparação",
+      "mental",
+      "combate"
+    ],
+    "source": "Manual 3DeT Victory (p. 54)"
+  },
+  {
+    "id": "van_024",
+    "name": "Forte",
+    "type": "Vantagem",
+    "description": "Você é muito forte. Recebe P+2 em testes para empreender esforço físico (levantar peso, derrubar porta, socar vilão). Bônus incluído em críticos. Gaste 2PM antes para ter crítico com 5 ou 6. Faz parte do conjunto de vantagens/desvantagens físicas/mentais (ver p. 46).",
+    "cost": 1,
+    "tags": [
+      "força",
+      "físico",
+      "combate",
+      "dano"
+    ],
+    "source": "Manual 3DeT Victory (p. 54)"
+  },
+  {
+    "id": "van_025",
+    "name": "Gênio",
+    "type": "Vantagem",
+    "description": "Você tem um cérebro notável. Recebe H+2 em testes para resolver problemas (conhecimento, inteligência, raciocínio). Bônus incluído em críticos. Gaste 2PM antes para ter crítico com 5 ou 6. Faz parte do conjunto de vantagens/desvantagens físicas/mentais (ver p. 46).",
+    "cost": 1,
+    "tags": [
+      "inteligência",
+      "mental",
+      "raciocínio",
+      "conhecimento"
+    ],
+    "source": "Manual 3DeT Victory (p. 54)"
+  },
+  {
+    "id": "van_026",
+    "name": "Golpe Final",
+    "type": "Vantagem",
+    "description": "Você tem um golpe poderoso que pode finalizar um alvo já enfraquecido. Gaste 3PM e faça um ataque contra um alvo que esteja perto da derrota. Esse ataque é elevado uma escala acima.",
+    "cost": 1,
+    "tags": [
+      "combate",
+      "finalização",
+      "dano",
+      "poder"
+    ],
+    "source": "Manual 3DeT Victory (p. 54)"
+  },
+  {
+    "id": "van_027",
+    "name": "Grimório",
+    "type": "Vantagem",
+    "description": "Você tem um grimório, pergaminho, manual, etc., contendo segredos de capacidades únicas. Permite já começar com uma ou mais técnicas. Cada ponto de Grimório vale 10XP para adquirir truques ou técnicas comuns (mas não lendárias), com autorização do mestre.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "Custa 1 ponto de personagem por cada 10XP para adquirir truques ou técnicas comuns. Pode ser comprada várias vezes.",
+    "min": 1,
+    "tags": [
+      "técnica",
+      "magia",
+      "conhecimento",
+      "item"
+    ],
+    "source": "Manual 3DeT Victory (p. 54-55)"
+  },
+  {
+    "id": "van_028",
+    "name": "Ilusão",
+    "type": "Vantagem",
+    "description": "Você consegue criar ilusões tridimensionais (sem massa/substância, não tocam/sofrem dano, mas enganam sentidos). Teste de Percepção para desacreditar (meta 9 + PM gastos na ilusão). Custo para criar depende do tamanho:\n• 1PM: Livro ou menor.\n• 3PM: Pessoa ou menor.\n• 5PM: Caminhão.\n• 8PM: Prédio.\nCriar gasta uma ação. Ilusões ficam imóveis; mover exige movimento no turno. Múltiplas ilusões ativas são possíveis. PMs não são recuperados até dissipar. Desaparece se derrotado.",
+    "cost": 2,
+    "tags": [
+      "ilusão",
+      "enganação",
+      "controle",
+      "mental",
+      "magia"
+    ],
+    "source": "Manual 3DeT Victory (p. 55)"
+  },
+  {
+    "id": "van_029",
+    "name": "Imitar",
+    "type": "Vantagem",
+    "description": "Você consegue imitar uma das vantagens de seu alvo. Quando alguém usa uma vantagem em sua presença (Longe ou menos), teste Percepção (9): se sucesso, gaste 3PM para adquirir a mesma vantagem até o fim da cena. Pode-se imitar se souber da vantagem do alvo antecipadamente (Telepatia, Fama, teste de perícia), mas além do PM, gasta uma ação. Apenas uma vantagem imitada por vez.",
+    "cost": 1,
+    "tags": [
+      "cópia",
+      "adaptação",
+      "versatilidade",
+      "poder"
+    ],
+    "source": "Manual 3DeT Victory (p. 55)"
+  },
+  {
+    "id": "van_030",
+    "name": "Imortal",
+    "type": "Vantagem",
+    "description": "Você pode ser derrotado, mas não morto. Ressurge cambaleando em alguma praia mais tarde. Em testes de morte, nunca tem resultado pior que inconsciente.",
+    "cost": 1,
+    "tags": [
+      "sobrevivência",
+      "imortalidade",
+      "defesa",
+      "regeneração"
+    ],
+    "source": "Manual 3DeT Victory (p. 56)"
+  },
+  {
+    "id": "van_031",
+    "name": "Improviso",
+    "type": "Vantagem",
+    "description": "Na hora do aperto, você consegue usar capacidades que não deveria ter! Gaste 3PM para aprender, na hora, uma perícia que não tenha. Use-a até o fim da cena. Apenas uma perícia improvisada por vez.",
+    "cost": 2,
+    "tags": [
+      "versatilidade",
+      "adaptação",
+      "perícia",
+      "talento"
+    ],
+    "source": "Manual 3DeT Victory (p. 56)"
+  },
+  {
+    "id": "van_032",
+    "name": "Imune",
+    "type": "Vantagem",
+    "description": "Você é imune a algo que normalmente afeta outras criaturas. Custa 1pt para cada tipo de imunidade escolhida:\n• Abiótico: Não tem necessidades biológicas básicas (comer, beber, respirar, dormir; mas precisa descanso para recuperar recursos).\n• Anfíbio: Respira e se move normalmente embaixo d’água, sem ser afetado por terreno difícil, nem sofrer pressão submarina.\n• Doenças: Imune a doenças naturais ou mágicas.\n• Resiliente: Não se cansa por realizar esforço intenso por muito tempo. Qualquer lugar de descanso é ideal.\n• Sem Mente: Imune a magias e efeitos que afetam a mente (telepatia, etc. que só funcionam em criaturas vivas).",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "Custa 1 ponto para cada tipo de imunidade escolhida (Abiótico, Anfíbio, Doenças, Resiliente, Sem Mente).",
+    "min": 1,
+    "max": 5,
+    "tags": [
+      "defesa",
+      "proteção",
+      "resistência",
+      "especialização"
+    ],
+    "source": "Manual 3DeT Victory (p. 56)"
+  },
+  {
+    "id": "van_033",
+    "name": "Incorpóreo",
+    "type": "Vantagem",
+    "description": "Você pode se tornar intangível. Gastando ação e 5PM, pode atravessar barreiras físicas e será imune a dano (exceto Magia ou ataques de outros Incorpóreos). Não pode interagir fisicamente ou causar dano (exceto com Magia). Dura até fim da cena, ou até decidir encerrar/ser derrotado. Dano mental/emocional ainda afeta.",
+    "cost": 2,
+    "tags": [
+      "intangibilidade",
+      "defesa",
+      "furtividade",
+      "fantasma"
+    ],
+    "source": "Manual 3DeT Victory (p. 57)"
+  },
+  {
+    "id": "van_034",
+    "name": "Inimigo",
+    "type": "Vantagem",
+    "description": "Você é treinado em enfrentar certo tipo de criatura. Escolha um grupo: Humanos, Humanoides, Construtos, Espíritos, Monstros. Em todos os testes contra criaturas do tipo, consegue acerto crítico com 5 ou 6. Custo normal 1pt; aumenta para 2pt se o grupo/criatura é muito abundante na campanha. Pode escolher um único arquétipo (exceto humano) ou personagem para o mesmo efeito.",
+    "cost": 1,
+    "tags": [
+      "combate",
+      "especialização",
+      "caçador",
+      "bônus"
+    ],
+    "source": "Manual 3DeT Victory (p. 57)"
+  },
+  {
+    "id": "van_035",
+    "name": "Inofensivo",
+    "type": "Vantagem",
+    "description": "Você não parece perigoso (pequeno, fraco, fofo, etc.). Em combate, por surpreender, ganha uma ação extra antes do primeiro turno. Não funciona com quem já te viu lutar, nem duas vezes com a mesma pessoa. Mesmo contra estes, tem Ganho ao rolar iniciativa. Você também pode gastar 3PM para Ganho em testes para enganar alguém ou passar despercebido.",
+    "cost": 1,
+    "tags": [
+      "social",
+      "enganação",
+      "furtividade",
+      "surpresa"
+    ],
+    "source": "Manual 3DeT Victory (p. 57-58)"
+  },
+  {
+    "id": "van_036",
+    "name": "Instrutor",
+    "type": "Vantagem",
+    "description": "Você sabe ensinar ou inspirar outra pessoa a ser bem-sucedida. Usando ação e 2PM, permite a um aliado fazer um teste como se ele tivesse uma perícia que você tem. Se o aliado já tem a perícia, pode usar uma vantagem sua que a afete (Maestria, Mentor), com custos de PM pagos pelo aliado. Teste deve ser feito até o próximo turno do aliado.",
+    "cost": 1,
+    "tags": [
+      "suporte",
+      "ensino",
+      "buff",
+      "companheirismo"
+    ],
+    "source": "Manual 3DeT Victory (p. 58)"
+  },
+  {
+    "id": "van_037",
+    "name": "Inventário",
+    "type": "Vantagem",
+    "description": "Você carrega itens consumíveis. Quantidade depende do custo:\n• 0pt: Sem inventário (mas pode carregar dois itens comuns).\n• 1pt: Pequeno (3 comuns, 1 incomum).\n• 2pt: Grande (5 comuns, 2 incomuns).\n• 3pt: Supremo (5 comuns, 4 incomuns, 1 raro).\nPode trocar três itens de nível inferior por um superior, e vice-versa. Escolhe no momento do uso. Recarregado no início de cada aventura ou a critério do mestre (detalhes em Recompensas).",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "Custo de 1pt para Inventário Pequeno (3 comuns, 1 incomum). Custo de 2pt para Grande (5 comuns, 2 incomuns). Custo de 3pt para Supremo (5 comuns, 4 incomuns, 1 raro). Opcionalmente, 0pt para Nenhum Inventário (permite carregar dois itens comuns).",
+    "min": 1,
+    "max": 3,
+    "tags": [
+      "utilidade",
+      "recurso",
+      "equipamento",
+      "consumível"
+    ],
+    "source": "Manual 3DeT Victory (p. 58-59)"
+  },
+  {
+    "id": "van_038",
+    "name": "Invisível",
+    "type": "Vantagem",
+    "description": "Use ação e 3PM para ficar invisível. Tem Ganho em testes para se esconder, e ataques contra você têm Perda.\n• 1pt: Interrompida ao atacar (ou atitude hostil), ou sofrer dano.\n• 2pt: Interrompida apenas ao sofrer dano.\nPode desfazer a qualquer momento. Inimigo com Sentido pode testar Percepção resistida para encontrá-lo e anular Perda.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "1 ponto para invisibilidade interrompida ao atacar/hostilidade/dano. 2 pontos para invisibilidade interrompida apenas ao sofrer dano.",
+    "min": 1,
+    "max": 2,
+    "tags": [
+      "furtividade",
+      "defesa",
+      "enganação",
+      "infiltração"
+    ],
+    "source": "Manual 3DeT Victory (p. 59)"
+  },
+  {
+    "id": "van_039",
+    "name": "Irresistível",
+    "type": "Vantagem",
+    "description": "Seus poderes são mais difíceis de resistir. Quando um alvo faz um teste para evitar ser afetado por uma de suas vantagens (Anulação, Confusão, etc.), gaste 2PM ou mais. Para cada 2PM gastos, a meta do teste para resistir aumenta um passo (+3). Deve anunciar o uso antes do alvo rolar.",
+    "cost": 1,
+    "tags": [
+      "poder",
+      "controle",
+      "debuff",
+      "ofensivo"
+    ],
+    "source": "Manual 3DeT Victory (p. 59)"
+  },
+  {
+    "id": "van_040",
+    "name": "Maestria",
+    "type": "Vantagem",
+    "description": "Escolha uma perícia que você tem. Em testes dessa perícia, gaste 1PM para ter um acerto crítico com 5 ou 6. Pode comprar mais vezes para outras perícias.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "Custa 1 ponto para cada perícia que recebe Maestria. Pode ser comprada várias vezes para diferentes perícias.",
+    "min": 1,
+    "tags": [
+      "perícia",
+      "especialização",
+      "bônus",
+      "crítico"
+    ],
+    "source": "Manual 3DeT Victory (p. 60)"
+  },
+  {
+    "id": "van_041",
+    "name": "Magia",
+    "type": "Vantagem",
+    "description": "Você faz mágica. Gastando 1PM, soma +1 em qualquer teste. Com 3PM, +3 em ataque (bola de fogo) ou conjura escudo (+defesa). Pode gastar PM e ação para conceder bônus a aliado. Bônus máximo igual à Habilidade. Ao atacar/defender com Magia, pode usar Mística em vez de Luta. Pode fazer testes de Mística sem gastar PM para efeitos menores (iluminar, limpar, aquecer comida, sem bônus).",
+    "cost": 2,
+    "tags": [
+      "magia",
+      "arcano",
+      "poder",
+      "versátil",
+      "utilidade",
+      "combate"
+    ],
+    "source": "Manual 3DeT Victory (p. 60)"
+  },
+  {
+    "id": "van_042",
+    "name": "+Mana",
+    "type": "Vantagem",
+    "description": "Você tem mais Pontos de Mana, além dos oferecidos por sua Habilidade. Cada vez que compra esta vantagem, recebe +10PM.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "Custa 1 ponto por cada +10PM. Pode ser comprada várias vezes.",
+    "min": 1,
+    "tags": [
+      "recurso",
+      "magia",
+      "poder",
+      "capacidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 60)"
+  },
+  {
+    "id": "van_043",
+    "name": "+Membros",
+    "type": "Vantagem",
+    "description": "Você tem um ou mais membros extras (braços, cauda, tentáculos, etc.). Gaste 3PM para fazer uma segunda ação no turno (combate ou não). Não pode fazer mais de uma ação extra por rodada. Compra-se apenas uma vez, independente da quantidade de membros.",
+    "cost": 2,
+    "tags": [
+      "ação extra",
+      "combate",
+      "utilidade",
+      "físico"
+    ],
+    "source": "Manual 3DeT Victory (p. 60-61)"
+  },
+  {
+    "id": "van_044",
+    "name": "Mentor",
+    "type": "Vantagem",
+    "description": "Escolha uma perícia que você tem. Você a aprendeu com um mestre. Uma vez por cena, pode lembrar de um ensinamento e ter Ganho em um teste da perícia. Técnicas com essa perícia como pré-requisito gastam –1PM (mínimo 1PM). Pode comprar mais vezes para outras perícias.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "Custa 1 ponto para cada perícia com Mentor. Pode ser comprada várias vezes para diferentes perícias.",
+    "min": 1,
+    "tags": [
+      "perícia",
+      "bônus",
+      "especialização",
+      "história"
+    ],
+    "source": "Manual 3DeT Victory (p. 61)"
+  },
+  {
+    "id": "van_045",
+    "name": "Obstinado",
+    "type": "Vantagem",
+    "description": "Você é capaz de consumir seu próprio corpo, mente e alma para perseverar. Gaste 1 ponto de P, H ou R (à sua escolha) como se fosse 1 Ponto de Ação. Quando um atributo é reduzido, o limite do recurso correspondente também diminui. Atributos recuperam com descanso (8h sono = 1 ponto).",
+    "cost": 1,
+    "tags": [
+      "recurso",
+      "sacrifício",
+      "poder",
+      "esforço"
+    ],
+    "source": "Manual 3DeT Victory (p. 61)"
+  },
+  {
+    "id": "van_046",
+    "name": "Paralisia",
+    "type": "Vantagem",
+    "description": "Você tem um meio para impedir o alvo de agir (congelando, prendendo, etc.). Faça um ataque e gaste 2PM. Se vencer a defesa, em vez de dano, alvo fica imobilizado (indefeso). Dura até fim da cena ou alvo sofrer dano. A cada turno, alvo testa R (6 + Poder do atacante) para cancelar.",
+    "cost": 1,
+    "tags": [
+      "controle",
+      "combate",
+      "debuff",
+      "imobilização"
+    ],
+    "source": "Manual 3DeT Victory (p. 61)"
+  },
+  {
+    "id": "van_047",
+    "name": "Patrono",
+    "type": "Vantagem",
+    "description": "Você serve a uma pessoa, organização ou instituição com mais recursos. Quando faz um teste de compra para algo que ajude na missão para o Patrono, gaste 1PM para receber Ganho. Recebe também um item consumível extra de cada raridade já disponível em seu Inventário.",
+    "cost": 1,
+    "tags": [
+      "social",
+      "recurso",
+      "suporte",
+      "história",
+      "organização"
+    ],
+    "source": "Manual 3DeT Victory (p. 61)"
+  },
+  {
+    "id": "van_048",
+    "name": "Punição",
+    "type": "Vantagem",
+    "description": "Você pode impor um efeito negativo a um alvo (Maldição, Monstruoso, Lento, etc.). Escolha uma desvantagem de mesmo valor da Punição. Faça um ataque e gaste 2PM. Se vencer a defesa, o alvo recebe a desvantagem escolhida. Dura até fim da cena ou alvo sofrer dano. A cada turno, alvo testa R (6 + Poder do atacante) para cancelar. Pode comprar mais vezes para outras desvantagens, mas só impõe uma por vez.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "Custa 1 ponto para cada desvantagem escolhida para impor. Pode ser comprada várias vezes para diferentes desvantagens.",
+    "min": 1,
+    "tags": [
+      "debuff",
+      "maldição",
+      "controle",
+      "combate"
+    ],
+    "source": "Manual 3DeT Victory (p. 61-62)"
+  },
+  {
+    "id": "van_049",
+    "name": "Regeneração",
+    "type": "Vantagem",
+    "description": "Você é muito chato de derrotar.\n• 1pt: No início do seu turno, recupera 1PV.\n• 2pt: No início do seu turno, recupera 3PV.\nEm teste de morte, nunca tem resultado pior que Inconsciente; desperta no final da cena e volta a regenerar. Cuidado com Anulação.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "1 ponto para regenerar 1PV por turno. 2 pontos para regenerar 3PV por turno.",
+    "min": 1,
+    "max": 2,
+    "tags": [
+      "sobrevivência",
+      "cura",
+      "regeneração",
+      "defesa"
+    ],
+    "source": "Manual 3DeT Victory (p. 62)"
+  },
+  {
+    "id": "van_050",
+    "name": "Resoluto",
+    "type": "Vantagem",
+    "description": "Sua determinação é inabalável. Recebe R+2 em testes envolvendo força de vontade (perceber fraudes, resistir encantos/ilusões, testes de morte). Bônus incluído em críticos. Gaste 2PM antes para ter crítico com 5 ou 6. Faz parte do conjunto de vantagens/desvantagens físicas/mentais (ver p. 46).",
+    "cost": 1,
+    "tags": [
+      "mental",
+      "resistência",
+      "vontade",
+      "defesa"
+    ],
+    "source": "Manual 3DeT Victory (p. 62)"
+  },
+  {
+    "id": "van_051",
+    "name": "Riqueza",
+    "type": "Vantagem",
+    "description": "Você tem recursos financeiros de escala superior. Em testes de compra, gaste PM para subir sua escala:\n• 2pt (Sugoi): +1 nível (Ganho e crítico adicional). (2PM)\n• 4pt (Kiodai): +2 níveis (2 Ganhos e 2 críticos adicionais). (4PM)\n• 6pt (Kami): +3 níveis (3 Ganhos e 3 críticos adicionais). (6PM)\nPode gastar menos PM para menos escalas. PMs gastos não recuperam até fim da cena.",
+    "cost": 2,
+    "variableCost": true,
+    "costDetails": "2 pontos para escala Sugoi. 4 pontos para Kiodai. 6 pontos para Kami.",
+    "min": 2,
+    "max": 6,
+    "tags": [
+      "social",
+      "recurso",
+      "dinheiro",
+      "influência"
+    ],
+    "source": "Manual 3DeT Victory (p. 62)"
+  },
+  {
+    "id": "van_052",
+    "name": "Sentido",
+    "type": "Vantagem",
+    "description": "Você tem um sentido melhor ou diferente. Faz testes de Percepção em situações impossíveis para outros. Custa 1pt para cada sentido escolhido:\n• Aguçado: Escolha audição, faro, paladar, tato ou visão. Em testes de Percepção usando esse sentido, sempre tem Ganho.\n• Infravisão: Percebe seres de sangue quente e enxerga no escuro (exceto perto de calor intenso).\n• Intuição: Percebe intenções ocultas (mentiras, emoções escondidas, segredos, intenção de ataque/traição).\n• Radar: Percebe tudo em volta (mesmo de costas/escuro). “Ouve” rádio, tevê, celular, wi-fi.\n• Raio X: Vê através de portas/paredes (exceto materiais densos/mágicos).\nPode inventar sentido especial único com aprovação do mestre.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "Custa 1 ponto para cada sentido escolhido (Aguçado, Infravisão, Intuição, Radar, Raio X, ou especial com aprovação do mestre). Pode ser comprada várias vezes.",
+    "min": 1,
+    "tags": [
+      "sensorial",
+      "percepção",
+      "especialização",
+      "utilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 62-63)"
+  },
+  {
+    "id": "van_053",
+    "name": "Telepata",
+    "type": "Vantagem",
+    "description": "Você pode ler ou sentir pensamentos de outras pessoas. Use movimento e 1PM para:\n• Ter Ganho em teste de perícia social relacionado a um personagem na cena.\n• Fazer teste de Habilidade (9) para descobrir algo sobre um personagem (atributo, vantagem, desvantagem).\n• Prever movimentos de adversário em combate; Ganho em defesa contra ele até próxima rodada.\nSó funciona em criaturas vivas que consiga ver.",
+    "cost": 1,
+    "tags": [
+      "mental",
+      "telepatia",
+      "social",
+      "leitura mental",
+      "utilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 63-64)"
+  },
+  {
+    "id": "van_054",
+    "name": "Teleporte",
+    "type": "Vantagem",
+    "description": "Use movimento e PM para se deslocar até qualquer lugar que possa ver. Cada movimento substituído custa 1PM (Perto para M. Longe = 2 movimentos = 2PM). Não é afetado por terreno difícil. Se destino é observado por meios indiretos, mestre pode dificultar/impedir. Gaste 3PM para Ganho de defesa contra um ataque.",
+    "cost": 1,
+    "tags": [
+      "movimento",
+      "transporte",
+      "tático",
+      "sobrenatural"
+    ],
+    "source": "Manual 3DeT Victory (p. 64)"
+  },
+  {
+    "id": "van_055",
+    "name": "Torcida",
+    "type": "Vantagem",
+    "description": "Você está acostumado a agir na presença de muita gente aplaudindo. Quando uma torcida está presente, tem Ganho por rodada em qualquer teste. No início de cada cena, role 1D: com 1, existe torcida favorável (desde transeuntes a bicho curioso). Mestre pode dispensar rolagem. Na falta de torcida, aliado pode usar ação para motivá-lo (recebe benefício no próximo turno).",
+    "cost": 1,
+    "tags": [
+      "social",
+      "bônus",
+      "performance",
+      "moral"
+    ],
+    "source": "Manual 3DeT Victory (p. 64)"
+  },
+  {
+    "id": "van_056",
+    "name": "Transformação",
+    "type": "Vantagem",
+    "description": "Você pode mudar de forma e poderes. Faça outro personagem com o mesmo número de pontos (pode ser diferente em tudo, exceto ter esta Vantagem no mesmo valor).\n• 1pt: Se nova forma tem desvantagens diferentes, todas as formas sofrem os efeitos de todas as desvantagens combinadas.\n• 2pt: Cada forma sofre apenas os efeitos de suas próprias desvantagens.\nMudar de forma exige uma ação. A transformação restaura PM e PV, ajustados aos atributos da nova forma. Pode transformar-se uma vez por sessão, ou pagar 1PA por transformação extra.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "1 ponto se todas as formas sofrem os efeitos de todas as desvantagens combinadas. 2 pontos se cada forma sofre apenas os efeitos de suas próprias desvantagens.",
+    "min": 1,
+    "max": 2,
+    "tags": [
+      "metamorfose",
+      "poder",
+      "versatilidade",
+      "adaptação"
+    ],
+    "source": "Manual 3DeT Victory (p. 64)"
+  },
+  {
+    "id": "van_057",
+    "name": "+Vida",
+    "type": "Vantagem",
+    "description": "Você tem mais Pontos de Vida, além dos oferecidos por sua Resistência. Cada vez que compra esta vantagem, recebe +10PV.",
+    "cost": 1,
+    "variableCost": true,
+    "costDetails": "Custa 1 ponto por cada +10PV. Pode ser comprada várias vezes.",
+    "min": 1,
+    "tags": [
+      "recurso",
+      "sobrevivência",
+      "saúde",
+      "defesa"
+    ],
+    "source": "Manual 3DeT Victory (p. 65)"
+  },
+  {
+    "id": "van_058",
+    "name": "Vigoroso",
+    "type": "Vantagem",
+    "description": "Você é robusto como um cavalo. Recebe R+2 em testes envolvendo saúde física (resistir fadiga, doenças, venenos, testes de morte). Bônus incluído em críticos. Gaste 2PM antes para ter crítico com 5 ou 6. Faz parte do conjunto de vantagens/desvantagens físicas/mentais (ver p. 46).",
+    "cost": 1,
+    "tags": [
+      "resistência",
+      "físico",
+      "saúde",
+      "defesa",
+      "sobrevivência"
+    ],
+    "source": "Manual 3DeT Victory (p. 65)"
+  },
+  {
+    "id": "van_059",
+    "name": "Voo",
+    "type": "Vantagem",
+    "description": "Você pode voar! Ao usar movimento para ficar Longe ou mais distante pelo ar, apenas personagens voadores podem usar movimentos para alcançá-lo. Ignora restrições de terrenos difíceis. Em combate, levantar voo do chão usa movimento e 2PM. Não gasta PM para manter-se no ar, mas gasta se quiser levantar voo novamente após pousar/cair. Voar por muito tempo está sujeito a cansaço (ver +Regras).",
+    "cost": 1,
+    "tags": [
+      "movimento",
+      "voar",
+      "tático",
+      "exploração"
+    ],
+    "source": "Manual 3DeT Victory (p. 65)"
+  },
+  {
+    "id": "des_001",
+    "name": "Ambiente",
+    "type": "Desvantagem",
+    "description": "Você é mais acostumado a certo ambiente: água, clima muito quente ou gelado, atmosfera de metano, shopping, home theater, fliperama, cozinha de restaurante totalmente equipada, ou outro lugar/clima/terreno que não existe em abundância no local da campanha. No início de cada cena, role 1D. Com um resultado 1, nada relacionado a seu ambiente existe ali, e você tem Perda em todos os testes. O mestre pode julgar situações especiais e dispensar a rolagem.",
+    "cost": -1,
+    "tags": [
+      "contextual",
+      "penalidade",
+      "ambiente"
+    ],
+    "source": "Manual 3DeT Victory (p. 65)"
+  },
+  {
+    "id": "des_002",
+    "name": "Amnésia",
+    "type": "Desvantagem",
+    "description": "Você não sabe quem é. Talvez seja um espião que sofreu lavagem cerebral, ou um androide com dados apagados, ou algum grande trauma tirou sua memória. Se você decide ter esta desvantagem, o mestre faz sua ficha em segredo. Você pode tentar fazer coisas, e o mestre diz se conseguiu ou não — sem jamais dizer se você tem mesmo a perícia ou vantagem. Você pode ter Ganho ou Perda em testes sem saber a razão. Ainda, o mestre pode escolher rolar seus testes secretamente, apenas anunciando os resultados. Não vale perguntar! Você pode acabar descobrindo coisas por tentativa e erro, mas suas completas capacidades e limitações devem permanecer um mistério.",
+    "cost": -2,
+    "tags": [
+      "mental",
+      "história",
+      "identidade",
+      "roleplay"
+    ],
+    "source": "Manual 3DeT Victory (p. 66)"
+  },
+  {
+    "id": "des_003",
+    "name": "Antipático",
+    "type": "Desvantagem",
+    "description": "Você não consegue (ou não quer) se expressar bem. Pode ser por timidez, deselegância, orgulho, rabugice, aura de energia sinistra, ou você é apenas um baita chato! Quando faz um teste de Poder envolvendo interação social, você tem Perda e nunca tem acertos críticos. Você não pode ser Antipático e também Carismático.",
+    "cost": -1,
+    "tags": [
+      "social",
+      "interação",
+      "personalidade",
+      "penalidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 67)"
+  },
+  {
+    "id": "des_004",
+    "name": "Assombrado",
+    "type": "Desvantagem",
+    "description": "Você é assombrado por um espírito, sentimento ruim, lembrança amarga ou outra coisa que tira a sua concentração.\n–1pt: Ao entrar em uma situação em que a assombração poderia afetá-lo — como um combate ou cena de ação —, role um dado. Com um resultado 1, todos os seus testes têm Perda até o fim da cena.\n–2pt: A assombração aparece com qualquer resultado ímpar.",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto para a assombração afetar com resultado 1 em 1D, ou –2 pontos para afetar com qualquer resultado ímpar.",
+    "min": 1,
+    "max": 2,
+    "tags": [
+      "mental",
+      "sobrenatural",
+      "penalidade",
+      "concentração"
+    ],
+    "source": "Manual 3DeT Victory (p. 67)"
+  },
+  {
+    "id": "des_005",
+    "name": "Atrapalhado",
+    "type": "Desvantagem",
+    "description": "Você se atrapalha com facilidade. Quando faz um teste de Habilidade envolvendo coordenação e agilidade, você tem Perda e nunca tem acertos críticos. Você não pode ser Atrapalhado e também Ágil.",
+    "cost": -1,
+    "tags": [
+      "físico",
+      "coordenação",
+      "agilidade",
+      "penalidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 67)"
+  },
+  {
+    "id": "des_006",
+    "name": "Aura",
+    "type": "Desvantagem",
+    "description": "Você emana uma aura pesada de energia negativa, estática eletromagnética, karma ruim, mau-cheiro, ou pura uruca. Qualquer um pode senti-la e perceber que você é a fonte, causando Perda em testes sociais.\n–1pt: Qualquer teste de outras pessoas realizado Perto de você, seja de aliados ou inimigos, tem Perda.\n–2pt: Qualquer teste Longe de você ou menos.",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto para a aura afetar testes Perto, ou –2 pontos para afetar testes Longe ou menos.",
+    "min": 1,
+    "max": 2,
+    "tags": [
+      "sobrenatural",
+      "social",
+      "penalidade",
+      "energia negativa"
+    ],
+    "source": "Manual 3DeT Victory (p. 67)"
+  },
+  {
+    "id": "des_007",
+    "name": "Bateria",
+    "type": "Desvantagem",
+    "description": "Você tem uma reserva de energia para permanecer ativo. Sempre que ficar com 0PM você “desliga”, ficando inconsciente e indefeso. Além disso, quando está com pouco PM (abaixo de sua H), sua bateria está fraca e todos os seus testes têm Perda.",
+    "cost": -1,
+    "tags": [
+      "recurso",
+      "energia",
+      "construto",
+      "limitação"
+    ],
+    "source": "Manual 3DeT Victory (p. 67)"
+  },
+  {
+    "id": "des_008",
+    "name": "Código",
+    "type": "Desvantagem",
+    "description": "Você segue um código de conduta que o impede de fazer (ou deixar de fazer) alguma coisa. Sempre que violar seu código, a culpa o deixará com Perda em todos os testes, até que consiga se redimir de alguma forma (compensando o mal que causou, ou cumprindo o código na próxima oportunidade). Exemplos: 1ª Lei de Asimov, 2ª Lei de Asimov, Código do Caçador, Código do Combate, Código da Derrota, Código da Gratidão, Código dos Heróis, Código da Honestidade, Código da Redenção. Você pode ter mais de um Código. Custa –1pt cada.",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto por cada Código de Conduta escolhido. O mestre pode limitar o número de Códigos.",
+    "min": 1,
+    "tags": [
+      "comportamento",
+      "ético",
+      "moral",
+      "roleplay",
+      "restrição"
+    ],
+    "source": "Manual 3DeT Victory (p. 68)"
+  },
+  {
+    "id": "des_009",
+    "name": "Dependência",
+    "type": "Desvantagem",
+    "description": "O personagem depende de algo raro, proibido ou desumano para viver. Pode ser um vampiro que bebe sangue, um zumbi que devora cérebros, ou um viciado em alguma substância ilícita — quase sempre será algo que envolve crime grave. A Dependência deve ser satisfeita todos os dias. Se não o fizer, o personagem tem Perda em todos os testes, até que ele satisfaça a Dependência. Esta desvantagem é para vilões NPCs. Não é para você. Não se meta a besta.",
+    "cost": -2,
+    "tags": [
+      "vício",
+      "necessidade",
+      "sobrevivência",
+      "roleplay",
+      "restrição"
+    ],
+    "source": "Manual 3DeT Victory (p. 68)"
+  },
+  {
+    "id": "des_010",
+    "name": "Diferente",
+    "type": "Desvantagem",
+    "description": "Seu corpo é muito diferente de um corpo humanoide comum. Muito maior, menor, com membros a mais, ou em lugares incomuns, ou outro motivo. Você tem problemas para usar as armas, roupas, equipamentos, máquinas e veículos disponíveis — pode usar apenas aqueles feitos especialmente para você. O inverso também é válido: coisas feitas para você não servem bem para outros personagens. Pertences escolhidos durante a criação do personagem (Relíquia, Utensílio…) são feitos para você. Se você recebe esta desvantagem por ser membro de uma espécie fantástica (goblin, hynne, ogro…), então pode usar itens feitos para membros da mesma raça. Você tem Perda ao usar itens feitos para outros. Por outro lado, o mestre pode decidir que seu corpo é vantajoso em algumas situações — um pequeno goblin teria mais facilidade para agir furtivamente com um teste de Manha. Nestes casos especiais, você pode até receber Ganho.",
+    "cost": -1,
+    "tags": [
+      "físico",
+      "aparência",
+      "equipamento",
+      "interação"
+    ],
+    "source": "Manual 3DeT Victory (p. 69)"
+  },
+  {
+    "id": "des_011",
+    "name": "Elo Vital",
+    "type": "Desvantagem",
+    "description": "Escolha um aliado, que também deve ter esta desvantagem. Sempre que um de vocês sofre dano, o outro também perde PV na mesma quantidade. Se os personagens pertencem a escalas diferentes, o dano é ajustado de forma proporcional. Como quando um robô gigante recebe dano e seu piloto também fica ferido. O contrário não é verdadeiro: curar um não cura o outro.",
+    "cost": -1,
+    "tags": [
+      "conexão",
+      "dano",
+      "vulnerabilidade",
+      "social",
+      "dependência"
+    ],
+    "source": "Manual 3DeT Victory (p. 69)"
+  },
+  {
+    "id": "des_012",
+    "name": "Fracote",
+    "type": "Desvantagem",
+    "description": "Você é fraco, falta ódio… e força. Ao fazer um teste de Poder envolvendo esforço físico, como para mover uma pedra ou derrubar uma porta, você tem Perda e nunca tem acertos críticos. Você não pode ser Fracote e também Forte.",
+    "cost": -1,
+    "tags": [
+      "físico",
+      "força",
+      "penalidade",
+      "combate"
+    ],
+    "source": "Manual 3DeT Victory (p. 69)"
+  },
+  {
+    "id": "des_013",
+    "name": "Frágil",
+    "type": "Desvantagem",
+    "description": "Você tem pouco vigor físico. Ao fazer um teste de Resistência envolvendo saúde física, como para resistir doenças, venenos e testes de morte, você tem Perda e nunca tem acertos críticos. Você não pode ser Frágil e também Vigoroso.",
+    "cost": -1,
+    "tags": [
+      "físico",
+      "resistência",
+      "saúde",
+      "penalidade",
+      "vulnerabilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 69)"
+  },
+  {
+    "id": "des_014",
+    "name": "Fraqueza",
+    "type": "Desvantagem",
+    "description": "Existe um objeto, elemento ou condição à qual você é especialmente vulnerável. Enquanto você estiver Perto dessa coisa, todos os seus testes têm Perda. O valor da desvantagem depende de quão comum é a fonte da Fraqueza:\n• Incomum (–1pt): A Fraqueza é algo que aparece raramente (1 em 1D). Livros. Espelhos. Gatos. Objetos de bronze. Cor roxa. Gente de chapéu. Aquela pedra verde brilhante.\n• Comum (–2pt): A Fraqueza é algo que aparece mais frequentemente (1-3 em 1D). Lugares escuros (ou iluminados). Vento. Água. Plantas. Cor vermelha.",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto se a fonte da Fraqueza for incomum, ou –2 pontos se for comum.",
+    "min": 1,
+    "max": 2,
+    "tags": [
+      "vulnerabilidade",
+      "contextual",
+      "penalidade",
+      "específico"
+    ],
+    "source": "Manual 3DeT Victory (p. 69-70)"
+  },
+  {
+    "id": "des_015",
+    "name": "Fúria",
+    "type": "Desvantagem",
+    "description": "Sempre que você sofre dano ou fica irritado por qualquer motivo (a critério do mestre), deve fazer um teste de Resistência (9 ou igual ao dano, o que for maior). Se falhar, você entra em frenesi de batalha e ataca imediatamente o alvo de sua irritação. Na falta deste, ataca o coitado que estiver mais perto. Durante a Fúria todos os seus testes que não sejam de ataque têm Perda, inclusive testes de defesa. Além disso, todas as suas vantagens gastam o dobro de PM. A Fúria termina quando você ou seu oponente é derrotado, ou caso o oponente consiga fugir. Você então fica imediatamente esgotado (seus PM caem para zero e você tem Perda em todos os testes até descansar).",
+    "cost": -2,
+    "tags": [
+      "comportamento",
+      "combate",
+      "frenesi",
+      "penalidade",
+      "perda de controle"
+    ],
+    "source": "Manual 3DeT Victory (p. 70)"
+  },
+  {
+    "id": "des_016",
+    "name": "Inapto",
+    "type": "Desvantagem",
+    "description": "Escolha uma perícia que não possua. Você é um completo incompetente quando se trata dela. Sempre que o mestre pede um teste com a perícia escolhida, você está em Perda. Além disso, qualquer falha é considerada uma falha crítica (como se todos os resultados fossem 1). Se rolar mesmo uma falha crítica, algo ainda pior acontece.",
+    "cost": -1,
+    "tags": [
+      "perícia",
+      "incompetência",
+      "penalidade",
+      "falha crítica"
+    ],
+    "source": "Manual 3DeT Victory (p. 70)"
+  },
+  {
+    "id": "des_017",
+    "name": "Inculto",
+    "type": "Desvantagem",
+    "description": "Você não tem familiaridade com a cultura local. Talvez seja estrangeiro (alienígena?), tenha acabado de chegar de uma Convergência, não recebeu educação própria, é muito ingênuo, ou literalmente nasceu ontem. Você não sabe ler a língua local, ou acha muito difícil fazê-lo (teste Difícil). Você tem a mesma dificuldade para se comunicar, exceto com seus aliados — e mesmo para eles o mestre pode, às vezes, pedir testes para entendê-lo. Testes sociais com personagens que não o entendem têm Perda.",
+    "cost": -1,
+    "tags": [
+      "social",
+      "cultural",
+      "comunicação",
+      "penalidade",
+      "roleplay"
+    ],
+    "source": "Manual 3DeT Victory (p. 71)"
+  },
+  {
+    "id": "des_018",
+    "name": "Indeciso",
+    "type": "Desvantagem",
+    "description": "Você tem pouca convicção e muita dificuldade para tomar decisões importantes. Em testes de Resistência envolvendo força de vontade, você tem Perda e nunca tem acertos críticos. Você não pode ser Indeciso e também Resoluto.",
+    "cost": -1,
+    "tags": [
+      "mental",
+      "vontade",
+      "personalidade",
+      "penalidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 71)"
+  },
+  {
+    "id": "des_019",
+    "name": "Infame",
+    "type": "Desvantagem",
+    "description": "Você é muito conhecido, mas não por uma boa razão. Quando faz testes sociais relacionados a um NPC que o reconhece (normalmente 1-4 em 1D), você está sempre em Perda. Você não pode ser Infame e também Famoso.",
+    "cost": -1,
+    "tags": [
+      "social",
+      "reputação",
+      "penalidade",
+      "roleplay"
+    ],
+    "source": "Manual 3DeT Victory (p. 71)"
+  },
+  {
+    "id": "des_020",
+    "name": "Lento",
+    "type": "Desvantagem",
+    "description": "Você se move devagar. Em testes de iniciativa, está sempre em Perda, e também gasta um movimento a mais para cruzar cada distância. Você não pode ser Lento e também ter Aceleração.",
+    "cost": -1,
+    "tags": [
+      "movimento",
+      "velocidade",
+      "iniciativa",
+      "penalidade",
+      "físico"
+    ],
+    "source": "Manual 3DeT Victory (p. 71)"
+  },
+  {
+    "id": "des_021",
+    "name": "Maldição",
+    "type": "Desvantagem",
+    "description": "Você é vítima de uma maldição que o perturba quase o tempo inteiro. A natureza e efeito exatos podem ser inventados por você, mas devem ser autorizados pelo mestre.\n–1pt: A Maldição é suave, mais irritante ou constrangedora que qualquer outra coisa. Ex: bicho mágico chato o persegue, vantagens só funcionam quando tira a roupa, muda de sexo quando molhado. Normalmente não tem efeito em regras, mas pode distrair e causar Perda.\n–2pt: A Maldição é muito grave, desafiadora. Ex: sempre que causa dano a alguém, recebe o mesmo dano de volta; em testes de um atributo escolhido, falhas são críticas; nunca pode curar PV exceto com descanso; monstro o ataca todas as noites.",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto para uma Maldição suave, ou –2 pontos para uma Maldição grave.",
+    "min": 1,
+    "max": 2,
+    "tags": [
+      "sobrenatural",
+      "penalidade",
+      "roleplay",
+      "restrição"
+    ],
+    "source": "Manual 3DeT Victory (p. 71)"
+  },
+  {
+    "id": "des_022",
+    "name": "Monstruoso",
+    "type": "Desvantagem",
+    "description": "Você tem uma aparência grotesca, que causa repulsa àqueles que podem vê-lo. Outros personagens estão sempre de prontidão contra você: exceto quando os pega de surpresa, você sempre tem Perda em testes de iniciativa. Você também tem Perda em testes sociais que envolvem aparência. Você não pode ser Monstruoso e também Inofensivo.",
+    "cost": -1,
+    "tags": [
+      "aparência",
+      "social",
+      "iniciativa",
+      "penalidade",
+      "roleplay"
+    ],
+    "source": "Manual 3DeT Victory (p. 71-72)"
+  },
+  {
+    "id": "des_023",
+    "name": "Munição",
+    "type": "Desvantagem",
+    "description": "Sua arma ou técnica exige algum tipo de recarga cada vez que é utilizada. Podem ser balas, flechas, energia ki, poder mental, etc. Sempre que você usa uma ação para atacar, precisa usar um movimento para recarregar. Se fizer um ataque sem recarregar, você não soma seu Poder ao teste de ataque, nem pode somá-lo novamente em críticos.",
+    "cost": -1,
+    "tags": [
+      "combate",
+      "recurso",
+      "restrição",
+      "arma"
+    ],
+    "source": "Manual 3DeT Victory (p. 72)"
+  },
+  {
+    "id": "des_024",
+    "name": "Pacifista",
+    "type": "Desvantagem",
+    "description": "Você rejeita conflito e violência.\n–1pt: Você não se envolve em combate violento. Quando atacado, pode se defender, mas não fazer testes de ataque. Ainda pode reduzir PV e derrotar oponentes de outras formas (veja em Luta Não é Tudo).\n–2pt: Você não faz absolutamente nada que cause dano — até mesmo ferir com palavras é violento e ofensivo demais para você!\nSe violar seu pacifismo, a culpa o deixará em Perda até que você consiga se redimir de alguma forma.",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto para não se envolver em combate violento (apenas se defender), ou –2 pontos para não causar nenhum tipo de dano.",
+    "min": 1,
+    "max": 2,
+    "tags": [
+      "comportamento",
+      "ético",
+      "não-violência",
+      "roleplay",
+      "restrição"
+    ],
+    "source": "Manual 3DeT Victory (p. 73)"
+  },
+  {
+    "id": "des_025",
+    "name": "Pobreza",
+    "type": "Desvantagem",
+    "description": "Você não tem recursos financeiros e, por qualquer razão, tende a não conseguir acumulá-los de nenhuma maneira. Todos os seus testes de compra são feitos em Perda. Você não pode ter Pobreza e também Riqueza.",
+    "cost": -1,
+    "tags": [
+      "social",
+      "recurso",
+      "dinheiro",
+      "penalidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 73)"
+  },
+  {
+    "id": "des_026",
+    "name": "Ponto Fraco",
+    "type": "Desvantagem",
+    "description": "Você tem uma característica que seu adversário pode explorar. Pode ser um desequilíbrio em sua postura de luta, um tique nervoso, uma falha em sua linha de raciocínio, ou você perde as estribeiras sempre que alguém menciona aquele incidente passado… Seu Ponto Fraco pode ser descoberto por alguém que já tenha visto você em ação, ou por Telepatia, ou ser conhecido por todos se você é Famoso ou Infame. Um teste resistido de Percepção contra a perícia que você está usando também permite descobrir. Qualquer adversário que conhece seu Ponto Fraco pode gastar 1 PM para ter Ganho contra você em um teste que explora esse problema.",
+    "cost": -1,
+    "tags": [
+      "vulnerabilidade",
+      "combate",
+      "social",
+      "mental",
+      "roleplay"
+    ],
+    "source": "Manual 3DeT Victory (p. 73)"
+  },
+  {
+    "id": "des_027",
+    "name": "Protegido",
+    "type": "Desvantagem",
+    "description": "Existe alguém que você precisa proteger de qualquer maneira, com a própria vida se necessário. Pode ser outro personagem jogador, ou um NPC que acompanha você. Manter um Protegido é arriscado, os vilões podem (vão!) tentar usá-lo como chantagem para vencer você. Sempre que o Protegido está desaparecido, indefeso ou ferido (qualquer quantidade de PV abaixo do total), todos os seus testes têm Perda. Se o Protegido morre ou desaparece para sempre, você adquire a versão severa de Assombrado (–2pt), sem ganhar o ponto de diferença.",
+    "cost": -1,
+    "tags": [
+      "responsabilidade",
+      "social",
+      "roleplay",
+      "vulnerabilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 73)"
+  },
+  {
+    "id": "des_028",
+    "name": "Restrição",
+    "type": "Desvantagem",
+    "description": "Certa condição torna mais difícil usar seus poderes. Quando ela acontece, você sempre gasta o dobro de PM para usar suas vantagens. O valor da desvantagem depende de quão comum é a Restrição:\n• Incomum (–1pt): Acontece raramente. Ex: molhado, com fome, noite de lua cheia, inimigo de certo arquétipo, alguém soltou pum.\n• Comum (–2pt): Acontece muito frequentemente. Ex: noite (ou dia), lugar fechado (ou aberto), alguém olhando, bardo não para de cantar.\nVocê não pode ter esta desvantagem se não tiver nenhuma vantagem que gasta PM.",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto se a condição da Restrição for incomum, ou –2 pontos se for comum.",
+    "min": 1,
+    "max": 2,
+    "tags": [
+      "poder",
+      "limitação",
+      "contextual",
+      "penalidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 73-74)"
+  },
+  {
+    "id": "des_029",
+    "name": "Sem Vida",
+    "type": "Desvantagem",
+    "description": "Você não é um ser vivo. Pode ser um construto, morto-vivo, brinquedo com alma, etc. Boa notícia: não pode morrer (testes de morte nunca pior que Inconsciente). Má notícia: não recupera PV de formas normais (descanso, itens, Cura, Regeneração). Pode ser consertado/restaurado com outra perícia (Máquinas para construtos, Mística para mortos-vivos). Cada tentativa exige 1 hora e teste (9). Sucesso = PVs totais. Ainda precisa descansar para PA e PM.",
+    "cost": -2,
+    "tags": [
+      "construto",
+      "morto-vivo",
+      "sobrevivência",
+      "cura",
+      "limitação"
+    ],
+    "source": "Manual 3DeT Victory (p. 74)"
+  },
+  {
+    "id": "des_030",
+    "name": "Tapado",
+    "type": "Desvantagem",
+    "description": "Você não é uma pessoa muito brilhante. Quando faz testes de Habilidade relacionado a inteligência e raciocínio, você tem Perda e nunca tem acertos críticos. Você não pode ser Tapado e também Gênio.",
+    "cost": -1,
+    "tags": [
+      "mental",
+      "inteligência",
+      "raciocínio",
+      "penalidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 74)"
+  },
+  {
+    "id": "des_031",
+    "name": "Transtorno",
+    "type": "Desvantagem",
+    "description": "Você lida com um transtorno mental. Escolha um (ou mais, –1pt cada):\n• Cleptomania: Rouba coisas desnecessárias. Teste para evitar. Nunca devolve, luta para não o fazer.\n• Compulsão: Precisa fazer algo várias vezes por dia (tomar banho, comer lasanha, etc.). No começo da cena, tem Perda em todos os testes até gastar uma rodada cumprindo a compulsão.\n• Distração: Não consegue se concentrar no que não o interessa (não Devoto/Código). Nessas situações, não consegue críticos.\n• Fantasia: Acredita ser/fazer algo que não é/pode. Fala de si mesmo o tempo todo. Perda em testes sociais.\n• Fobia: Medo terrível de algo (lugares altos, insetos, etc.). Perto da fobia, só faz movimentos. Só age se passar em teste antes.\n• Megalomania: Acredita ser invencível, imortal, destinado a grande objetivo. Nunca se rende, segue lutando após derrotado.\n• Mitomania: Nunca diz a verdade, mesmo querendo. Precisa de teste para dizer algo verdadeiro, até para aliados.\n• Paranoia: Não confia em ninguém, nem aliados. Precisa de teste para aceitar ajuda (até cura!). Dorme mal: recuperação de recursos com descanso é metade do normal.\nSuperar transtorno pede teste de Resistência (9).",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto por cada Transtorno escolhido. O mestre pode limitar o número de Transtornos.",
+    "min": 1,
+    "tags": [
+      "mental",
+      "comportamento",
+      "personalidade",
+      "roleplay",
+      "penalidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 74-75)"
+  },
+  {
+    "id": "des_032",
+    "name": "Utensílio",
+    "type": "Desvantagem",
+    "description": "Você precisa de um item (arma, amuleto, etc.) para usar adequadamente uma perícia ou vantagens.\n–1pt: Escolha uma perícia que você tem. Sem o Utensílio, não consegue críticos nessa perícia.\n–2pt: Sem o Utensílio, não pode usar vantagens ou técnicas que gastam PM. Não pode usar PA (exceto para recuperar/improvisar Utensílio).\nSe rolar falha crítica usando Utensílio, ele cai (gasta movimento para recuperar). Acerto crítico contra você pode destruir Utensílio (perde item, não sofre dano). Utensílio destruído/perdido é recuperado após cena, ou gastando ação e 1PA para improvisá-lo. Pode ser algo grande (trailer, biblioteca), que não cai/perde/destrói, mas não pode levar sempre consigo.",
+    "cost": -1,
+    "variableCost": true,
+    "costDetails": "Custa –1 ponto se, sem o Utensílio, não consegue críticos na perícia escolhida. Custa –2 pontos se, sem o Utensílio, não pode usar vantagens/técnicas que gastam PM ou PA (exceto para recuperar/improvisar Utensílio).",
+    "min": 1,
+    "max": 2,
+    "tags": [
+      "equipamento",
+      "dependência",
+      "restrição",
+      "item"
+    ],
+    "source": "Manual 3DeT Victory (p. 75)"
+  },
+  {
+    "id": "arq_001",
+    "name": "Humano",
+    "type": "Arquétipo",
+    "description": "Mesmo com as Convergências trazendo incontáveis criaturas fantásticas, a população humana ainda supera todas as outras juntas. Humanos têm mais iniciativa, energia e são mais adaptáveis. Por outro lado, têm vidas curtas. Ser humano na Era das Arcas não significa ser normal! Podem ser praticamente qualquer coisa, seguir todas as carreiras e inventar outras.\n• Mais Além: Humanos se superam. Uma vez por cena, você pode gastar 2PM para ter Ganho em um teste.",
+    "cost": 0,
+    "tags": [
+      "básico",
+      "adaptável",
+      "versátil"
+    ],
+    "source": "Manual 3DeT Victory (p. 77)"
+  },
+  {
+    "id": "arq_002",
+    "name": "Aberrante",
+    "type": "Arquétipo",
+    "description": "Seres que não fazem parte deste universo, bizarros demais mesmo na Terra pós-Convergência. Surgem de experimentos, mutações, doenças mágicas, corrupção cósmica, etc. Aparência e anatomia podem variar imensamente.\n• Deformidade: Todo aberrante tem alguma deformação física que, embora desagradável, garante certas vantagens. Escolha uma perícia. Quando testá-la (mesmo que não tenha a perícia), o atributo correspondente tem +1.\n• Teratismo: Aberrantes têm poderes anômalos. Você recebe uma Técnica Comum (veja em Recompensas) à sua escolha. Você ainda precisa cumprir os requisitos da técnica.\n• Monstruoso: (Desvantagem) Ninguém merece esta desvantagem mais do que você.",
+    "cost": 1,
+    "tags": [
+      "mutante",
+      "estranho",
+      "poder anômalo",
+      "deformado"
+    ],
+    "source": "Manual 3DeT Victory (p. 78)"
+  },
+  {
+    "id": "arq_003",
+    "name": "Abissal",
+    "type": "Arquétipo",
+    "description": "Nativos de planos de natureza maligna (Abismo, Nove Infernos, etc.), também conhecidos como demônios, diabos, infernais ou oni. Visitam a Terra com objetivos diversos (coleta de almas, caça a tesouros, etc.). Muitos são servos de lordes poderosos, outros são independentes. Alguns nem são malignos.\n• Ágil: (Vantagem) Demônios são esquivos.\n• Desfavor: Gaste uma ação e 3PM para forçar uma criatura em alcance Perto a fazer um teste de Resistência, oposto a seu Poder. Se falhar, o alvo sofre Perda em todos os testes até o próximo turno.\n• Infame: (Desvantagem) Você é um demônio, esperava o quê?",
+    "cost": 1,
+    "tags": [
+      "demônio",
+      "infernal",
+      "extraplanar",
+      "maligno"
+    ],
+    "source": "Manual 3DeT Victory (p. 79)"
+  },
+  {
+    "id": "arq_004",
+    "name": "Alien",
+    "type": "Arquétipo",
+    "description": "Qualquer “estrangeiro” de outras épocas ou dimensões. Aparência e poderes variados, quase todos superiores aos humanos em um ou mais aspectos, mas inferiores em outros. Muitos têm aparência humana com detalhes (orelhas pontudas, antenas) fáceis de disfarçar, mas têm dificuldade em se adaptar à cultura.\n• Talento: Aliens têm aptidões físicas ou mentais superiores. Escolha uma vantagem entre Ágil, Carismático, Forte, Gênio, Resoluto ou Vigoroso.\n• Xenobiologia: Escolha uma vantagem que possua. Você pode usá-la por metade do custo em PM.\n• Inculto: (Desvantagem) Aliens têm inaptidão à nossa cultura.",
+    "cost": 1,
+    "tags": [
+      "extraterrestre",
+      "estrangeiro",
+      "extraplanar",
+      "tecnológico"
+    ],
+    "source": "Manual 3DeT Victory (p. 80)"
+  },
+  {
+    "id": "arq_005",
+    "name": "Anão",
+    "type": "Arquétipo",
+    "description": "Não ultrapassam 1,30m, mas são mais robustos que humanos. Gostam de trabalho duro e minucioso (grandes engenheiros e joalheiros). Amam motociclismo e cerveja.\n• Abascanto: Anões são teimosamente resistentes a efeitos maléficos. Você tem Ganho em testes de Resistência para evitar ou cancelar efeitos ruins (exceto dano), como Anulação, Desgaste, Paralisia.\n• A Ferro e Fogo: Anões amam forjar metal. Sempre que testar Máquinas (mesmo sem a perícia), o atributo correspondente tem +1. Além disso, você recebe Sentido (Infravisão).\n• Lento: (Desvantagem) Você tem perninhas curtas.",
+    "cost": 1,
+    "tags": [
+      "robusto",
+      "artesão",
+      "engenheiro",
+      "resistente"
+    ],
+    "source": "Manual 3DeT Victory (p. 81)"
+  },
+  {
+    "id": "arq_006",
+    "name": "Anfíbio",
+    "type": "Arquétipo",
+    "description": "Seres aquáticos da Era das Arcas (tritões, sereias, elfos-do-mar, homens-sapo, etc.). Podem viver e agir fora d’água normalmente. Alguns temem/desprezam o mundo seco, outros o veem com curiosidade.\n• Imune (Anfíbio): (Vantagem) Embaixo d’água você pode se mover e respirar normalmente. Também pode se orientar no escuro, percebendo formas (mas não cores).\n• Vigoroso: (Vantagem) Por sua tolerância a mudanças de pressão, anfíbios são mais resistentes.\n• Ambiente: (Desvantagem) Esta desvantagem foi praticamente inventada para você.",
+    "cost": 1,
+    "tags": [
+      "aquático",
+      "nadador",
+      "adaptado",
+      "marinho"
+    ],
+    "source": "Manual 3DeT Victory (p. 82)"
+  },
+  {
+    "id": "arq_007",
+    "name": "Celestial",
+    "type": "Arquétipo",
+    "description": "Nativos de planos benignos (anjos, tenshi). Muitos têm aparência humana bela e imponente, emanando aura luminosa. Outros parecem animais (leões, pégasos) ou formas místicas. Muitos são nobres e bondosos, mas nem todos. Visitam a Terra voluntariamente ou são invocados.\n• Carismático: (Vantagem) Celestiais têm facilidade para influenciar pessoas.\n• Arrebatar: Você pode gastar um movimento e 3PM para conceder Ganho ao teste de perícia de um aliado Perto ou Longe. Esse teste deve ser realizado até o próximo turno do aliado.\n• Código: (Desvantagem) Todo celestial é guiado por pelo menos um código de conduta.",
+    "cost": 1,
+    "tags": [
+      "anjo",
+      "divino",
+      "benigno",
+      "extraplanar",
+      "sagrado"
+    ],
+    "source": "Manual 3DeT Victory (p. 83)"
+  },
+  {
+    "id": "arq_008",
+    "name": "Centauro",
+    "type": "Arquétipo",
+    "description": "Criatura “táurica” com torso humano e corpo com quatro ou mais patas (cavalo, leão, lagarto, aranha, etc.). Antigos, viviam reclusos nos ermos ou como predadores. Alguns abraçam a vida nas cidades.\n• Corpo Táurico: Você pode pagar 1PM para conseguir um crítico com 5 ou 6 em testes de Poder para esforço físico (não ataques), testes de iniciativa, e testes de Habilidade para correr ou perseguir um alvo.\n• Vigoroso: (Vantagem) Centauros são robustos e resistentes.\n• Diferente: (Desvantagem) Obviamente, centauros não podem usar roupas, veículos ou equipamentos feitos para humanos. Mestre pode fazer exceções para armas/itens para braços/cabeça/torso.",
+    "cost": 2,
+    "tags": [
+      "táurico",
+      "quadrúpede",
+      "forte",
+      "resistente"
+    ],
+    "source": "Manual 3DeT Victory (p. 84)"
+  },
+  {
+    "id": "arq_009",
+    "name": "Ciborgue",
+    "type": "Arquétipo",
+    "description": "“Organismo cibernético”, parte máquina, parte ser vivo. Humanos (ou outros) com partes robóticas, ou máquinas com partes orgânicas. Podem ser bem-sucedidos em áreas inesperadas.\n• Construto Vivo: Você pode recuperar PV normalmente, mas também pode ser consertado por outro personagem; ambos os métodos funcionam. Veja a desvantagem Sem Vida.\n• Imune: (Vantagem) Você é Imune a Abiótico, Doenças, Resiliente.\n• Diretriz: Sua mente tem travas de programação. Escolha um Código ou Transtorno (Desvantagens).",
+    "cost": 2,
+    "tags": [
+      "cibernético",
+      "robô",
+      "tecnológico",
+      "mecânico"
+    ],
+    "source": "Manual 3DeT Victory (p. 85)"
+  },
+  {
+    "id": "arq_010",
+    "name": "Construto",
+    "type": "Arquétipo",
+    "description": "Você não nasceu; foi construído. Androides produzidos em massa, ou golens mágicos. Representa construtos de forma e tamanho humanos.\n• Imune (Abiótico, Doenças, Resiliente, Sem Mente): (Vantagem) Construtos não têm funções biológicas, nem estão sujeitos a certas limitações dos seres vivos.\n• Bateria: (Desvantagem) Construtos não comem, bebem ou dormem, mas ainda precisam recarregar energia (bateria de lítio, gasolina, cristal mágico, etc.).\n• Sem Vida: (Desvantagem) Construtos não podem ser curados, apenas consertados.",
+    "cost": 1,
+    "tags": [
+      "robô",
+      "androide",
+      "golem",
+      "artificial",
+      "mecânico"
+    ],
+    "source": "Manual 3DeT Victory (p. 86)"
+  },
+  {
+    "id": "arq_011",
+    "name": "Dahllan",
+    "type": "Arquétipo",
+    "description": "Parte humanas, parte fadas, parte plantas. Seiva de árvores nas veias. Nascem de pais humanos e fadas, ou emergem das matas. Quase todas mulheres. Tipos físicos variados. Cabelo como folhas (muda com estações), flores brotam no cabelo.\n• Benção da Natureza: Você pode gastar um movimento e 2PM para transformar sua pele em casca de árvore, recebendo Ganho em todas as jogadas de Defesa até seu próximo turno.\n• Empatia Selvagem: Toda dahllan tem ligação intrínseca com animais naturais ou mágicos. Em todos os testes de Animais (mesmo sem a perícia), o atributo correspondente tem +1.\n• Código Dahllan: (Desvantagem) Dahllan são veganas. Nunca atacam um animal, nem deixam de prestar ajuda a um animal em dificuldade.",
+    "cost": 1,
+    "tags": [
+      "natureza",
+      "planta",
+      "fada",
+      "druida"
+    ],
+    "source": "Manual 3DeT Victory (p. 87)"
+  },
+  {
+    "id": "arq_012",
+    "name": "Elfo",
+    "type": "Arquétipo",
+    "description": "Belos e esguios; orelhas pontiagudas, olhos amendoados, traços delicados, talento para mágica e vidas longas. Cores de pele, olhos e cabelos variados, alguns com traços incomuns (patas, cauda). Vivem isolados ou integrados.\n• Impecável: Elfos são elegantes. Escolha uma vantagem entre Ágil, Carismático ou Gênio.\n• Natureza Mística: Mesmo sem poderes mágicos, todo elfo tem ligação intrínseca com a magia. Em todos os testes de Mística (mesmo sem a perícia), o atributo correspondente tem +1.\n• Frágil: (Desvantagem) Elfos têm compleição física delicada, sendoulneráveis a efeitos nocivos.",
+    "cost": 1,
+    "tags": [
+      "elegante",
+      "mágico",
+      "longevo",
+      "arcano"
+    ],
+    "source": "Manual 3DeT Victory (p. 88)"
+  },
+  {
+    "id": "arq_013",
+    "name": "Fada",
+    "type": "Arquétipo",
+    "description": "Nome genérico para seres mágicos ligados à natureza (dríades, sílfides, duendes, sátiros, ninfas). Aparência feminina, infantil ou andrógina. Muitas diminutas (tamanho de gatos), outras de tamanho humano. Flores/folhagens no corpo/vestes, asas de inseto/folhas. Natureza curiosa e brincalhona.\n• Magia das Fadas: Escolha entre Magia ou Ilusão. Além de ganhar a vantagem, você sempre gasta –1PM (mínimo 1PM) para usá-la. Pode comprar a outra vantagem separadamente, mas sem desconto em PM.\n• Infame: (Desvantagem) Fadas não são levadas muito a sério.\n• Delicada: Escolha entre Diferente (uma fada pequenina) ou Frágil (tamanho normal) (Desvantagens).",
+    "cost": 1,
+    "tags": [
+      "natureza",
+      "mágica",
+      "elemental",
+      "pequeno"
+    ],
+    "source": "Manual 3DeT Victory (p. 89)"
+  },
+  {
+    "id": "arq_014",
+    "name": "Fantasma",
+    "type": "Arquétipo",
+    "description": "Mortos-vivos imateriais, espíritos descarnados. Surgem quando evento poderoso impede alma de encontrar descanso. Podem se passar por vivos (exceto ao toque) ou revelar natureza translúcida ao usar poderes.\n• Espírito: Fantasmas têm uma versão invertida de Incorpóreo; estão sempre em estado imaterial, incapazes de causar ou receber dano, mas podem gastar PM para se tornar sólidos durante uma cena. Além disso, um fantasma é Imune (abiótico, doenças) e Sem Vida (só recupera PV com descanso ou vantagens).\n• Paralisia: (Vantagem) Você pode paralisar vítimas com sua aura de pânico.\n• Devoto: (Desvantagem) Um fantasma está preso a este mundo por amor, raiva, vingança, uma promessa ou razões que ele próprio não entende, sempre envolvido em uma missão interminável.",
+    "cost": 2,
+    "tags": [
+      "espírito",
+      "morto-vivo",
+      "imaterial",
+      "assombração"
+    ],
+    "source": "Manual 3DeT Victory (p. 90)"
+  },
+  {
+    "id": "arq_015",
+    "name": "Goblin",
+    "type": "Arquétipo",
+    "description": "Humanoides pequenos (cerca de 1m), pele cinzenta/rugosa, orelhas longas, olhos amarelos/vermelhos brilhantes. Numerosos, curiosos, hiperativos, sempre acham solução (mesmo que desajeitada). Lógica diferente e desafiadora.\n• Espertalhão: Goblins sabem se virar. Sempre que testar Manha (mesmo sem a perícia), o atributo correspondente tem +1.\n• Subterrâneo: Você recebe Sentido (Infravisão). Também tem Ganho em testes de R para evitar ou cancelar doenças e venenos, sejam naturais ou mágicos.\n• Diferente: (Desvantagem) Goblins são pequenos e, mandando a real, não fazem muita questão de se vestir bem.",
+    "cost": 1,
+    "tags": [
+      "pequeno",
+      "esperto",
+      "inventor",
+      "caótico"
+    ],
+    "source": "Manual 3DeT Victory (p. 91)"
+  },
+  {
+    "id": "arq_016",
+    "name": "Hynne",
+    "type": "Arquétipo",
+    "description": "Halflings ou “pequeninos” (não ultrapassam 90cm). Muitos têm pés peludos. Gostam de vida tranquila, boa comida e bebida. Ótimos chefs, gerentes. Alguns são aventureiros, usando mãos ligeiras e aparência inofensiva.\n• Atirador: Hynne têm aptidão natural para arremessar coisas. Você pode gastar 2PM para ter Ganho em um teste para atacar Longe, em combate violento.\n• Encantador: O sorriso inocente do hynne consegue o que quer. Sempre que testar Influência (mesmo sem a perícia), o atributo correspondente tem +1.\n• Diferente: (Desvantagem) Quando um hynne pernoitar na sua casa, ele pode dormir em uma gaveta aberta.",
+    "cost": 1,
+    "tags": [
+      "pequeno",
+      "sortudo",
+      "habilidoso",
+      "furtivo"
+    ],
+    "source": "Manual 3DeT Victory (p. 92)"
+  },
+  {
+    "id": "arq_017",
+    "name": "Kallyanach",
+    "type": "Arquétipo",
+    "description": "Meios-dragões. Nascem de romance, proximidade a covil de dragão, maldições, experimentos ou por razões desconhecidas. Têm garras, presas, cauda e/ou escamas, grandes asas coriáceas. Elegantes e belos ou monstruosos.\n• Baforada: Você recebe um Ataque Especial (escolha entre Área, Distante ou Potente). Este ataque pode ser combinado com outros, e sempre gasta –1PM (mínimo 1PM).\n• Poder Dracônico: Dragões são poderosos em força física e força de personalidade. Escolha um entre Forte e Carismático.\n• Código dos Dragões: (Desvantagem) Seja por honra, gratidão, vingança ou orgulho, um meio-dragão tem o ímpeto natural de nunca esquecer e sempre cumprir uma promessa feita.",
+    "cost": 2,
+    "tags": [
+      "dragão",
+      "meio-dragão",
+      "poderoso",
+      "elemental"
+    ],
+    "source": "Manual 3DeT Victory (p. 93)"
+  },
+  {
+    "id": "arq_018",
+    "name": "Kemono",
+    "type": "Arquétipo",
+    "description": "Animais antropomórficos. Bichos que andam, falam e agem como humanos; ou humanoides com traços ferais. Exceto pela aparência, são humanos. Moreaus são os mais conhecidos.\n• Percepção Apurada: Kemono têm sentidos aguçados. Sempre que testar Percepção (mesmo sem a perícia, nem Sentido), o atributo correspondente tem +1.\n• Talento: Kemono têm certas aptidões físicas ou mentais, dependendo de sua herança animal. Escolha uma vantagem entre Ágil, Carismático, Forte, Gênio, Resoluto ou Vigoroso.\n• Cacoete: (Desvantagem) Kemono demonstram algum traço negativo ligado a seu lado animal. Escolha uma desvantagem entre Antipático, Atrapalhado, Fracote, Frágil, Indeciso ou Tapado.",
+    "cost": 1,
+    "tags": [
+      "animal",
+      "fera",
+      "antropomórfico",
+      "moreau"
+    ],
+    "source": "Manual 3DeT Victory (p. 94)"
+  },
+  {
+    "id": "arq_019",
+    "name": "Medusa",
+    "type": "Arquétipo",
+    "description": "Raça de corpo humanoide e cabelo feito de serpentes. Olhos de cores exóticas, pupilas verticais, pele escamada e/ou língua bifurcada. Civilizadas, sociáveis, comunicativas, vaidosas. Amam redes sociais, produtoras de conteúdo, influenciadoras, streamers.\n• Carismático: (Vantagem) Medusas têm facilidade para influenciar pessoas.\n• Olhar Atordoante: Você pode gastar um movimento e 3PM para forçar uma criatura Perto a fazer um teste de Resistência, oposto a seu Poder. Se falhar, durante uma rodada o alvo não pode fazer ações, e tem Perda em testes de defesa.\n• Fracote: (Desvantagem) As medusas deviam sair da hypernet e se exercitar mais.",
+    "cost": 1,
+    "tags": [
+      "serpente",
+      "olhar petrificante",
+      "social",
+      "influenciador"
+    ],
+    "source": "Manual 3DeT Victory (p. 95)"
+  },
+  {
+    "id": "arq_020",
+    "name": "Minotauro",
+    "type": "Arquétipo",
+    "description": "Humanoides robustos com cabeças bovinas (touro, búfalo, gnu, etc.). Alguns têm cascos bipartidos. Orgulhosos, sisudos, determinados, competitivos. Fêmeas são minauras, com relação tensa com minotauros.\n• Atlético: Minotauros são adeptos de atividades físicas. Sempre que testar Esporte (mesmo sem a perícia), o atributo correspondente tem +1.\n• Sentido Labiríntico: Você sempre sabe o caminho de qualquer lugar em que tenha estado. Além disso, sempre tem Ganho em testes de Percepção para farejar.\n• Transtorno (Fobia): (Desvantagem) Minotauros têm medo de altura. Estar perto de uma queda de 3m ou mais ativa esta desvantagem.",
+    "cost": 1,
+    "tags": [
+      "bovino",
+      "forte",
+      "labirinto",
+      "honrado"
+    ],
+    "source": "Manual 3DeT Victory (p. 96)"
+  },
+  {
+    "id": "arq_021",
+    "name": "Ogro",
+    "type": "Arquétipo",
+    "description": "Humanoides imensos e brutais. Selvagens habitam Arcas, outros vivem em cidades ou são Arcanautas. Atuam como seguranças, soldados, mercenários; alguns peritos em áreas inesperadas.\n• Destruidor: Quase nada causa mais estrago que um ogro. Em combate violento, quando consegue um acerto crítico ao atacar um oponente Perto, você pode pagar 2PM para somar seu Poder mais uma vez. Você só pode fazer isso uma vez por ataque, mesmo que consiga mais de um crítico.\n• Intimidador: Quase nada é tão assustador quanto um ogro. Você sempre tem Ganho em testes de Influência para assustar, intimidar ou amedrontar alguém.\n• Diferente: (Desvantagem) Quase nada é tão grande quanto um ogro.",
+    "cost": 1,
+    "tags": [
+      "gigante",
+      "bruto",
+      "forte",
+      "intimidador"
+    ],
+    "source": "Manual 3DeT Victory (p. 97)"
+  },
+  {
+    "id": "arq_022",
+    "name": "Osteon",
+    "type": "Arquétipo",
+    "description": "Esqueletos com inteligência e vontade própria. Demonstram a mesma consciência e civilidade de outros povos. Podem ser viajantes ou falecidos que retornam.\n• Imune (Abiótico, Doenças, Resiliente): (Vantagem) Então, você é um morto-vivo.\n• Memória Póstuma: Escolha uma perícia qualquer. Sempre que testá-la (mesmo sem a perícia), o atributo correspondente tem +1.\n• Sem Vida: (Desvantagem) Pois é, você ainda é um morto-vivo.",
+    "cost": 2,
+    "tags": [
+      "morto-vivo",
+      "esqueleto",
+      "imortal",
+      "resistente"
+    ],
+    "source": "Manual 3DeT Victory (p. 98)"
+  },
+  {
+    "id": "arq_023",
+    "name": "Qareen",
+    "type": "Arquétipo",
+    "description": "Seres mágicos, descendentes de mortais e criaturas arcanas (gênios, ninfas, fadas). Meios-gênios. Nascem com tatuagens elaboradas que brilham ao usar poderes. Generosos, prestativos, gostam de viver entre outros povos, emprestando seu poder arcano.\n• Desejos: Você tem a vantagem Magia. Além disso, quando lança uma magia que outra pessoa pediu desde seu último turno, o custo diminui em –2PM (mínimo 1PM). Fazer um desejo ao qareen não gasta ações ou movimentos (mas o qareen ainda precisa de ações/movimentos para lançar a magia).\n• Carismático: (Vantagem) Qareen têm facilidade para influenciar pessoas.\n• Código da Gratidão: (Desvantagem) Todo qareen será grato a alguém que tenha lhe prestado um grande favor, adotando essa pessoa como seu “amo” até igualar a dívida de gratidão. Um qareen pode ter mais de um amo por vez.",
+    "cost": 2,
+    "tags": [
+      "gênio",
+      "mágico",
+      "desejos",
+      "social"
+    ],
+    "source": "Manual 3DeT Victory (p. 99)"
+  },
+  {
+    "id": "arq_024",
+    "name": "Sauroide",
+    "type": "Arquétipo",
+    "description": "Seres-répteis (lagartos, crocodilos, serpentes, dinossauros). Cabeça reptiliana, corpos escamados, caudas, cristas, garras, carapaças. Robustos e rústicos, mas capazes de viver em sociedade moderna.\n• Cascudo: Você recebe Resoluto e Vigoroso (Vantagens).\n• Camuflagem: Sauroides têm movimentos cuidadosos, coloração igual ao ambiente e muita paciência. Você sempre tem Ganho em testes para se esconder.\n• Fraqueza (Frio): (Desvantagem) Você fica lerdo no frio. Leva um casaquinho.",
+    "cost": 2,
+    "tags": [
+      "réptil",
+      "lagarto",
+      "dinossauro",
+      "robusto",
+      "furtivo"
+    ],
+    "source": "Manual 3DeT Victory (p. 100)"
+  },
+  {
+    "id": "arq_025",
+    "name": "Vampiro",
+    "type": "Arquétipo",
+    "description": "Galantes e sedutores, entre os seres mais poderosos. Podem ser mortos-vivos ou não. Surgem de várias maneiras (maldição, ritual, doença, criação). Imortais, precisam sugar a vida dos vivos (sangue, energia). Podem ser não assassinos.\n• Talento: Vampiros têm aptidões superiores. Escolha uma vantagem entre Ágil, Carismático, Forte, Gênio, Resoluto ou Vigoroso.\n• Imortal: (Vantagem) Você é vampiro raiz, não gótico chorão. Mesmo depois de virar cinzas, você volta.\n• Fraqueza (luz do dia): (Desvantagem) Você meio que não gosta do sol.\n• Dependência: (Desvantagem) Você não tem esta desvantagem, pois achou um jeito de superá-la. Está aqui apenas para vilões NPCs. O custo total do arquétipo não muda.",
+    "cost": 1,
+    "tags": [
+      "morto-vivo",
+      "sanguessuga",
+      "noturno",
+      "imortal",
+      "sedutor"
+    ],
+    "source": "Manual 3DeT Victory (p. 101)"
+  },
+  {
+    "id": "tru_001",
+    "name": "Ás Indomável",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisito: Esporte ou Máquinas.\nAlcance: Pessoal.\nCusto de uso: 0 a 2PM.\nDuração: Instantânea.\nVocê é um prodígio da pilotagem. Quando comanda um veículo, pode usar as seguintes manobras:\n• Até o limite! Você força o veículo até quase explodir. Pode usar PV do veículo em vez de PM para ativar uma vantagem, com custo máximo igual à sua Habilidade.\n• Drifting. Você usa uma ação e 2PM para colocar-se em posição de vantagem, tem Ganho em um teste na próxima rodada.\n• Nunca me diga as chances! Você gasta 2PM para anular uma Perda em um teste, fazendo algo que parecia impossível. Só pode fazer isso uma vez por teste.\n• Vai, corredor, vai! Você gasta 1PM para fazer um movimento extra, como se tivesse Aceleração.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "pilotagem",
+      "veículo",
+      "manobras",
+      "esporte",
+      "máquinas"
+    ],
+    "source": "Manual 3DeT Victory (p. 143)"
+  },
+  {
+    "id": "tru_002",
+    "name": "Barreira Mística",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisitos: Magia, Mística.\nAlcance: Pessoal.\nCusto de uso: 1 a 2PM por uso.\nDuração: Um turno.\nVocê usa seus poderes mágicos para se defender. Com 1PM, você conjura uma Barreira Mística como reação contra um ataque. Seu teste de defesa é normal, mas você pode escolher usar a perícia Mística em vez de Luta.\nVocê também pode gastar 1PM extra para adicionar um destes efeitos:\n• Debilitante. Se sua defesa superar o ataque, você reduz um atributo do atacante (à sua escolha) em –1, até o fim da cena. Isso não afeta os seus recursos.\n• Drenante. Se sua defesa superar o ataque, você recupera 2PM. Cada crítico na defesa recupera mais 2PM.\n• Elétrica. Sua defesa eletrifica e atordoa o alvo; o próximo ataque contra ele tem Ganho.\n• Espinhosa. Se o atacante está Perto, ele sofre 1 ponto de dano. Cada crítico na defesa causa mais 1 ponto de dano.\n• Luminosa. Se sua defesa superar o ataque, a barreira causa um clarão que ofusca o atacante, causando Perda em seu próximo teste.\n• Maciça. Você tem defesa perfeita.\n• Solidária. Você pode conjurar a Barreira Mística para um aliado Perto. Ele tem Ganho na defesa. Você não recebe nenhum benefício nesta rodada.\nVocê só precisa conjurar a Barreira Mística uma vez por rodada, no primeiro ataque recebido. Ela permanece ativa até seu próximo turno.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "defesa",
+      "magia",
+      "mística",
+      "proteção"
+    ],
+    "source": "Manual 3DeT Victory (p. 143-144)"
+  },
+  {
+    "id": "tru_003",
+    "name": "Cancioneiro Popular",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisito: Arte.\nAlcance: Perto.\nCusto de uso: 2PM.\nDuração: Instantânea.\nSuas canções têm efeitos emocionais diversos:\n• Canção de amor. Escolha um alvo e faça um teste de Arte (9). Com sucesso, ele se tornará amigável a você, garantindo Ganho em seu próximo teste social contra ele. Dobrar a meta pode fazer com que ele se apaixone de verdade!\n• Canção de ninar. Você canta para o grupo antes de dormir, aumentando a recuperação de recursos em terreno ruim em +1D PM e PV.\n• Canção de protesto. Escolha um alvo para protestar e faça um teste de Arte (9). Com sucesso, ele terá Perda em seu próximo teste social.\n• Canção de rua. Faça um teste de Arte (9) onde houver muitos transeuntes (tipicamente vias urbanas). Se passar, tem Ganho no próximo teste de compra.\n• Canção relaxante. Você canta para o grupo em um momento de descanso, aumentando a recuperação de recursos em um descanso curto em +1 por ponto de atributo.\nCancioneiro Popular não pode ser usado em combate ou conflitos.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "social",
+      "música",
+      "influência",
+      "suporte",
+      "arte"
+    ],
+    "source": "Manual 3DeT Victory (p. 144)"
+  },
+  {
+    "id": "tru_004",
+    "name": "Dobrar Elemento",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Alcance: Perto.\nCusto de uso: 1PM ou mais por uso.\nDuração: Instantânea.\nVocê pode controlar um único elemento à sua escolha (fogo, terra, água, ar, luz, trevas; ou vapor, gelo, relâmpago, etc.). Para cada elemento, aprenda um truque diferente. Elemento deve estar presente para ser controlado (exceto se houver condições para produzir, ex: fogo para aquecer lenha). Não serve para atacar/causar dano direto. Gaste 1PM ou mais para:\n• Manipular, levitar ou controlar pequenas quantidades do elemento (até 1kg sólidos/líquidos ou 0.5m³ gases/energias). Mais PM para quantidades maiores.\n• Causar incômodo a um alvo, impondo Perda em um teste (ex: água para chão escorregadio, lufada de ar). (2PM).\n• Reforçar um ataque com o elemento, adicionando um tipo de dano adequado (fogo, frio, pancada) sem causar Perda.\n• Usar o elemento para se proteger, conseguindo defesa perfeita se vencer o teste de defesa.\n• Outros efeitos menores ligados ao elemento (Dobrar Vapor para motor funcionar, Dobrar Fogo para aquecer água sem causar dano).\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "elemental",
+      "controle",
+      "utilidade",
+      "magia"
+    ],
+    "source": "Manual 3DeT Victory (p. 144)"
+  },
+  {
+    "id": "tru_005",
+    "name": "Golpes",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisito: Luta.\nAlcance: Variável.\nCusto de uso: Variável.\nDuração: Instantânea.\nVocê domina diversas manobras únicas de artes marciais. Escolha dois golpes da lista. Pode comprar este truque várias vezes: cada vez, escolhe mais dois golpes. Golpes não podem ser combinados com outras técnicas/vantagens (exceto se dito o contrário). Um Combo só utiliza golpes.\n• Derrubar. Quando vence a defesa do adversário, em vez de causar dano, pode escolher derrubá-lo (ou gastar 1PM para causar dano e também derrubá-lo). Oponente derrubado tem Perda em todos os testes até usar um movimento para se levantar.\n• Finta. Você pode usar um movimento e 1PM para causar Perda no próximo ataque que receber antes de seu próximo turno. Se a defesa vencer o ataque, você tem defesa perfeita, e pode fazer um ataque com Ganho contra o mesmo adversário no seu próximo turno.\n• Golpe Arriscado. Gaste 1PM ao atacar. Você tem chance de crítico máxima (4, 5 ou 6 em cada dado), mas qualquer outro resultado é considerado 0. Se não rolar pelo menos um crítico, será uma falha crítica.\n• Golpe Atordoante. Gaste 2PM ao atacar. Se causar dano maior que a Resistência do alvo, ele fica atordoado: não pode realizar uma ação no próximo turno, apenas um movimento.\n• Golpe Debilitante. Gaste 2PM ao atacar. Se vencer a defesa, em vez de causar dano, reduz um atributo do oponente (à sua escolha) em –1 até o fim do combate. Se você rolar pelo menos um crítico, reduz em –2. Isso não afeta os recursos do adversário.\n• Golpe Forte. Gaste 1PM ao atacar. Se vencer a defesa do oponente, causa +2 pontos de dano. Cada crítico aumenta o dano extra em +1. Se a defesa vencer, mas não com defesa perfeita, você ainda causa 1 ponto de dano extra. O dano extra ignora limite de dano.\n• Golpe Rápido. Você pode gastar 1PM para fazer um ataque com um movimento, mas o teste tem Perda e não pode utilizar vantagens e técnicas.\n• Recuperar Fôlego. Você faz uma pausa breve para se recobrar e voltar ao combate. Use um movimento para recuperar 1D pontos de mana, até um máximo igual à sua Resistência. Você só pode fazer isso durante combates e conflitos.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "combate",
+      "luta",
+      "artes marciais",
+      "manobras"
+    ],
+    "source": "Manual 3DeT Victory (p. 145, 146)"
+  },
+  {
+    "id": "tru_006",
+    "name": "Grimório Debilitante",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisito: Magia.\nAlcance: Perto.\nCusto de uso: 3PM por uso.\nDuração: Instantânea ou duradoura.\nVocê utiliza sua magia para atrapalhar adversários, alterando as condições do ambiente para ter vantagens contra eles.\n• Luz/Trevas. Você ilumina ou escurece a área Perto de um alvo. Uma área escurecida causa Perda em ações que usam a visão. Uma área subitamente iluminada causa Perda por uma rodada. (Duradoura).\n• Pés de Chumbo. Você aumenta a gravidade no alvo, deixando-o mais lento. Alvo gasta ação para movimento, ação completa para ação, e ação completa extra para o que demore mais. Alvo resiste com teste de Resistência vs sua Habilidade. (Duradoura).\n• Tempestade Mental. Você faz um ataque contra um alvo, podendo receber bônus no teste usando Magia. Se superar a defesa, em vez de PV, diminui PM. (Instantânea).\n• Terreno Escorregadio de Neo. A área Perto do alvo fica escorregadia. Qualquer ação que depende de movimentação (ataque, defesa) tem Perda, e qualquer falha resulta em queda. Caído tem Perda em todos os testes até usar movimento para levantar. Dura 1 turno (9PM para duradoura).\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "magia",
+      "controle de campo",
+      "debuff",
+      "utilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 146)"
+  },
+  {
+    "id": "tru_007",
+    "name": "Grimório Irritante",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisito: Magia.\nAlcance: Perto.\nCusto de uso: 0 a 1PM ou mais.\nDuração: Instantânea.\nMagia para irritar e provocar. Contra alvos tentando tarefas que exigem concentração, pode causar Perda.\n• A Aporrinhação do Caos. Cria pequeno enxame de criaturas que não causam dano, mas incomodam e causam Perda em um teste (fora de combate). (Custa 1PM, +1PM/turno para manter).\n• O Apavorante Gás de Luignaccio. Alvo testa Resistência (9). Se falhar, emite flatulências sonoras por 1 rodada/PM gasto. Durante isso, tem Perda em testes sociais contra quem puder farejar.\n• A Flor Perene de Milady “A”. Magia (custo 0) faz gerânio inofensivo nascer. Se arrancado, desaparece e nova flor nasce, até magia ser cancelada.\n• A Gagueira de Raviollius. Alvo testa Resistência (9). Se falhar, gagueira incontrolável por 1 rodada/PM gasto. Perda em testes usando a voz.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "magia",
+      "social",
+      "debuff",
+      "irritação",
+      "humor"
+    ],
+    "source": "Manual 3DeT Victory (p. 147)"
+  },
+  {
+    "id": "tru_008",
+    "name": "Monasticismo Marcial",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Alcance: Pessoal.\nCusto de uso: 2PM por uso.\nDuração: Instantânea.\nVocê passou por treinamento marcial rigoroso, como os monges shaolin.\n• Corpo fechado. Ganho em um teste de Resistência para evitar um efeito negativo de vantagens ou poderes.\n• Inviolável. Mantendo-se imóvel (sem ações/movimentos), você tem Ganho e defesa perfeita em todos os testes de defesa até seu próximo turno.\n• Palma de ferro. Ganho em um teste de Poder para quebrar objetos inanimados (mas não testes de ataque).\n• Realinhar chakras. Usando uma ação, você pode repetir um teste de Resistência para eliminar algum efeito negativo (e pode gastar mais 2PM para ter Ganho no teste).\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "artes marciais",
+      "defesa",
+      "resistência",
+      "disciplina"
+    ],
+    "source": "Manual 3DeT Victory (p. 147)"
+  },
+  {
+    "id": "tru_009",
+    "name": "Ninjutsu",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisito: Manha.\nAlcance: Perto.\nCusto de uso: 2PM por uso.\nDuração: Instantânea.\nVocê é um mestre em truques de infiltração e sabotagem.\n• Bomba de fumaça. Usando uma ação, todos os personagens Perto (incluindo aliados) ficam cegos por uma rodada, recebendo Perda em testes que usam a visão.\n• Corrida ninja. Você dobra seu deslocamento neste turno. Pode ir de Perto para Muito Longe com apenas um movimento.\n• Estrepes. Usando uma ação, você espalha objetos espinhosos no chão para atrapalhar um alvo Perto. Ele tem Perda em um teste que você escolher, até seu próximo turno.\n• Jutsu de troca. Como reação, você troca de lugar com um item próximo, como um tronco de árvore. Ganho no teste de defesa, apenas uma vez por rodada.\n• Pipa ninja. Você usa um movimento para saltar até Longe, e uma ação para abrir uma grande capa de tecido e voar durante uma rodada. Pode continuar voando se usar uma ação por rodada para controlar a pipa, ou pode fechá-la com um movimento e voltar ao chão sem sofrer dano.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "ninja",
+      "furtividade",
+      "infiltração",
+      "sabotagem",
+      "manha"
+    ],
+    "source": "Manual 3DeT Victory (p. 148)"
+  },
+  {
+    "id": "tru_010",
+    "name": "Pequenos Desejos",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisito: Mística.\nAlcance: Perto.\nCusto de uso: 0 a 1PM por uso.\nDuração: Instantânea.\nMagia com efeitos e ilusões inofensivas, mais para distrair e entreter. Para truques muito simples não há custo em PM, basta um teste de Mística.\n• Criar pequenos objetos sem utilidade prática (flores, lenços, borboletas, pombos mágicos).\n• Levitar e mover um item leve, lentamente, como se tivesse Poder 0.\n• Colorir, limpar ou sujar itens leves (até 500g).\n• Aquecer, esfriar e/ou temperar (mas não produzir) uma refeição, ou outro item de até 500g.\n• Criar um pequeno ser feérico, feito de magia, que realiza uma tarefa simples (apanhar lenha, colher frutos, pescar, vigiar área, alimentar mascote, etc.). (1PM).\nPersonagens treinados em Mística e com a vantagem Magia recebem esta técnica sem gastar XP.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "magia menor",
+      "utilidade",
+      "ilusão",
+      "mística"
+    ],
+    "source": "Manual 3DeT Victory (p. 148-149)"
+  },
+  {
+    "id": "tru_011",
+    "name": "Praga",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisito: Mística.\nAlcance: Perto.\nCusto de uso: 2PM.\nDuração: Veja a seguir.\nVocê aponta o dedo e roga uma praga contra alguém! Faça um teste de Poder contra a Resistência do alvo. Se vencer, ele sofre um dos efeitos a seguir, à sua escolha:\n• -1 em testes de um atributo, até o fim da cena.\n• Perda em um único teste à sua escolha, até o fim da sessão.\n• Vantagens e técnicas custam +1PM, até o fim da cena.\n• Qualquer resultado 1 em um teste causa falha crítica, até o fim da cena.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "maldição",
+      "debuff",
+      "mística",
+      "sorte"
+    ],
+    "source": "Manual 3DeT Victory (p. 149)"
+  },
+  {
+    "id": "tru_012",
+    "name": "Raio Místico",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisitos: Magia, Mística.\nAlcance: Perto ou Longe.\nCusto de uso: 1 a 2PM por uso.\nDuração: Instantânea.\nVocê usa seus poderes mágicos para atacar. Com uma ação e 1PM, dispara um Raio Místico contra alvo Perto ou Longe. Teste de ataque normal, mas pode usar perícia Mística em vez de Luta.\nGaste 1PM extra para um destes efeitos:\n• Ácido. Na próxima rodada, alvo testa Resistência (6 + dano sofrido). Se falhar, sofre 1D–1 de dano extra.\n• Congelante. Se sofrer dano, alvo congela, sofrendo Perda em seu próximo teste.\n• Debilitante. Se vencer a defesa, em vez de causar dano, reduz atributo do alvo (à sua escolha) em –1, até o fim da cena. Não afeta recursos.\n• Distante. O alcance do raio muda para Muito Longe.\n• Elétrico. Se causar dano, o choque atordoa o alvo; o próximo ataque contra ele tem Ganho.\n• Flamejante. Faça o teste de ataque com Poder +2.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "ataque mágico",
+      "elemental",
+      "mística",
+      "magia"
+    ],
+    "source": "Manual 3DeT Victory (p. 149)"
+  },
+  {
+    "id": "tru_013",
+    "name": "Super-Movimento",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Exigência: Esporte, Luta ou Magia.\nAlcance: Pessoal.\nCusto de uso: 1PM por uso.\nDuração: Instantânea.\nAtravés de treinamento ou magia, você realiza movimentos impossíveis para uma pessoa comum.\n• Pode andar em paredes e tetos. Se descer, deve gastar mais 1PM para prender-se novamente.\n• Saltar até Muito Longe com um movimento, sem sofrer Perda nem dano de queda ao voltar ao chão.\n• Correr sobre a água ou outra superfície instável. Deve gastar um movimento e 1PM por rodada, ou afundará.\n• Ganho em um teste para se livrar de cordas, amarras e outros tipos de contenção.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "movimento",
+      "agilidade",
+      "acrobacia",
+      "sobrenatural"
+    ],
+    "source": "Manual 3DeT Victory (p. 150)"
+  },
+  {
+    "id": "tec_com_001",
+    "name": "Absorver Mana",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisito: Mística.\nAlcance: Pessoal.\nCusto de uso: 0 PM.\nDuração: Instantânea.\nNo lugar de gastar sua própria energia para ativar poderes, você pode absorvê-la do ambiente. Você pode usar um movimento para absorver 1D PM, ou uma ação para absorver 1D+H PM. Estes PM podem superar o seu limite, mas você não pode absorver mais mana até gastar o que já foi absorvido. Mana ambiental é volátil: você só pode segurá-la por uma rodada; PM absorvidos que não sejam gastos até o fim do seu próximo turno são perdidos.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "mana",
+      "recurso",
+      "mística",
+      "energia"
+    ],
+    "source": "Manual 3DeT Victory (p. 151)"
+  },
+  {
+    "id": "tec_com_002",
+    "name": "Área de Batalha",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Poder ou Habilidade 2, Mística.\nAlcance: Perto.\nCusto de uso: 2 PM para ativar, 1 PM por rodada para manter.\nDuração: Enquanto pagar o custo.\nUsando uma ação, você transporta a você e um número máximo de personagens igual a seu Poder ou Habilidade (escolha um) para um campo de batalha especial, em outra dimensão, onde possui vantagens sobre eles. Oponentes que não queiram ser transportados podem fazer um teste oposto de Resistência para anular a técnica. Escolha duas vantagens de 1 ponto, ou uma de 2 pontos. Você não precisa possuí-las; enquanto está na área de batalha, elas passam a fazer parte da sua ficha. Se tiver a vantagem, seu custo em PM é reduzido à metade.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "controle de campo",
+      "dimensão",
+      "mística",
+      "vantagem"
+    ],
+    "source": "Manual 3DeT Victory (p. 151)"
+  },
+  {
+    "id": "tec_com_003",
+    "name": "Bola de Fogo",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 2, Magia.\nAlcance: Longe.\nCusto de uso: 3PM + Magia.\nDuração: Instantânea.\nUm dos mais conhecidos feitiços de ataque, esta técnica cria uma grande esfera flamejante que explode ao atingir o alvo. Faça um ataque. Você pode aumentar a intensidade do fogo, usando Magia para ter bônus no teste. Se usar a regra de Tipos de Dano, este ataque causa dano de fogo. Devido à grande área da explosão, a Bola de Fogo também atinge todos os alvos Perto do alvo original. Além disso, todos sofrem Perda em seus testes de defesa.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "ataque mágico",
+      "fogo",
+      "área",
+      "magia"
+    ],
+    "source": "Manual 3DeT Victory (p. 152)"
+  },
+  {
+    "id": "tec_com_004",
+    "name": "Combo",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 1, Golpe.\nAlcance: Variável.\nCusto de uso: 0 PM.\nDuração: Instantânea.\nVocê pode realizar diversos golpes em sequência. Quando acerta um golpe (seu ataque supera a defesa) no oponente, pode usar um movimento para realizar um novo golpe contra ele. O oponente rola a defesa uma só vez, mas você rola um novo ataque para superá-la a cada novo golpe. Se tiver mais movimentos e seguir vencendo a defesa, você pode adicionar mais golpes ao combo, até um máximo de golpes extras igual à sua Habilidade. Nenhum golpe pode ser repetido no mesmo combo.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "combate",
+      "luta",
+      "múltiplos ataques",
+      "golpes"
+    ],
+    "source": "Manual 3DeT Victory (p. 152-153)"
+  },
+  {
+    "id": "tec_com_005",
+    "name": "Desprezo",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisito: Poder 2 e Arte ou Influência.\nAlcance: Perto.\nCusto de uso: 2PM, depois 1PM por uso.\nDuração: Duradoura.\nSeu inimigo é inferior, e você sabe deixar isso bem claro. Com uma ação e 2PM, você lança um olhar de desprezo contra o alvo, ou palavras ácidas que ironizam suas capacidades. Faça um teste de Poder contra a Resistência do alvo. Se vencer, até o fim da cena, você pode gastar 1PM como reação para causar Perda sempre que ele fizer um teste. Toda vez que fizer isso, ele pode fazer um novo teste de Resistência para interromper a técnica.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "social",
+      "mental",
+      "debuff",
+      "influência",
+      "arte"
+    ],
+    "source": "Manual 3DeT Victory (p. 153)"
+  },
+  {
+    "id": "tec_com_006",
+    "name": "Disparo de Energia",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisito: Luta ou Magia.\nAlcance: Longe.\nCusto de uso: 3PM.\nDuração: Instantânea.\nVocê concentra sua energia espiritual em uma esfera, raio ou outro formato, e dispara contra um alvo. Você pode fazer um ataque com Poder +2 e atingir um personagem Longe, sem Perda, mesmo sem a vantagem Alcance. Você pode gastar tempo e movimentos para concentrar energia — cada movimento aumenta o Poder em +2, sem custo extra em PM, até um máximo de movimentos igual ao Poder inicial. Você pode usar mais de uma rodada para acumular o bônus, mas não pode fazer outras ações e movimentos durante esse tempo. Todo disparo de energia tem um nome próprio e impressionante, que o atacante grita quando dispara. Se o jogador gritar, a técnica gasta –1PM.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "ataque energético",
+      "combate",
+      "luta",
+      "magia",
+      "distância"
+    ],
+    "source": "Manual 3DeT Victory (p. 153)"
+  },
+  {
+    "id": "tec_com_007",
+    "name": "Consertar",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisito: Máquinas.\nAlcance: Perto.\nCusto de uso: 2 a 10 PM.\nDuração: Instantânea.\nVocê pode gastar uma ação e 2PM para curar 1D Pontos de Vida em um construto. Você pode gastar mais PM para aumentar a recuperação, até um máximo de dados igual à sua Habilidade ou 5, o que for menor.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "cura",
+      "construto",
+      "máquinas",
+      "reparo"
+    ],
+    "source": "Manual 3DeT Victory (p. 153)"
+  },
+  {
+    "id": "tec_com_008",
+    "name": "Encantar",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisito: Arte, Influência ou Magia.\nAlcance: Perto.\nCusto de uso: 3PM (ou mais com Magia).\nDuração: Duradoura.\nSeja por fala mansa, música cativante, ou poder mágico puro e simples, você torna um alvo extremamente amigável a você. Faça um teste de Poder resistido por um de Resistência do alvo; se tiver sucesso, ele não poderá realizar ações agressivas contra você. Além disso, também vai entender qualquer pedido seu como uma sugestão muito razoável. Pedidos muito difíceis ou contrários à sua natureza, como atacar um aliado ou violar um Código, permitem que ele faça um novo teste de Resistência para quebrar o encanto. Usando Magia, você pode gastar mais PM para ter bônus no teste, seguindo as regras da vantagem.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "social",
+      "mental",
+      "controle",
+      "influência",
+      "magia",
+      "arte"
+    ],
+    "source": "Manual 3DeT Victory (p. 154)"
+  },
+  {
+    "id": "tec_com_009",
+    "name": "Gambiarra",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Saber, Maestria (Saber).\nAlcance: Pessoal.\nCusto de uso: 2PM.\nDuração: Instantânea.\nVocê junta um barbante, chiclete, clipes de papel e faz uma bomba. Ou um computador. Ou ambos! Você pode gastar 2PM para trocar qualquer perícia por Saber em um teste, mantendo a mesma meta. Você só pode fazer isso se tiver tempo e recursos suficientes; não é possível durante um combate, cenas de conflito ou testes resistidos.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "improviso",
+      "saber",
+      "utilidade",
+      "habilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 154)"
+  },
+  {
+    "id": "tec_com_010",
+    "name": "Golpe Púrpura",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Poder 3, Luta.\nAlcance: Perto.\nCusto de uso: 3PM.\nDuração: Instantânea.\nTornado famoso pelo General Púrpura, este golpe poderoso atinge o alvo com força tremenda. Faça um ataque. Você recebe um crítico automático. Além disso, caso consiga outro crítico, o alvo é também arremessado um passo de distância. Cada novo crítico aumenta essa distância, chegando a Fora de Alcance se rolar mais três críticos! Se houver obstáculos ou barreiras no caminho, o alvo também sofre 1D de dano extra para cada distância percorrida.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "combate",
+      "dano",
+      "poder",
+      "crítico",
+      "luta"
+    ],
+    "source": "Manual 3DeT Victory (p. 154)"
+  },
+  {
+    "id": "tec_com_011",
+    "name": "Grito da Selva",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Poder 2, Animais.\nAlcance: Pessoal.\nCusto de uso: 3PM.\nDuração: Duradoura.\nVocê usa uma ação completa, toma fôlego e emite um grito poderoso, ouvido a quilômetros de distância. No início de seu próximo turno, animais selvagens ou outras criaturas da região surgem para ajudá-lo. Os animais permanecem até o fim da cena, atuando como um Ajudante de tipo à sua escolha em cada utilização. Ainda é preciso pagar PM de acordo com a regra da vantagem. Os animais surgem mesmo nos lugares mais improváveis! Contudo, se o mestre achar isso impossível, ninguém responde ao chamado — mas você ganha um dharma como compensação, apenas uma vez na aventura!\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "invocação",
+      "animais",
+      "suporte",
+      "natureza"
+    ],
+    "source": "Manual 3DeT Victory (p. 155)"
+  },
+  {
+    "id": "tec_com_012",
+    "name": "Inspirar",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Poder 2 e Arte, Influência ou Devoto.\nAlcance: Perto.\nCusto de uso: 3 ou 6PM.\nDuração: Duradoura.\nVocê inspira um aliado com uma música ou discurso edificante. Faça um teste de Poder (9). Com sucesso, o aliado ganha +2 em todos os testes até o fim da cena. Cada acerto crítico em seu teste aumenta esse bônus em +1. Gastando 6PM, você afeta todos os aliados Perto.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "buff",
+      "suporte",
+      "social",
+      "moral",
+      "arte",
+      "influência",
+      "devoto"
+    ],
+    "source": "Manual 3DeT Victory (p. 155)"
+  },
+  {
+    "id": "tec_com_013",
+    "name": "Invocar Elemental",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 2, Magia.\nAlcance: Perto.\nCusto de uso: 3PM.\nDuração: Duradoura.\nVocê invoca uma criatura elemental, um ser de outro plano de existência, feito inteiramente de um elemento como água, ar, terra ou fogo. Enquanto está neste plano, ele age como um Ajudante, de um tipo escolhido por você ao conjurar a magia. Ainda é preciso pagar PM de cada utilização como Ajudante.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "invocação",
+      "elemental",
+      "magia",
+      "suporte"
+    ],
+    "source": "Manual 3DeT Victory (p. 156)"
+  },
+  {
+    "id": "tec_com_014",
+    "name": "Megalon",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 3, Magia.\nAlcance: Perto.\nCusto de uso: 10PM.\nDuração: Duradoura.\nVocê aumenta o tamanho de uma criatura, tornando-a mais robusta, porém desajeitada. O alvo tem Ganho em todos os testes que envolvem esforço ou vigor físico, mas também Perda em testes de agilidade, coordenação e furtividade. Um alvo recebendo esta magia contra a vontade tem direito a um teste de Resistência contra a sua Habilidade para evitá-la.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "transformação",
+      "buff",
+      "debuff",
+      "magia",
+      "tamanho"
+    ],
+    "source": "Manual 3DeT Victory (p. 156)"
+  },
+  {
+    "id": "tec_com_015",
+    "name": "Mikron",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 3, Magia.\nAlcance: Perto.\nCusto de uso: 10PM.\nDuração: Duradoura.\nVocê diminui o tamanho de uma criatura, tornando-a ágil, porém enfraquecida. O alvo tem Ganho em todos os testes que envolvem agilidade, coordenação e furtividade, mas passa a ter Perda em testes que envolvem esforço ou vigor físico. Um alvo recebendo esta magia contra a vontade tem direito a um teste de Resistência contra a sua Habilidade para evitá-la.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "transformação",
+      "buff",
+      "debuff",
+      "magia",
+      "tamanho"
+    ],
+    "source": "Manual 3DeT Victory (p. 156)"
+  },
+  {
+    "id": "tec_com_016",
+    "name": "Pisão do Titã",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisito: Poder 3.\nAlcance: Perto.\nCusto de uso: 3PM.\nDuração: Instantânea.\nFaça um ataque. Você golpeia o chão, atingindo com uma onda de choque todos os alvos (inimigos e aliados) Perto. Alvos que recebam dano acima de seu valor de Resistência são derrubados. Um personagem caído tem Perda em todos os testes até usar um movimento para se levantar.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "combate",
+      "área",
+      "controle",
+      "poder",
+      "luta"
+    ],
+    "source": "Manual 3DeT Victory (p. 157)"
+  },
+  {
+    "id": "tec_com_017",
+    "name": "Poeira Glacial",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 2, Magia.\nAlcance: Longe.\nCusto de uso: 3PM + bônus de Magia.\nDuração: Instantânea.\nVocê esfria o ar ao redor de um alvo, congelando-o. Faça um ataque. Você pode aumentar a intensidade do frio, usando Magia para receber bônus no teste. Se usar a regra de Tipos de Dano, este ataque causa dano de frio. Se o alvo perde um valor de PV acima de sua Resistência, ele congela, recebendo Perda em todos os testes por uma rodada.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "ataque mágico",
+      "frio",
+      "controle",
+      "magia"
+    ],
+    "source": "Manual 3DeT Victory (p. 157)"
+  },
+  {
+    "id": "tec_com_018",
+    "name": "Queimar o Cosmo",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Resistência 2, Luta.\nAlcance: Pessoal.\nCusto de uso: 5 a 25PM.\nDuração: Duradoura.\nVocê usa uma ação para queimar energia cósmica, fazendo-a fluir pelo seu corpo e aumentando suas capacidades. Cada 5PM aumentam +1 seu Poder, Habilidade e Resistência, até o fim da cena (recursos não são afetados). O bônus máximo é igual à sua Resistência original, ou +5, o que for menor.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "buff",
+      "poder",
+      "energia cósmica",
+      "luta"
+    ],
+    "source": "Manual 3DeT Victory (p. 157)"
+  },
+  {
+    "id": "tec_com_019",
+    "name": "Raio da Fúria",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 3, Magia.\nAlcance: Longe.\nCusto de uso: 10PM.\nDuração: Duradoura.\nVocê tem o poder de enfurecer os seres e transformá-los em monstros incontroláveis. O alvo recebe Poder +2 em testes de ataque, e tem críticos com 5 ou 6. No entanto, também tem Perda em todos os outros testes (incluindo defesa), e gasta o dobro de PM para vantagens e técnicas. Quando o efeito termina, o alvo fica exausto; seus PM caem a zero e tem Perda em todos os testes até descansar. Um alvo recebendo esta magia contra a vontade tem direito a um teste de Resistência contra seu Poder para evitá-la.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "controle mental",
+      "buff",
+      "debuff",
+      "magia",
+      "fúria"
+    ],
+    "source": "Manual 3DeT Victory (p. 157-158)"
+  },
+  {
+    "id": "tec_com_020",
+    "name": "Rajada de Golpes",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 2, Luta.\nAlcance: Perto.\nCusto de uso: 3PM.\nDuração: Instantânea.\nVocê atinge o alvo com uma sequência veloz de golpes, atacando com Poder+2 e chance de crítico 5 ou 6. Você pode gastar movimentos no mesmo turno para desferir ainda mais golpes; cada movimento aumenta o Poder em +2, sem custo extra em PM, até um máximo de movimentos igual à sua Habilidade.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "combate",
+      "múltiplos ataques",
+      "luta",
+      "velocidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 158)"
+  },
+  {
+    "id": "tec_com_021",
+    "name": "Relâmpago",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 2, Magia.\nAlcance: Longe.\nCusto de uso: 3PM + bônus de Magia.\nDuração: Instantânea.\nVocê dispara um raio elétrico contra o alvo. Faça um ataque. Você pode aumentar a intensidade da eletricidade, usando Magia para ter bônus no teste. Se usar a regra de Tipos de Dano, este ataque causa dano de choque. Se o alvo perde um valor de PV acima da sua Resistência, fica atordoado, dando Ganho ao oponente em todos os testes resistidos (inclusive ataque e defesa) por uma rodada.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "ataque mágico",
+      "elétrico",
+      "controle",
+      "magia"
+    ],
+    "source": "Manual 3DeT Victory (p. 158)"
+  },
+  {
+    "id": "tec_com_022",
+    "name": "Sabedoria dos Ermos",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Arena, Sobrevivência.\nAlcance: Pessoal.\nCusto de uso: 1 ou 3PM.\nDuração: Instantânea.\nSeu conhecimento de sobrevivência permite obter itens necessários em locais com os quais você está familiarizado. Quando está na sua Arena, você pode gastar 1PM para usar um item comum, ou 3PM para um item incomum, além do que tiver no Inventário. Você não pode usar este item para recuperar os PM que acabou de gastar na técnica.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "utilidade",
+      "sobrevivência",
+      "arena",
+      "recurso"
+    ],
+    "source": "Manual 3DeT Victory (p. 158)"
+  },
+  {
+    "id": "tec_com_023",
+    "name": "Role os Dados",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 3, Arte.\nAlcance: Perto.\nCusto de uso: 5 PM.\nDuração: Instantânea.\nO bardo do grupo também pode cantar o maior sucesso da banda Holy Avenger! Role um teste de Arte (9). Com sucesso, você e todos os aliados Perto recuperam 1PA. Para cada crítico na rolagem, recuperam 1 PA extra. Se você (o jogador!) cantar o refrão da música, a técnica custa –1PM para ser usada. Se o grupo inteiro cantar, reduz em –2PM!\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "suporte",
+      "buff",
+      "arte",
+      "música",
+      "recurso"
+    ],
+    "source": "Manual 3DeT Victory (p. 159)"
+  },
+  {
+    "id": "tec_com_024",
+    "name": "Setas Infalíveis de Petrovna",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 1, Magia.\nAlcance: Longe.\nCusto de uso: 1PM por seta.\nDuração: Instantânea.\nVocê usa uma ação para criar uma ou mais setas de energia mágica, até um máximo de setas igual à sua Habilidade, que ficam flutuando ao seu redor — permanecendo até o fim da cena, ou até serem disparadas. Com um movimento, você pode disparar todas as setas para um ou mais alvos à sua escolha, dividindo-as como quiser. As setas atingem automaticamente, sem teste de ataque ou defesa — cada uma causando 1 ponto de dano e então sumindo. Alvos com defesa perfeita automática não sofrem dano. Você pode manter apenas um conjunto de setas preparado por vez.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "ataque mágico",
+      "múltiplos alvos",
+      "magia",
+      "automático"
+    ],
+    "source": "Manual 3DeT Victory (p. 159)"
+  },
+  {
+    "id": "tec_len_001",
+    "name": "Abrir Chakra",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Atributo 4, Luta.\nAlcance: Pessoal.\nCusto de uso: 15PM.\nDuração: Duradoura.\nVocê desbloqueia um chakra, um vórtice de energia espiritual em seu corpo. Cada atributo tem um chakra correspondente, que são técnicas separadas. Abrir o chakra usa um movimento. Até o fim da cena, você tem Ganho e um crítico automático em testes do atributo correspondente (incluindo testes de ataque e defesa). Cada atributo também tem um efeito extra quando seu chakra é aberto:\n• Poder: O alvo tem Perda em testes de defesa.\n• Habilidade: Seus PM não podem ser reduzidos (por Ataque Especial Espiritual, etc.) nem seus Pontos de Ação (por dano em atributos, etc.). Seus Pontos de Atributo podem ser trocados por uma ação extra, mas você só pode realizar um ataque extra por rodada, independente de quantas ações realizar.\n• Resistência: Você recebe 20PV extras e todas as suas defesas são perfeitas.\nQuando o efeito termina você cai exausto, com o recurso daquele atributo reduzido a zero. Caso seja Resistência, você cai derrotado e inconsciente (pois não tem mais PV). Para os demais, tem Perda em todos os testes devido ao cansaço, até se recuperar.\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "buff",
+      "poder interior",
+      "luta",
+      "chakra",
+      "lendária"
+    ],
+    "source": "Manual 3DeT Victory (p. 159-160)"
+  },
+  {
+    "id": "tec_len_002",
+    "name": "Bomba Vital",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Resistência 4, Luta.\nAlcance: Longe.\nCusto de uso: Veja a seguir.\nDuração: Instantânea.\nVocê absorve energia da própria natureza, acumulando magia ambiente bruta e moldando-a como uma esfera brilhante, arremessada contra um oponente. Use uma ação completa e faça um teste de Resistência (9). Para cada ponto que seu teste superar a meta, você acumula 1PM na bomba, até uma quantidade máxima por rodada igual ao atributo. Você pode demorar mais para acumular mais energia, até um limite de rodadas igual à sua Resistência. Quando chegar a esse limite, precisa arremessar a bomba ou dissipá-la. Enquanto está acumulando energia, aliados Perto podem doar PM a você. Cada ação de um aliado doa 1D PM. Diferente de você, seus aliados gastam os próprios PM. Quando estiver pronto, você pode usar outra ação completa para arremessar a bomba. Este ataque atinge todos os alvos Perto do alvo principal, com um bônus de Poder igual aos PM acumulados. Para 20PM ou mais, o ataque tem Ganho. Mesmo não usando sua própria energia, a exaustão faz seus PM caírem a zero. Você também tem Perda em todos os testes até descansar.\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "ataque energético",
+      "carregamento",
+      "área",
+      "luta",
+      "lendária",
+      "natureza"
+    ],
+    "source": "Manual 3DeT Victory (p. 160)"
+  },
+  {
+    "id": "tec_len_003",
+    "name": "Dim Mak",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisito: Habilidade 5, Luta.\nAlcance: Perto.\nCusto de uso: 5PM.\nDuração: Instantânea.\nVocê sabe atingir pontos de pressão no corpo do oponente, para paralisar membros ou órgãos vitais, e até matar com um simples toque! Quando usa o Dim Mak, você faz um ataque com chance de crítico máxima (4, 5 ou 6) que não pode ser combinado com nenhuma outra vantagem ou técnica. Superando a defesa, em vez de causar dano, o alvo perde 2 pontos em um atributo à sua escolha. Cada crítico faz perder 1 ponto adicional. Caso o atributo seja reduzido a 0, é considerado nulo. O alvo perde os recursos desse atributo, e não pode fazer testes que o utilizem. Caso seja Resistência, o alvo entra em coma e deve fazer imediatamente um teste de morte. Se sobreviver, a recuperação será demorada: 1 ponto de atributo para cada 1D dias de repouso absoluto.\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "pontos de pressão",
+      "letal",
+      "luta",
+      "controle",
+      "lendária",
+      "habilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 160-161)"
+  },
+  {
+    "id": "tec_len_004",
+    "name": "Mata-Kaiju",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Habilidade 5, Magia.\nAlcance: Muito Longe.\nCusto de uso: 10PM + bônus de Magia.\nDuração: Instantânea.\nUma das mais poderosas magias de destruição conhecidas, dispara uma avassaladora descarga de energia que destrói uma grande área ao redor do ponto de impacto. Mata-Kaiju requer três rodadas para ser conjurada. A primeira, usando Magia para aumentar o seu ataque ao máximo, gastando PM para ter bônus no teste; a segunda, concentrando e intensificando a energia reunida; e a terceira, para fazer o disparo. O teste de ataque tem dois críticos automáticos (duas escalas acima!) e atinge todos os alvos Longe do alvo principal (é melhor estar Muito Longe quando utilizá-la!). Devido à imensa área do ataque, todos os testes de defesa recebem duas Perdas.\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "ataque mágico",
+      "destruição em área",
+      "kaiju",
+      "magia",
+      "lendária",
+      "poderoso"
+    ],
+    "source": "Manual 3DeT Victory (p. 162)"
+  },
+  {
+    "id": "tec_len_005",
+    "name": "Megalon Superior",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Habilidade 6, Megalon.\nAlcance: Perto.\nCusto de uso: 25 ou 50PM.\nDuração: Duradoura.\nVersão aprimorada da magia Megalon, capaz de transformar o alvo em algo realmente titânico! O alvo é elevado uma escala acima (25PM) ou duas (50PM).\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "transformação",
+      "gigante",
+      "buff",
+      "magia",
+      "lendária",
+      "megalon"
+    ],
+    "source": "Manual 3DeT Victory (p. 162)"
+  },
+  {
+    "id": "tec_len_006",
+    "name": "Metamagia",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Habilidade 5, Magia, Maestria (Mística).\nAlcance: Veja abaixo.\nCusto de uso: Veja abaixo.\nDuração: Instantânea.\nVocê domina as artes místicas com tamanha precisão que pode modificar todos os seus parâmetros! Este é um conjunto de truques lendários, que altera o efeito da vantagem Magia e qualquer técnica que a tenha entre os requisitos. Sempre que usar Magia ou suas técnicas, você pode gastar mais PM para adicionar os seguintes efeitos (máximo de efeitos igual à Habilidade):\n• Acelerar magia: +5PM para diminuir o tipo de ação da magia em um passo (de ação para movimento, por exemplo).\n• Alvos extras: +1PM por alvo extra, até um máximo de alvos iguais à sua Habilidade. O efeito da magia deve ser dividido entre eles.\n• Duplicar magia: Cria um efeito extra da magia na mesma ação, pagando duas vezes o custo em PM. (Conta como dois efeitos para o limite).\n• Estender magia: +3PM para aumentar o alcance de magia um passo (Perto para Longe, etc.). Mais PM para estender mais. (Cada distância além de Perto é um efeito extra).\n• Expandir magia: +3PM para afetar todos Perto do alvo, +9PM para todos Longe, e +15PM para todos Muito Longe. Cada passo de distância impõe Perda em testes de defesa para evitar. (Cada distância são dois efeitos).\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "magia",
+      "mística",
+      "metafeitiço",
+      "controle arcano",
+      "lendária",
+      "habilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 163)"
+  },
+  {
+    "id": "tec_len_007",
+    "name": "Morte Estelar",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Habilidade 9, Magia.\nAlcance: Muito Longe.\nCusto de uso: 100PM.\nDuração: Instantânea.\nEsta talvez seja a magia mais destrutiva de todo o universo conhecido! Usada pela própria semideusa Vitória para derrotar o deus-monstro K’Athanoa, consome toda a energia de uma estrela, que desaparece do céu. Essa energia então é convertida em um único disparo, destruindo imediatamente o alvo — não importando ser uma criatura, uma cidade, um planeta ou mesmo um deus! Obviamente, cada vez que essa técnica é usada, um sol morre em algum lugar do universo — existindo uma chance de extinção para mundos ou civilizações inteiras. Caso isso ocorra (resultado 1 em 1D), entidades cósmicas mantenedoras do equilíbrio universal procuram o conjurador para aplicar penalidades adequadas. Pode ir fazendo outro personagem!\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "destruição",
+      "ataque supremo",
+      "magia",
+      "lendária",
+      "cósmico",
+      "habilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 163-164)"
+  },
+  {
+    "id": "tec_len_008",
+    "name": "Percepção Cósmica",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Habilidade 5, Maestria (Percepção).\nAlcance: Pessoal.\nCusto de uso: 5 PM para ativar, 1 PM por rodada para manter.\nDuração: Enquanto pagar o custo.\nVocê é uno com o mundo! Com uma ação e 5PM, pode entrar em um estado de conexão profunda com o universo, e enxergar as próprias linhas de energia que ligam os seres vivos e o mundo ao seu redor. Você deve gastar 1PM no começo do seu turno para manter esse estado de conexão cósmica. Enquanto está com a técnica ativa, você tem Ganho e um crítico automático em todos os testes de Percepção. Além disso, pode gastar 1PM para adquirir qualquer Sentido por uma rodada, ou trocar a perícia de qualquer teste (inclusive ataque e defesa) por Percepção.\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "percepção",
+      "consciência cósmica",
+      "sentidos",
+      "lendária",
+      "habilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 164)"
+  },
+  {
+    "id": "tec_len_009",
+    "name": "Rapsódia das Arcas",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Poder 4, Maestria (Arte).\nAlcance: Perto.\nCusto de uso: 3PM por rodada.\nDuração: 4 rodadas.\nVocê executa uma longa canção épica, exaltando os feitos de seus companheiros, tornando-os a melhor versão de si mesmos. A cada rodada você faz um teste de Poder com meta crescente. Para cada sucesso, seus aliados Perto recebem um novo benefício:\n• 1ª Rodada (6): Todas as vantagens e técnicas de seus aliados custam –2PM.\n• 2ª Rodada (9): Seus aliados recuperam 5PV e 5PM no começo de seu turno.\n• 3ª Rodada (12): Seus aliados conseguem crítico com 5 ou 6.\n• 4ª Rodada (15): Seus aliados têm defesa perfeita e Ganho em um teste na rodada.\nOs benefícios são cumulativos. Após a quarta rodada, a música termina no início de seu próximo turno. Quando isso acontece, ou se você falhar em algum teste, todos os benefícios são perdidos. Mas se o público pedir bis, você pode começar de novo!\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "buff em área",
+      "música",
+      "arte",
+      "suporte",
+      "lendária",
+      "poder"
+    ],
+    "source": "Manual 3DeT Victory (p. 164)"
+  },
+  {
+    "id": "tec_len_010",
+    "name": "Sabedoria Selvagem",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Habilidade 4, Sabedoria dos Ermos (Técnica Comum).\nAlcance: Pessoal.\nCusto de uso: 5 ou 10PM.\nDuração: Instantânea.\nVocê é ainda mais eficiente em encontrar itens de utilidade em locais com os quais é familiarizado. Quando está na sua Arena, você pode gastar 5PM para usar um item raro, ou 10PM para um item lendário. Não, você não pode usar esse item para recuperar os PM que gastou na própria técnica!\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "utilidade",
+      "sobrevivência",
+      "arena",
+      "recurso",
+      "lendária",
+      "habilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 164-165)"
+  },
+  {
+    "id": "tec_len_011",
+    "name": "Trapacear o Destino",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisitos: Habilidade 5, Maestria (Manha).\nCusto de uso: 5 a 15 PM.\nAlcance: Pessoal.\nDuração: Instantânea.\nVocê é tão esguio e trapaceiro que nem o próprio destino consegue pegá-lo! Sempre que rolar 1 em um dado, você pode gastar 5PM para virá-lo do outro lado e trocá-lo por um 6 (e um acerto crítico). Você pode até transformar uma falha crítica em um sucesso devastador! Diferente de outras técnicas, este custo nunca pode ser reduzido por vantagens, poderes ou outros meios.\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "sorte",
+      "manipulação de dados",
+      "manha",
+      "lendária",
+      "habilidade",
+      "trapaça"
+    ],
+    "source": "Manual 3DeT Victory (p. 165)"
+  },
+  {
+    "id": "tec_len_012",
+    "name": "Visão do Futuro",
+    "type": "Técnica",
+    "subtype": "Lendária",
+    "description": "Requisito: Habilidade 5.\nAlcance: Pessoal.\nCusto de uso: 3PM.\nDuração: Instantânea.\nO futuro é show! Você consegue enxergar alguns instantes no futuro e, talvez, fazer algo para mudá-lo. Sempre que alguém faz um teste contra você, seja um ataque, defesa ou teste resistido, você pode gastar 3PM como reação para fazê-lo rolar esse teste duas vezes, e ficar com o resultado que você escolher.\n(Aprender esta técnica lendária custa 20XP).",
+    "cost": 20,
+    "costType": "XP",
+    "tags": [
+      "precognição",
+      "defesa",
+      "controle de dados",
+      "lendária",
+      "habilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 165)"
+  },
+  {
+    "id": "art_001",
+    "name": "Blazdall",
+    "type": "Artefato",
+    "description": "Uma espada mágica única e poderosa, relíquia dos pais de Ágata, com o nome “Blazdall” brilhando na lâmina. Sua criação envolve a Vantagem Artefato (1 ponto de personagem).\n\nNo exemplo de criação de Ágata, a qualidade \"Encantado +1\" foi escolhida para Blazdall. Esta qualidade garante um bônus de P+1 (Poder +1) em todos os testes para atacar com a espada.\n\nO custo da Vantagem Artefato (1 ponto) concede 10XP para serem gastos em Qualidades de Artefato. A qualidade \"Encantado +1\" tem um custo de 10XP (para um bônus de +1), que é coberto por este ponto da Vantagem.",
+    "qualities": [
+      "Encantado +1"
+    ],
+    "cost": 10,
+    "tags": [
+      "espada",
+      "mágica",
+      "encantado",
+      "arma"
+    ],
+    "source": "Manual 3DeT Victory (p. 34, p. 48, p. 139)"
+  },
+  {
+    "id": "con_001",
+    "name": "Cura menor",
+    "type": "Consumível",
+    "description": "Recupera 5PV. Item Comum. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "cura",
+      "pv",
+      "comum",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_002",
+    "name": "Magia menor",
+    "type": "Consumível",
+    "description": "Concede o benefício da vantagem Magia, uma única vez, sem gastar PM. O custo máximo do efeito usado é 1PM. Item Comum. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "magia",
+      "buff",
+      "comum",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_003",
+    "name": "Ataque simples",
+    "type": "Consumível",
+    "description": "Concede o benefício de um Ataque Especial de 1 ponto uma única vez, sem gastar PM. Item Incomum. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "ataque",
+      "buff",
+      "incomum",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_004",
+    "name": "Cura maior",
+    "type": "Consumível",
+    "description": "Recupera 10PV. Item Incomum. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "cura",
+      "pv",
+      "incomum",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_005",
+    "name": "Energia menor",
+    "type": "Consumível",
+    "description": "Recupera 5PM. Item Incomum. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "energia",
+      "pm",
+      "incomum",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_006",
+    "name": "Magia média",
+    "type": "Consumível",
+    "description": "Concede o benefício da vantagem Magia, uma única vez, sem gastar PM. O custo máximo do efeito usado é 3PM (similar à Magia menor, mas mais potente). Item Incomum. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "magia",
+      "buff",
+      "incomum",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_007",
+    "name": "Remédio menor",
+    "type": "Consumível",
+    "description": "Permite um novo teste de Resistência para curar efeitos negativos, como a vantagem Cura. Item Incomum. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "cura",
+      "suporte",
+      "incomum",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_008",
+    "name": "Adrenalina menor",
+    "type": "Consumível",
+    "description": "Recupera 1PA. Item Raro. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "recurso",
+      "pa",
+      "raro",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_009",
+    "name": "Ataque maior",
+    "type": "Consumível",
+    "description": "Concede o benefício de um Ataque Especial de 2 pontos uma única vez, sem gastar PM. Item Raro. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "ataque",
+      "buff",
+      "raro",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_010",
+    "name": "Cura total",
+    "type": "Consumível",
+    "description": "Recupera todos os PV. Item Raro. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "cura",
+      "pv",
+      "raro",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_011",
+    "name": "Energia maior",
+    "type": "Consumível",
+    "description": "Recupera 10PM. Item Raro. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "energia",
+      "pm",
+      "raro",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_012",
+    "name": "Magia maior",
+    "type": "Consumível",
+    "description": "Concede o benefício da vantagem Magia, uma única vez, sem gastar PM. O custo máximo do efeito usado é 6PM (similar à Magia menor, mas mais potente). Item Raro. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "magia",
+      "buff",
+      "raro",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_013",
+    "name": "Remédio maior",
+    "type": "Consumível",
+    "description": "Permite um novo teste de Resistência para curar efeitos negativos, como a vantagem Cura, com Ganho. Item Raro. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "cura",
+      "suporte",
+      "raro",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_014",
+    "name": "Adrenalina maior",
+    "type": "Consumível",
+    "description": "Recupera todos os PA. Item Lendário. Consumíveis são tipicamente obtidos através da Vantagem Inventário ou como recompensa especial.",
+    "cost": 0,
+    "tags": [
+      "recurso",
+      "pa",
+      "lendário",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_015",
+    "name": "Ataque supremo",
+    "type": "Consumível",
+    "description": "Concede o benefício de um Ataque Especial de 3 pontos uma única vez, sem gastar PM. Item Lendário. Consumíveis são tipicamente obtidos através da Vantagem Inventário ou como recompensa especial.",
+    "cost": 0,
+    "tags": [
+      "ataque",
+      "buff",
+      "lendário",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_016",
+    "name": "Recuperação",
+    "type": "Consumível",
+    "description": "Recupera todos os PV e PM. Item Lendário. Consumíveis são tipicamente obtidos através da Vantagem Inventário ou como recompensa especial.",
+    "cost": 0,
+    "tags": [
+      "cura",
+      "energia",
+      "pv",
+      "pm",
+      "lendário",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_017",
+    "name": "Magia suprema",
+    "type": "Consumível",
+    "description": "Concede o benefício da vantagem Magia, uma única vez, sem gastar PM. O custo máximo do efeito usado é 10PM (similar à Magia menor, mas muito mais potente). Item Lendário. Consumíveis são tipicamente obtidos através da Vantagem Inventário ou como recompensa especial.",
+    "cost": 0,
+    "tags": [
+      "magia",
+      "buff",
+      "lendário",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_018",
+    "name": "Remédio perfeito",
+    "type": "Consumível",
+    "description": "Cura automaticamente todos os efeitos negativos sobre o personagem. Item Lendário. Consumíveis são tipicamente obtidos através da Vantagem Inventário ou como recompensa especial.",
+    "cost": 0,
+    "tags": [
+      "cura",
+      "suporte",
+      "lendário",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  }
+]

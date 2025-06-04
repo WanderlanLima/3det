@@ -1,0 +1,6 @@
+{
+  "name": "3DeT Victory RPG Companion",
+  "description": "Aplicativo web para gerenciamento de fichas de personagem, campanhas, compêndio de regras e simulação de combate para o sistema 3D&T e outros RPGs.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

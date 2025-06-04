@@ -1,0 +1,399 @@
+[
+  {
+    "id": "tec_com_001",
+    "name": "Absorver Mana",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisito: Mística.\nAlcance: Pessoal.\nCusto de uso: 0 PM.\nDuração: Instantânea.\nNo lugar de gastar sua própria energia para ativar poderes, você pode absorvê-la do ambiente. Você pode usar um movimento para absorver 1D PM, ou uma ação para absorver 1D+H PM. Estes PM podem superar o seu limite, mas você não pode absorver mais mana até gastar o que já foi absorvido. Mana ambiental é volátil: você só pode segurá-la por uma rodada; PM absorvidos que não sejam gastos até o fim do seu próximo turno são perdidos.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "mana",
+      "recurso",
+      "mística",
+      "energia"
+    ],
+    "source": "Manual 3DeT Victory (p. 151)"
+  },
+  {
+    "id": "tec_com_002",
+    "name": "Área de Batalha",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Poder ou Habilidade 2, Mística.\nAlcance: Perto.\nCusto de uso: 2 PM para ativar, 1 PM por rodada para manter.\nDuração: Enquanto pagar o custo.\nUsando uma ação, você transporta a você e um número máximo de personagens igual a seu Poder ou Habilidade (escolha um) para um campo de batalha especial, em outra dimensão, onde possui vantagens sobre eles. Oponentes que não queiram ser transportados podem fazer um teste oposto de Resistência para anular a técnica. Escolha duas vantagens de 1 ponto, ou uma de 2 pontos. Você não precisa possuí-las; enquanto está na área de batalha, elas passam a fazer parte da sua ficha. Se tiver a vantagem, seu custo em PM é reduzido à metade.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "controle de campo",
+      "dimensão",
+      "mística",
+      "vantagem"
+    ],
+    "source": "Manual 3DeT Victory (p. 151)"
+  },
+  {
+    "id": "tec_com_003",
+    "name": "Bola de Fogo",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 2, Magia.\nAlcance: Longe.\nCusto de uso: 3PM + Magia.\nDuração: Instantânea.\nUm dos mais conhecidos feitiços de ataque, esta técnica cria uma grande esfera flamejante que explode ao atingir o alvo. Faça um ataque. Você pode aumentar a intensidade do fogo, usando Magia para ter bônus no teste. Se usar a regra de Tipos de Dano, este ataque causa dano de fogo. Devido à grande área da explosão, a Bola de Fogo também atinge todos os alvos Perto do alvo original. Além disso, todos sofrem Perda em seus testes de defesa.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "ataque mágico",
+      "fogo",
+      "área",
+      "magia"
+    ],
+    "source": "Manual 3DeT Victory (p. 152)"
+  },
+  {
+    "id": "tec_com_004",
+    "name": "Combo",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 1, Golpe.\nAlcance: Variável.\nCusto de uso: 0 PM.\nDuração: Instantânea.\nVocê pode realizar diversos golpes em sequência. Quando acerta um golpe (seu ataque supera a defesa) no oponente, pode usar um movimento para realizar um novo golpe contra ele. O oponente rola a defesa uma só vez, mas você rola um novo ataque para superá-la a cada novo golpe. Se tiver mais movimentos e seguir vencendo a defesa, você pode adicionar mais golpes ao combo, até um máximo de golpes extras igual à sua Habilidade. Nenhum golpe pode ser repetido no mesmo combo.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "combate",
+      "luta",
+      "múltiplos ataques",
+      "golpes"
+    ],
+    "source": "Manual 3DeT Victory (p. 152-153)"
+  },
+  {
+    "id": "tec_com_005",
+    "name": "Desprezo",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisito: Poder 2 e Arte ou Influência.\nAlcance: Perto.\nCusto de uso: 2PM, depois 1PM por uso.\nDuração: Duradoura.\nSeu inimigo é inferior, e você sabe deixar isso bem claro. Com uma ação e 2PM, você lança um olhar de desprezo contra o alvo, ou palavras ácidas que ironizam suas capacidades. Faça um teste de Poder contra a Resistência do alvo. Se vencer, até o fim da cena, você pode gastar 1PM como reação para causar Perda sempre que ele fizer um teste. Toda vez que fizer isso, ele pode fazer um novo teste de Resistência para interromper a técnica.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "social",
+      "mental",
+      "debuff",
+      "influência",
+      "arte"
+    ],
+    "source": "Manual 3DeT Victory (p. 153)"
+  },
+  {
+    "id": "tec_com_006",
+    "name": "Disparo de Energia",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisito: Luta ou Magia.\nAlcance: Longe.\nCusto de uso: 3PM.\nDuração: Instantânea.\nVocê concentra sua energia espiritual em uma esfera, raio ou outro formato, e dispara contra um alvo. Você pode fazer um ataque com Poder +2 e atingir um personagem Longe, sem Perda, mesmo sem a vantagem Alcance. Você pode gastar tempo e movimentos para concentrar energia — cada movimento aumenta o Poder em +2, sem custo extra em PM, até um máximo de movimentos igual ao Poder inicial. Você pode usar mais de uma rodada para acumular o bônus, mas não pode fazer outras ações e movimentos durante esse tempo. Todo disparo de energia tem um nome próprio e impressionante, que o atacante grita quando dispara. Se o jogador gritar, a técnica gasta –1PM.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "ataque energético",
+      "combate",
+      "luta",
+      "magia",
+      "distância"
+    ],
+    "source": "Manual 3DeT Victory (p. 153)"
+  },
+  {
+    "id": "tec_com_007",
+    "name": "Consertar",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisito: Máquinas.\nAlcance: Perto.\nCusto de uso: 2 a 10 PM.\nDuração: Instantânea.\nVocê pode gastar uma ação e 2PM para curar 1D Pontos de Vida em um construto. Você pode gastar mais PM para aumentar a recuperação, até um máximo de dados igual à sua Habilidade ou 5, o que for menor.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "cura",
+      "construto",
+      "máquinas",
+      "reparo"
+    ],
+    "source": "Manual 3DeT Victory (p. 153)"
+  },
+  {
+    "id": "tec_com_008",
+    "name": "Encantar",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisito: Arte, Influência ou Magia.\nAlcance: Perto.\nCusto de uso: 3PM (ou mais com Magia).\nDuração: Duradoura.\nSeja por fala mansa, música cativante, ou poder mágico puro e simples, você torna um alvo extremamente amigável a você. Faça um teste de Poder resistido por um de Resistência do alvo; se tiver sucesso, ele não poderá realizar ações agressivas contra você. Além disso, também vai entender qualquer pedido seu como uma sugestão muito razoável. Pedidos muito difíceis ou contrários à sua natureza, como atacar um aliado ou violar um Código, permitem que ele faça um novo teste de Resistência para quebrar o encanto. Usando Magia, você pode gastar mais PM para ter bônus no teste, seguindo as regras da vantagem.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "social",
+      "mental",
+      "controle",
+      "influência",
+      "magia",
+      "arte"
+    ],
+    "source": "Manual 3DeT Victory (p. 154)"
+  },
+  {
+    "id": "tec_com_009",
+    "name": "Gambiarra",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Saber, Maestria (Saber).\nAlcance: Pessoal.\nCusto de uso: 2PM.\nDuração: Instantânea.\nVocê junta um barbante, chiclete, clipes de papel e faz uma bomba. Ou um computador. Ou ambos! Você pode gastar 2PM para trocar qualquer perícia por Saber em um teste, mantendo a mesma meta. Você só pode fazer isso se tiver tempo e recursos suficientes; não é possível durante um combate, cenas de conflito ou testes resistidos.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "improviso",
+      "saber",
+      "utilidade",
+      "habilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 154)"
+  },
+  {
+    "id": "tec_com_010",
+    "name": "Golpe Púrpura",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Poder 3, Luta.\nAlcance: Perto.\nCusto de uso: 3PM.\nDuração: Instantânea.\nTornado famoso pelo General Púrpura, este golpe poderoso atinge o alvo com força tremenda. Faça um ataque. Você recebe um crítico automático. Além disso, caso consiga outro crítico, o alvo é também arremessado um passo de distância. Cada novo crítico aumenta essa distância, chegando a Fora de Alcance se rolar mais três críticos! Se houver obstáculos ou barreiras no caminho, o alvo também sofre 1D de dano extra para cada distância percorrida.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "combate",
+      "dano",
+      "poder",
+      "crítico",
+      "luta"
+    ],
+    "source": "Manual 3DeT Victory (p. 154)"
+  },
+  {
+    "id": "tec_com_011",
+    "name": "Grito da Selva",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Poder 2, Animais.\nAlcance: Pessoal.\nCusto de uso: 3PM.\nDuração: Duradoura.\nVocê usa uma ação completa, toma fôlego e emite um grito poderoso, ouvido a quilômetros de distância. No início de seu próximo turno, animais selvagens ou outras criaturas da região surgem para ajudá-lo. Os animais permanecem até o fim da cena, atuando como um Ajudante de tipo à sua escolha em cada utilização. Ainda é preciso pagar PM de acordo com a regra da vantagem. Os animais surgem mesmo nos lugares mais improváveis! Contudo, se o mestre achar isso impossível, ninguém responde ao chamado — mas você ganha um dharma como compensação, apenas uma vez na aventura!\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "invocação",
+      "animais",
+      "suporte",
+      "natureza"
+    ],
+    "source": "Manual 3DeT Victory (p. 155)"
+  },
+  {
+    "id": "tec_com_012",
+    "name": "Inspirar",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Poder 2 e Arte, Influência ou Devoto.\nAlcance: Perto.\nCusto de uso: 3 ou 6PM.\nDuração: Duradoura.\nVocê inspira um aliado com uma música ou discurso edificante. Faça um teste de Poder (9). Com sucesso, o aliado ganha +2 em todos os testes até o fim da cena. Cada acerto crítico em seu teste aumenta esse bônus em +1. Gastando 6PM, você afeta todos os aliados Perto.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "buff",
+      "suporte",
+      "social",
+      "moral",
+      "arte",
+      "influência",
+      "devoto"
+    ],
+    "source": "Manual 3DeT Victory (p. 155)"
+  },
+  {
+    "id": "tec_com_013",
+    "name": "Invocar Elemental",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 2, Magia.\nAlcance: Perto.\nCusto de uso: 3PM.\nDuração: Duradoura.\nVocê invoca uma criatura elemental, um ser de outro plano de existência, feito inteiramente de um elemento como água, ar, terra ou fogo. Enquanto está neste plano, ele age como um Ajudante, de um tipo escolhido por você ao conjurar a magia. Ainda é preciso pagar PM de cada utilização como Ajudante.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "invocação",
+      "elemental",
+      "magia",
+      "suporte"
+    ],
+    "source": "Manual 3DeT Victory (p. 156)"
+  },
+  {
+    "id": "tec_com_014",
+    "name": "Megalon",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 3, Magia.\nAlcance: Perto.\nCusto de uso: 10PM.\nDuração: Duradoura.\nVocê aumenta o tamanho de uma criatura, tornando-a mais robusta, porém desajeitada. O alvo tem Ganho em todos os testes que envolvem esforço ou vigor físico, mas também Perda em testes de agilidade, coordenação e furtividade. Um alvo recebendo esta magia contra a vontade tem direito a um teste de Resistência contra a sua Habilidade para evitá-la.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "transformação",
+      "buff",
+      "debuff",
+      "magia",
+      "tamanho"
+    ],
+    "source": "Manual 3DeT Victory (p. 156)"
+  },
+  {
+    "id": "tec_com_015",
+    "name": "Mikron",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 3, Magia.\nAlcance: Perto.\nCusto de uso: 10PM.\nDuração: Duradoura.\nVocê diminui o tamanho de uma criatura, tornando-a ágil, porém enfraquecida. O alvo tem Ganho em todos os testes que envolvem agilidade, coordenação e furtividade, mas passa a ter Perda em testes que envolvem esforço ou vigor físico. Um alvo recebendo esta magia contra a vontade tem direito a um teste de Resistência contra a sua Habilidade para evitá-la.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "transformação",
+      "buff",
+      "debuff",
+      "magia",
+      "tamanho"
+    ],
+    "source": "Manual 3DeT Victory (p. 156)"
+  },
+  {
+    "id": "tec_com_016",
+    "name": "Pisão do Titã",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisito: Poder 3.\nAlcance: Perto.\nCusto de uso: 3PM.\nDuração: Instantânea.\nFaça um ataque. Você golpeia o chão, atingindo com uma onda de choque todos os alvos (inimigos e aliados) Perto. Alvos que recebam dano acima de seu valor de Resistência são derrubados. Um personagem caído tem Perda em todos os testes até usar um movimento para se levantar.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "combate",
+      "área",
+      "controle",
+      "poder",
+      "luta"
+    ],
+    "source": "Manual 3DeT Victory (p. 157)"
+  },
+  {
+    "id": "tec_com_017",
+    "name": "Poeira Glacial",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 2, Magia.\nAlcance: Longe.\nCusto de uso: 3PM + bônus de Magia.\nDuração: Instantânea.\nVocê esfria o ar ao redor de um alvo, congelando-o. Faça um ataque. Você pode aumentar a intensidade do frio, usando Magia para receber bônus no teste. Se usar a regra de Tipos de Dano, este ataque causa dano de frio. Se o alvo perde um valor de PV acima de sua Resistência, ele congela, recebendo Perda em todos os testes por uma rodada.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "ataque mágico",
+      "frio",
+      "controle",
+      "magia"
+    ],
+    "source": "Manual 3DeT Victory (p. 157)"
+  },
+  {
+    "id": "tec_com_018",
+    "name": "Queimar o Cosmo",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Resistência 2, Luta.\nAlcance: Pessoal.\nCusto de uso: 5 a 25PM.\nDuração: Duradoura.\nVocê usa uma ação para queimar energia cósmica, fazendo-a fluir pelo seu corpo e aumentando suas capacidades. Cada 5PM aumentam +1 seu Poder, Habilidade e Resistência, até o fim da cena (recursos não são afetados). O bônus máximo é igual à sua Resistência original, ou +5, o que for menor.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "buff",
+      "poder",
+      "energia cósmica",
+      "luta"
+    ],
+    "source": "Manual 3DeT Victory (p. 157)"
+  },
+  {
+    "id": "tec_com_019",
+    "name": "Raio da Fúria",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 3, Magia.\nAlcance: Longe.\nCusto de uso: 10PM.\nDuração: Duradoura.\nVocê tem o poder de enfurecer os seres e transformá-los em monstros incontroláveis. O alvo recebe Poder +2 em testes de ataque, e tem críticos com 5 ou 6. No entanto, também tem Perda em todos os outros testes (incluindo defesa), e gasta o dobro de PM para vantagens e técnicas. Quando o efeito termina, o alvo fica exausto; seus PM caem a zero e tem Perda em todos os testes até descansar. Um alvo recebendo esta magia contra a vontade tem direito a um teste de Resistência contra seu Poder para evitá-la.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "controle mental",
+      "buff",
+      "debuff",
+      "magia",
+      "fúria"
+    ],
+    "source": "Manual 3DeT Victory (p. 157-158)"
+  },
+  {
+    "id": "tec_com_020",
+    "name": "Rajada de Golpes",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 2, Luta.\nAlcance: Perto.\nCusto de uso: 3PM.\nDuração: Instantânea.\nVocê atinge o alvo com uma sequência veloz de golpes, atacando com Poder+2 e chance de crítico 5 ou 6. Você pode gastar movimentos no mesmo turno para desferir ainda mais golpes; cada movimento aumenta o Poder em +2, sem custo extra em PM, até um máximo de movimentos igual à sua Habilidade.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "combate",
+      "múltiplos ataques",
+      "luta",
+      "velocidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 158)"
+  },
+  {
+    "id": "tec_com_021",
+    "name": "Relâmpago",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 2, Magia.\nAlcance: Longe.\nCusto de uso: 3PM + bônus de Magia.\nDuração: Instantânea.\nVocê dispara um raio elétrico contra o alvo. Faça um ataque. Você pode aumentar a intensidade da eletricidade, usando Magia para ter bônus no teste. Se usar a regra de Tipos de Dano, este ataque causa dano de choque. Se o alvo perde um valor de PV acima da sua Resistência, fica atordoado, dando Ganho ao oponente em todos os testes resistidos (inclusive ataque e defesa) por uma rodada.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "ataque mágico",
+      "elétrico",
+      "controle",
+      "magia"
+    ],
+    "source": "Manual 3DeT Victory (p. 158)"
+  },
+  {
+    "id": "tec_com_022",
+    "name": "Sabedoria dos Ermos",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Arena, Sobrevivência.\nAlcance: Pessoal.\nCusto de uso: 1 ou 3PM.\nDuração: Instantânea.\nSeu conhecimento de sobrevivência permite obter itens necessários em locais com os quais você está familiarizado. Quando está na sua Arena, você pode gastar 1PM para usar um item comum, ou 3PM para um item incomum, além do que tiver no Inventário. Você não pode usar este item para recuperar os PM que acabou de gastar na técnica.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "utilidade",
+      "sobrevivência",
+      "arena",
+      "recurso"
+    ],
+    "source": "Manual 3DeT Victory (p. 158)"
+  },
+  {
+    "id": "tec_com_023",
+    "name": "Role os Dados",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 3, Arte.\nAlcance: Perto.\nCusto de uso: 5 PM.\nDuração: Instantânea.\nO bardo do grupo também pode cantar o maior sucesso da banda Holy Avenger! Role um teste de Arte (9). Com sucesso, você e todos os aliados Perto recuperam 1PA. Para cada crítico na rolagem, recuperam 1 PA extra. Se você (o jogador!) cantar o refrão da música, a técnica custa –1PM para ser usada. Se o grupo inteiro cantar, reduz em –2PM!\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "suporte",
+      "buff",
+      "arte",
+      "música",
+      "recurso"
+    ],
+    "source": "Manual 3DeT Victory (p. 159)"
+  },
+  {
+    "id": "tec_com_024",
+    "name": "Setas Infalíveis de Petrovna",
+    "type": "Técnica",
+    "subtype": "Comum",
+    "description": "Requisitos: Habilidade 1, Magia.\nAlcance: Longe.\nCusto de uso: 1PM por seta.\nDuração: Instantânea.\nVocê usa uma ação para criar uma ou mais setas de energia mágica, até um máximo de setas igual à sua Habilidade, que ficam flutuando ao seu redor — permanecendo até o fim da cena, ou até serem disparadas. Com um movimento, você pode disparar todas as setas para um ou mais alvos à sua escolha, dividindo-as como quiser. As setas atingem automaticamente, sem teste de ataque ou defesa — cada uma causando 1 ponto de dano e então sumindo. Alvos com defesa perfeita automática não sofrem dano. Você pode manter apenas um conjunto de setas preparado por vez.\n(Aprender esta técnica comum custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "ataque mágico",
+      "múltiplos alvos",
+      "magia",
+      "automático"
+    ],
+    "source": "Manual 3DeT Victory (p. 159)"
+  }
+]

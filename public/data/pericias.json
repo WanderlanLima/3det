@@ -1,0 +1,111 @@
+
+[
+  {
+    "id": "per_001",
+    "name": "Animais",
+    "type": "Perícia",
+    "description": "Você sabe cuidar, adestrar, cavalgar e lidar com animais e outras criaturas irracionais, como vários monstros. Pode substituir Medicina (apenas para animais). Com bons resultados nos testes, você consegue até se comunicar com animais.\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": ["interação", "cuidado", "montaria", "social"],
+    "source": "Manual 3DeT Victory (p. 40)"
+  },
+  {
+    "id": "per_002",
+    "name": "Arte",
+    "type": "Perícia",
+    "description": "Você sabe fazer performances artísticas como cantar, dançar, tocar música, cozinhar, fazer cosplay (e se disfarçar), desenhar, avaliar objetos de arte e outras.\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": ["performance", "social", "criatividade", "cultural"],
+    "source": "Manual 3DeT Victory (p. 40)"
+  },
+  {
+    "id": "per_003",
+    "name": "Esporte",
+    "type": "Perícia",
+    "description": "Você conhece os muitos tipos de esportes e suas regras, além de ser capacitado em atividades físicas como correr, escalar, nadar, fazer acrobacias, equilibrar-se, saltar e outras.\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": ["físico", "movimento", "agilidade", "competição"],
+    "source": "Manual 3DeT Victory (p. 41)"
+  },
+  {
+    "id": "per_004",
+    "name": "Influência",
+    "type": "Perícia",
+    "description": "Você sabe convencer outros a acreditar em algo ou fazer o que você quer. Envolve coisas como diplomacia, liderança, intimidação, sedução, blefe, hipnose, lábia, barganha, obter informações e outros.\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": ["social", "mental", "persuasão", "liderança"],
+    "source": "Manual 3DeT Victory (p. 41)"
+  },
+  {
+    "id": "per_005",
+    "name": "Luta",
+    "type": "Perícia",
+    "description": "Você sabe atacar e se defender em combate, seja corpo a corpo ou à distância. Também envolve a parte teórica dos combates, como reconhecer estilos de luta, analisar técnicas de inimigos e desenvolver táticas ou planos de ação — incluindo confrontos entre grandes grupos, como exércitos. Conflitos violentos (quase) sempre exigem testes de Luta!\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": ["combate", "físico", "marcial", "estratégia"],
+    "source": "Manual 3DeT Victory (p. 41)"
+  },
+  {
+    "id": "per_006",
+    "name": "Manha",
+    "type": "Perícia",
+    "description": "Você sabe fazer coisas malandras ou ilegais, como construir (e sabotar) armadilhas, arrombar portas e fechaduras, bater carteiras, criar (e decifrar) mensagens criptografadas, se disfarçar, falsificar objetos, ser furtivo, intimidar, rastrear pistas e pegadas…\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": ["crime", "furtividade", "enganação", "investigação"],
+    "source": "Manual 3DeT Victory (p. 41)"
+  },
+  {
+    "id": "per_007",
+    "name": "Máquinas",
+    "type": "Perícia",
+    "description": "Você sabe operar, construir e consertar máquinas, veículos e aparelhos de todo tipo. Também sabe lidar com computadores, hackear sistemas, vasculhar a internet, jogar games ou agir em simulações e realidades virtuais. Pode substituir Medicina (apenas para construtos).\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": ["tecnologia", "engenharia", "condução", "informática"],
+    "source": "Manual 3DeT Victory (p. 41)"
+  },
+  {
+    "id": "per_008",
+    "name": "Medicina",
+    "type": "Perícia",
+    "description": "Você sabe realizar primeiros socorros, diagnósticos, tratar doenças e venenos, realizar cirurgias e todo tipo de conhecimento de saúde. Pode despertar um personagem inconsciente ou estabilizar um personagem quase morto.\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": ["cura", "ciência", "suporte", "conhecimento"],
+    "source": "Manual 3DeT Victory (p. 41)"
+  },
+  {
+    "id": "per_009",
+    "name": "Mística",
+    "type": "Perícia",
+    "description": "Você sabe sobre forças sobrenaturais e artes místicas. Quando atacar ou se defender com poderes mágicos ou sobrenaturais (como a vantagem Magia), use esta perícia. Também é usada para reconhecer, contra-atacar e teorizar sobre conhecimentos ocultos, magia e criaturas mágicas.\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": ["magia", "sobrenatural", "conhecimento", "arcano"],
+    "source": "Manual 3DeT Victory (p. 42)"
+  },
+  {
+    "id": "per_010",
+    "name": "Percepção",
+    "type": "Perícia",
+    "description": "Você sabe usar seus sentidos para perceber melhor o mundo ao redor. Usada para ouvir ruídos muito baixos, notar coisas e personagens distantes, escondidos ou sob disfarce, ler lábios, rastrear pistas, evitar ser surpreendido e até mesmo como um “sexto sentido” para tentar notar se alguém está mentindo ou agindo de forma suspeita.\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": ["sensorial", "investigação", "alerta", "mental"],
+    "source": "Manual 3DeT Victory (p. 42)"
+  },
+  {
+    "id": "per_011",
+    "name": "Saber",
+    "type": "Perícia",
+    "description": "Você sabe tudo sobre tudo, qualquer conhecimento teórico em ciências, idiomas e até assuntos sobrenaturais, ou como e onde pesquisá-los. Note que é uma perícia ampla, engloba todos os campos, própria para aqueles cientistas exagerados ou super nerds que sabem de tudo!\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": ["conhecimento", "ciência", "idiomas", "mental"],
+    "source": "Manual 3DeT Victory (p. 42)"
+  },
+  {
+    "id": "per_012",
+    "name": "Sobrevivência",
+    "type": "Perícia",
+    "description": "Você sabe subsistir e se orientar em condições adversas. Pode encontrar e produzir alimento, construir abrigos, rastrear pistas, reconhecer criaturas selvagens, construir e sabotar armadilhas, ser furtivo, nadar, prever o clima, entre outros.\nCusto: 1 ponto de personagem.",
+    "cost": 1,
+    "tags": ["exploração", "natureza", "rastreamento", "resistência"],
+    "source": "Manual 3DeT Victory (p. 42)"
+  }
+]

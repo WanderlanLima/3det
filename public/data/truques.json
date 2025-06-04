@@ -1,0 +1,214 @@
+[
+  {
+    "id": "tru_001",
+    "name": "Ás Indomável",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisito: Esporte ou Máquinas.\nAlcance: Pessoal.\nCusto de uso: 0 a 2PM.\nDuração: Instantânea.\nVocê é um prodígio da pilotagem. Quando comanda um veículo, pode usar as seguintes manobras:\n• Até o limite! Você força o veículo até quase explodir. Pode usar PV do veículo em vez de PM para ativar uma vantagem, com custo máximo igual à sua Habilidade.\n• Drifting. Você usa uma ação e 2PM para colocar-se em posição de vantagem, tem Ganho em um teste na próxima rodada.\n• Nunca me diga as chances! Você gasta 2PM para anular uma Perda em um teste, fazendo algo que parecia impossível. Só pode fazer isso uma vez por teste.\n• Vai, corredor, vai! Você gasta 1PM para fazer um movimento extra, como se tivesse Aceleração.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "pilotagem",
+      "veículo",
+      "manobras",
+      "esporte",
+      "máquinas"
+    ],
+    "source": "Manual 3DeT Victory (p. 143)"
+  },
+  {
+    "id": "tru_002",
+    "name": "Barreira Mística",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisitos: Magia, Mística.\nAlcance: Pessoal.\nCusto de uso: 1 a 2PM por uso.\nDuração: Um turno.\nVocê usa seus poderes mágicos para se defender. Com 1PM, você conjura uma Barreira Mística como reação contra um ataque. Seu teste de defesa é normal, mas você pode escolher usar a perícia Mística em vez de Luta.\nVocê também pode gastar 1PM extra para adicionar um destes efeitos:\n• Debilitante. Se sua defesa superar o ataque, você reduz um atributo do atacante (à sua escolha) em –1, até o fim da cena. Isso não afeta os seus recursos.\n• Drenante. Se sua defesa superar o ataque, você recupera 2PM. Cada crítico na defesa recupera mais 2PM.\n• Elétrica. Sua defesa eletrifica e atordoa o alvo; o próximo ataque contra ele tem Ganho.\n• Espinhosa. Se o atacante está Perto, ele sofre 1 ponto de dano. Cada crítico na defesa causa mais 1 ponto de dano.\n• Luminosa. Se sua defesa superar o ataque, a barreira causa um clarão que ofusca o atacante, causando Perda em seu próximo teste.\n• Maciça. Você tem defesa perfeita.\n• Solidária. Você pode conjurar a Barreira Mística para um aliado Perto. Ele tem Ganho na defesa. Você não recebe nenhum benefício nesta rodada.\nVocê só precisa conjurar a Barreira Mística uma vez por rodada, no primeiro ataque recebido. Ela permanece ativa até seu próximo turno.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "defesa",
+      "magia",
+      "mística",
+      "proteção"
+    ],
+    "source": "Manual 3DeT Victory (p. 143-144)"
+  },
+  {
+    "id": "tru_003",
+    "name": "Cancioneiro Popular",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisito: Arte.\nAlcance: Perto.\nCusto de uso: 2PM.\nDuração: Instantânea.\nSuas canções têm efeitos emocionais diversos:\n• Canção de amor. Escolha um alvo e faça um teste de Arte (9). Com sucesso, ele se tornará amigável a você, garantindo Ganho em seu próximo teste social contra ele. Dobrar a meta pode fazer com que ele se apaixone de verdade!\n• Canção de ninar. Você canta para o grupo antes de dormir, aumentando a recuperação de recursos em terreno ruim em +1D PM e PV.\n• Canção de protesto. Escolha um alvo para protestar e faça um teste de Arte (9). Com sucesso, ele terá Perda em seu próximo teste social.\n• Canção de rua. Faça um teste de Arte (9) onde houver muitos transeuntes (tipicamente vias urbanas). Se passar, tem Ganho no próximo teste de compra.\n• Canção relaxante. Você canta para o grupo em um momento de descanso, aumentando a recuperação de recursos em um descanso curto em +1 por ponto de atributo.\nCancioneiro Popular não pode ser usado em combate ou conflitos.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "social",
+      "música",
+      "influência",
+      "suporte",
+      "arte"
+    ],
+    "source": "Manual 3DeT Victory (p. 144)"
+  },
+  {
+    "id": "tru_004",
+    "name": "Dobrar Elemento",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Alcance: Perto.\nCusto de uso: 1PM ou mais por uso.\nDuração: Instantânea.\nVocê pode controlar um único elemento à sua escolha (fogo, terra, água, ar, luz, trevas; ou vapor, gelo, relâmpago, etc.). Para cada elemento, aprenda um truque diferente. Elemento deve estar presente para ser controlado (exceto se houver condições para produzir, ex: fogo para aquecer lenha). Não serve para atacar/causar dano direto. Gaste 1PM ou mais para:\n• Manipular, levitar ou controlar pequenas quantidades do elemento (até 1kg sólidos/líquidos ou 0.5m³ gases/energias). Mais PM para quantidades maiores.\n• Causar incômodo a um alvo, impondo Perda em um teste (ex: água para chão escorregadio, lufada de ar). (2PM).\n• Reforçar um ataque com o elemento, adicionando um tipo de dano adequado (fogo, frio, pancada) sem causar Perda.\n• Usar o elemento para se proteger, conseguindo defesa perfeita se vencer o teste de defesa.\n• Outros efeitos menores ligados ao elemento (Dobrar Vapor para motor funcionar, Dobrar Fogo para aquecer água sem causar dano).\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "elemental",
+      "controle",
+      "utilidade",
+      "magia"
+    ],
+    "source": "Manual 3DeT Victory (p. 144)"
+  },
+  {
+    "id": "tru_005",
+    "name": "Golpes",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisito: Luta.\nAlcance: Variável.\nCusto de uso: Variável.\nDuração: Instantânea.\nVocê domina diversas manobras únicas de artes marciais. Escolha dois golpes da lista. Pode comprar este truque várias vezes: cada vez, escolhe mais dois golpes. Golpes não podem ser combinados com outras técnicas/vantagens (exceto se dito o contrário). Um Combo só utiliza golpes.\n• Derrubar. Quando vence a defesa do adversário, em vez de causar dano, pode escolher derrubá-lo (ou gastar 1PM para causar dano e também derrubá-lo). Oponente derrubado tem Perda em todos os testes até usar um movimento para se levantar.\n• Finta. Você pode usar um movimento e 1PM para causar Perda no próximo ataque que receber antes de seu próximo turno. Se a defesa vencer o ataque, você tem defesa perfeita, e pode fazer um ataque com Ganho contra o mesmo adversário no seu próximo turno.\n• Golpe Arriscado. Gaste 1PM ao atacar. Você tem chance de crítico máxima (4, 5 ou 6 em cada dado), mas qualquer outro resultado é considerado 0. Se não rolar pelo menos um crítico, será uma falha crítica.\n• Golpe Atordoante. Gaste 2PM ao atacar. Se causar dano maior que a Resistência do alvo, ele fica atordoado: não pode realizar uma ação no próximo turno, apenas um movimento.\n• Golpe Debilitante. Gaste 2PM ao atacar. Se vencer a defesa, em vez de causar dano, reduz um atributo do oponente (à sua escolha) em –1 até o fim do combate. Se você rolar pelo menos um crítico, reduz em –2. Isso não afeta os recursos do adversário.\n• Golpe Forte. Gaste 1PM ao atacar. Se vencer a defesa do oponente, causa +2 pontos de dano. Cada crítico aumenta o dano extra em +1. Se a defesa vencer, mas não com defesa perfeita, você ainda causa 1 ponto de dano extra. O dano extra ignora limite de dano.\n• Golpe Rápido. Você pode gastar 1PM para fazer um ataque com um movimento, mas o teste tem Perda e não pode utilizar vantagens e técnicas.\n• Recuperar Fôlego. Você faz uma pausa breve para se recobrar e voltar ao combate. Use um movimento para recuperar 1D pontos de mana, até um máximo igual à sua Resistência. Você só pode fazer isso durante combates e conflitos.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "combate",
+      "luta",
+      "artes marciais",
+      "manobras"
+    ],
+    "source": "Manual 3DeT Victory (p. 145, 146)"
+  },
+  {
+    "id": "tru_006",
+    "name": "Grimório Debilitante",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisito: Magia.\nAlcance: Perto.\nCusto de uso: 3PM por uso.\nDuração: Instantânea ou duradoura.\nVocê utiliza sua magia para atrapalhar adversários, alterando as condições do ambiente para ter vantagens contra eles.\n• Luz/Trevas. Você ilumina ou escurece a área Perto de um alvo. Uma área escurecida causa Perda em ações que usam a visão. Uma área subitamente iluminada causa Perda por uma rodada. (Duradoura).\n• Pés de Chumbo. Você aumenta a gravidade no alvo, deixando-o mais lento. Alvo gasta ação para movimento, ação completa para ação, e ação completa extra para o que demore mais. Alvo resiste com teste de Resistência vs sua Habilidade. (Duradoura).\n• Tempestade Mental. Você faz um ataque contra um alvo, podendo receber bônus no teste usando Magia. Se superar a defesa, em vez de PV, diminui PM. (Instantânea).\n• Terreno Escorregadio de Neo. A área Perto do alvo fica escorregadia. Qualquer ação que depende de movimentação (ataque, defesa) tem Perda, e qualquer falha resulta em queda. Caído tem Perda em todos os testes até usar movimento para levantar. Dura 1 turno (9PM para duradoura).\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "magia",
+      "controle de campo",
+      "debuff",
+      "utilidade"
+    ],
+    "source": "Manual 3DeT Victory (p. 146)"
+  },
+  {
+    "id": "tru_007",
+    "name": "Grimório Irritante",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisito: Magia.\nAlcance: Perto.\nCusto de uso: 0 a 1PM ou mais.\nDuração: Instantânea.\nMagia para irritar e provocar. Contra alvos tentando tarefas que exigem concentração, pode causar Perda.\n• A Aporrinhação do Caos. Cria pequeno enxame de criaturas que não causam dano, mas incomodam e causam Perda em um teste (fora de combate). (Custa 1PM, +1PM/turno para manter).\n• O Apavorante Gás de Luignaccio. Alvo testa Resistência (9). Se falhar, emite flatulências sonoras por 1 rodada/PM gasto. Durante isso, tem Perda em testes sociais contra quem puder farejar.\n• A Flor Perene de Milady “A”. Magia (custo 0) faz gerânio inofensivo nascer. Se arrancado, desaparece e nova flor nasce, até magia ser cancelada.\n• A Gagueira de Raviollius. Alvo testa Resistência (9). Se falhar, gagueira incontrolável por 1 rodada/PM gasto. Perda em testes usando a voz.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "magia",
+      "social",
+      "debuff",
+      "irritação",
+      "humor"
+    ],
+    "source": "Manual 3DeT Victory (p. 147)"
+  },
+  {
+    "id": "tru_008",
+    "name": "Monasticismo Marcial",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Alcance: Pessoal.\nCusto de uso: 2PM por uso.\nDuração: Instantânea.\nVocê passou por treinamento marcial rigoroso, como os monges shaolin.\n• Corpo fechado. Ganho em um teste de Resistência para evitar um efeito negativo de vantagens ou poderes.\n• Inviolável. Mantendo-se imóvel (sem ações/movimentos), você tem Ganho e defesa perfeita em todos os testes de defesa até seu próximo turno.\n• Palma de ferro. Ganho em um teste de Poder para quebrar objetos inanimados (mas não testes de ataque).\n• Realinhar chakras. Usando uma ação, você pode repetir um teste de Resistência para eliminar algum efeito negativo (e pode gastar mais 2PM para ter Ganho no teste).\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "artes marciais",
+      "defesa",
+      "resistência",
+      "disciplina"
+    ],
+    "source": "Manual 3DeT Victory (p. 147)"
+  },
+  {
+    "id": "tru_009",
+    "name": "Ninjutsu",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisito: Manha.\nAlcance: Perto.\nCusto de uso: 2PM por uso.\nDuração: Instantânea.\nVocê é um mestre em truques de infiltração e sabotagem.\n• Bomba de fumaça. Usando uma ação, todos os personagens Perto (incluindo aliados) ficam cegos por uma rodada, recebendo Perda em testes que usam a visão.\n• Corrida ninja. Você dobra seu deslocamento neste turno. Pode ir de Perto para Muito Longe com apenas um movimento.\n• Estrepes. Usando uma ação, você espalha objetos espinhosos no chão para atrapalhar um alvo Perto. Ele tem Perda em um teste que você escolher, até seu próximo turno.\n• Jutsu de troca. Como reação, você troca de lugar com um item próximo, como um tronco de árvore. Ganho no teste de defesa, apenas uma vez por rodada.\n• Pipa ninja. Você usa um movimento para saltar até Longe, e uma ação para abrir uma grande capa de tecido e voar durante uma rodada. Pode continuar voando se usar uma ação por rodada para controlar a pipa, ou pode fechá-la com um movimento e voltar ao chão sem sofrer dano.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "ninja",
+      "furtividade",
+      "infiltração",
+      "sabotagem",
+      "manha"
+    ],
+    "source": "Manual 3DeT Victory (p. 148)"
+  },
+  {
+    "id": "tru_010",
+    "name": "Pequenos Desejos",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisito: Mística.\nAlcance: Perto.\nCusto de uso: 0 a 1PM por uso.\nDuração: Instantânea.\nMagia com efeitos e ilusões inofensivas, mais para distrair e entreter. Para truques muito simples não há custo em PM, basta um teste de Mística.\n• Criar pequenos objetos sem utilidade prática (flores, lenços, borboletas, pombos mágicos).\n• Levitar e mover um item leve, lentamente, como se tivesse Poder 0.\n• Colorir, limpar ou sujar itens leves (até 500g).\n• Aquecer, esfriar e/ou temperar (mas não produzir) uma refeição, ou outro item de até 500g.\n• Criar um pequeno ser feérico, feito de magia, que realiza uma tarefa simples (apanhar lenha, colher frutos, pescar, vigiar área, alimentar mascote, etc.). (1PM).\nPersonagens treinados em Mística e com a vantagem Magia recebem esta técnica sem gastar XP.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "magia menor",
+      "utilidade",
+      "ilusão",
+      "mística"
+    ],
+    "source": "Manual 3DeT Victory (p. 148-149)"
+  },
+  {
+    "id": "tru_011",
+    "name": "Praga",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisito: Mística.\nAlcance: Perto.\nCusto de uso: 2PM.\nDuração: Veja a seguir.\nVocê aponta o dedo e roga uma praga contra alguém! Faça um teste de Poder contra a Resistência do alvo. Se vencer, ele sofre um dos efeitos a seguir, à sua escolha:\n• -1 em testes de um atributo, até o fim da cena.\n• Perda em um único teste à sua escolha, até o fim da sessão.\n• Vantagens e técnicas custam +1PM, até o fim da cena.\n• Qualquer resultado 1 em um teste causa falha crítica, até o fim da cena.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "maldição",
+      "debuff",
+      "mística",
+      "sorte"
+    ],
+    "source": "Manual 3DeT Victory (p. 149)"
+  },
+  {
+    "id": "tru_012",
+    "name": "Raio Místico",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Requisitos: Magia, Mística.\nAlcance: Perto ou Longe.\nCusto de uso: 1 a 2PM por uso.\nDuração: Instantânea.\nVocê usa seus poderes mágicos para atacar. Com uma ação e 1PM, dispara um Raio Místico contra alvo Perto ou Longe. Teste de ataque normal, mas pode usar perícia Mística em vez de Luta.\nGaste 1PM extra para um destes efeitos:\n• Ácido. Na próxima rodada, alvo testa Resistência (6 + dano sofrido). Se falhar, sofre 1D–1 de dano extra.\n• Congelante. Se sofrer dano, alvo congela, sofrendo Perda em seu próximo teste.\n• Debilitante. Se vencer a defesa, em vez de causar dano, reduz atributo do alvo (à sua escolha) em –1, até o fim da cena. Não afeta recursos.\n• Distante. O alcance do raio muda para Muito Longe.\n• Elétrico. Se causar dano, o choque atordoa o alvo; o próximo ataque contra ele tem Ganho.\n• Flamejante. Faça o teste de ataque com Poder +2.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "ataque mágico",
+      "elemental",
+      "mística",
+      "magia"
+    ],
+    "source": "Manual 3DeT Victory (p. 149)"
+  },
+  {
+    "id": "tru_013",
+    "name": "Super-Movimento",
+    "type": "Técnica",
+    "subtype": "Truque",
+    "description": "Exigência: Esporte, Luta ou Magia.\nAlcance: Pessoal.\nCusto de uso: 1PM por uso.\nDuração: Instantânea.\nAtravés de treinamento ou magia, você realiza movimentos impossíveis para uma pessoa comum.\n• Pode andar em paredes e tetos. Se descer, deve gastar mais 1PM para prender-se novamente.\n• Saltar até Muito Longe com um movimento, sem sofrer Perda nem dano de queda ao voltar ao chão.\n• Correr sobre a água ou outra superfície instável. Deve gastar um movimento e 1PM por rodada, ou afundará.\n• Ganho em um teste para se livrar de cordas, amarras e outros tipos de contenção.\n(Aprender este grupo de truques custa 10XP).",
+    "cost": 10,
+    "costType": "XP",
+    "tags": [
+      "movimento",
+      "agilidade",
+      "acrobacia",
+      "sobrenatural"
+    ],
+    "source": "Manual 3DeT Victory (p. 150)"
+  }
+]

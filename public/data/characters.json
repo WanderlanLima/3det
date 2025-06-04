@@ -1,0 +1,31 @@
+
+[
+  {
+    "id": "char1",
+    "name": "Valerius Maximus",
+    "class": "Guerreiro Audaz",
+    "description": "Um cavaleiro errante com armadura reluzente e um forte senso de justiça. Viaja pelo mundo em busca de desafios e para proteger os inocentes.",
+    "avatarUrl": "https://source.unsplash.com/random/400x300/?knight,fantasy"
+  },
+  {
+    "id": "char2",
+    "name": "Lyra NoiteSombria",
+    "class": "Maga Arcana",
+    "description": "Uma estudiosa das artes místicas, envolta em mistério. Carrega consigo um tomo antigo e busca conhecimento perdido.",
+    "avatarUrl": "https://source.unsplash.com/random/400x300/?sorceress,fantasy"
+  },
+  {
+    "id": "char3",
+    "name": "Roric 'Sombra'",
+    "class": "Ladino Astuto",
+    "description": "Mestre em furtividade e subterfúgios. Prefere as sombras e age com precisão letal quando necessário.",
+    "avatarUrl": "https://source.unsplash.com/random/400x300/?rogue,fantasy"
+  },
+  {
+    "id": "char4",
+    "name": "Seraphina PenaLeve",
+    "class": "Curandeira Bondosa",
+    "description": "Uma clériga devotada, com poderes de cura e uma fé inabalável. Sempre pronta para ajudar os necessitados.",
+    "avatarUrl": "https://source.unsplash.com/random/400x300/?healer,fantasy"
+  }
+]

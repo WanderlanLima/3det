@@ -1,0 +1,227 @@
+[
+  {
+    "id": "arq_001",
+    "name": "Humano",
+    "type": "Arquétipo",
+    "description": "Mesmo com as Convergências trazendo incontáveis criaturas fantásticas, a população humana ainda supera todas as outras juntas. Humanos têm mais iniciativa, energia e são mais adaptáveis. Por outro lado, têm vidas curtas. Ser humano na Era das Arcas não significa ser normal! Podem ser praticamente qualquer coisa, seguir todas as carreiras e inventar outras.\n• Mais Além: Humanos se superam. Uma vez por cena, você pode gastar 2PM para ter Ganho em um teste.",
+    "cost": 0,
+    "tags": ["básico", "adaptável", "versátil"],
+    "source": "Manual 3DeT Victory (p. 77)"
+  },
+  {
+    "id": "arq_002",
+    "name": "Aberrante",
+    "type": "Arquétipo",
+    "description": "Seres que não fazem parte deste universo, bizarros demais mesmo na Terra pós-Convergência. Surgem de experimentos, mutações, doenças mágicas, corrupção cósmica, etc. Aparência e anatomia podem variar imensamente.\n• Deformidade: Todo aberrante tem alguma deformação física que, embora desagradável, garante certas vantagens. Escolha uma perícia. Quando testá-la (mesmo que não tenha a perícia), o atributo correspondente tem +1.\n• Teratismo: Aberrantes têm poderes anômalos. Você recebe uma Técnica Comum (veja em Recompensas) à sua escolha. Você ainda precisa cumprir os requisitos da técnica.\n• Monstruoso: (Desvantagem) Ninguém merece esta desvantagem mais do que você.",
+    "cost": 1,
+    "tags": ["mutante", "estranho", "poder anômalo", "deformado"],
+    "source": "Manual 3DeT Victory (p. 78)"
+  },
+  {
+    "id": "arq_003",
+    "name": "Abissal",
+    "type": "Arquétipo",
+    "description": "Nativos de planos de natureza maligna (Abismo, Nove Infernos, etc.), também conhecidos como demônios, diabos, infernais ou oni. Visitam a Terra com objetivos diversos (coleta de almas, caça a tesouros, etc.). Muitos são servos de lordes poderosos, outros são independentes. Alguns nem são malignos.\n• Ágil: (Vantagem) Demônios são esquivos.\n• Desfavor: Gaste uma ação e 3PM para forçar uma criatura em alcance Perto a fazer um teste de Resistência, oposto a seu Poder. Se falhar, o alvo sofre Perda em todos os testes até o próximo turno.\n• Infame: (Desvantagem) Você é um demônio, esperava o quê?",
+    "cost": 1,
+    "tags": ["demônio", "infernal", "extraplanar", "maligno"],
+    "source": "Manual 3DeT Victory (p. 79)"
+  },
+  {
+    "id": "arq_004",
+    "name": "Alien",
+    "type": "Arquétipo",
+    "description": "Qualquer “estrangeiro” de outras épocas ou dimensões. Aparência e poderes variados, quase todos superiores aos humanos em um ou mais aspectos, mas inferiores em outros. Muitos têm aparência humana com detalhes (orelhas pontudas, antenas) fáceis de disfarçar, mas têm dificuldade em se adaptar à cultura.\n• Talento: Aliens têm aptidões físicas ou mentais superiores. Escolha uma vantagem entre Ágil, Carismático, Forte, Gênio, Resoluto ou Vigoroso.\n• Xenobiologia: Escolha uma vantagem que possua. Você pode usá-la por metade do custo em PM.\n• Inculto: (Desvantagem) Aliens têm inaptidão à nossa cultura.",
+    "cost": 1,
+    "tags": ["extraterrestre", "estrangeiro", "extraplanar", "tecnológico"],
+    "source": "Manual 3DeT Victory (p. 80)"
+  },
+  {
+    "id": "arq_005",
+    "name": "Anão",
+    "type": "Arquétipo",
+    "description": "Não ultrapassam 1,30m, mas são mais robustos que humanos. Gostam de trabalho duro e minucioso (grandes engenheiros e joalheiros). Amam motociclismo e cerveja.\n• Abascanto: Anões são teimosamente resistentes a efeitos maléficos. Você tem Ganho em testes de Resistência para evitar ou cancelar efeitos ruins (exceto dano), como Anulação, Desgaste, Paralisia.\n• A Ferro e Fogo: Anões amam forjar metal. Sempre que testar Máquinas (mesmo sem a perícia), o atributo correspondente tem +1. Além disso, você recebe Sentido (Infravisão).\n• Lento: (Desvantagem) Você tem perninhas curtas.",
+    "cost": 1,
+    "tags": ["robusto", "artesão", "engenheiro", "resistente"],
+    "source": "Manual 3DeT Victory (p. 81)"
+  },
+  {
+    "id": "arq_006",
+    "name": "Anfíbio",
+    "type": "Arquétipo",
+    "description": "Seres aquáticos da Era das Arcas (tritões, sereias, elfos-do-mar, homens-sapo, etc.). Podem viver e agir fora d’água normalmente. Alguns temem/desprezam o mundo seco, outros o veem com curiosidade.\n• Imune (Anfíbio): (Vantagem) Embaixo d’água você pode se mover e respirar normalmente. Também pode se orientar no escuro, percebendo formas (mas não cores).\n• Vigoroso: (Vantagem) Por sua tolerância a mudanças de pressão, anfíbios são mais resistentes.\n• Ambiente: (Desvantagem) Esta desvantagem foi praticamente inventada para você.",
+    "cost": 1,
+    "tags": ["aquático", "nadador", "adaptado", "marinho"],
+    "source": "Manual 3DeT Victory (p. 82)"
+  },
+  {
+    "id": "arq_007",
+    "name": "Celestial",
+    "type": "Arquétipo",
+    "description": "Nativos de planos benignos (anjos, tenshi). Muitos têm aparência humana bela e imponente, emanando aura luminosa. Outros parecem animais (leões, pégasos) ou formas místicas. Muitos são nobres e bondosos, mas nem todos. Visitam a Terra voluntariamente ou são invocados.\n• Carismático: (Vantagem) Celestiais têm facilidade para influenciar pessoas.\n• Arrebatar: Você pode gastar um movimento e 3PM para conceder Ganho ao teste de perícia de um aliado Perto ou Longe. Esse teste deve ser realizado até o próximo turno do aliado.\n• Código: (Desvantagem) Todo celestial é guiado por pelo menos um código de conduta.",
+    "cost": 1,
+    "tags": ["anjo", "divino", "benigno", "extraplanar", "sagrado"],
+    "source": "Manual 3DeT Victory (p. 83)"
+  },
+  {
+    "id": "arq_008",
+    "name": "Centauro",
+    "type": "Arquétipo",
+    "description": "Criatura “táurica” com torso humano e corpo com quatro ou mais patas (cavalo, leão, lagarto, aranha, etc.). Antigos, viviam reclusos nos ermos ou como predadores. Alguns abraçam a vida nas cidades.\n• Corpo Táurico: Você pode pagar 1PM para conseguir um crítico com 5 ou 6 em testes de Poder para esforço físico (não ataques), testes de iniciativa, e testes de Habilidade para correr ou perseguir um alvo.\n• Vigoroso: (Vantagem) Centauros são robustos e resistentes.\n• Diferente: (Desvantagem) Obviamente, centauros não podem usar roupas, veículos ou equipamentos feitos para humanos. Mestre pode fazer exceções para armas/itens para braços/cabeça/torso.",
+    "cost": 2,
+    "tags": ["táurico", "quadrúpede", "forte", "resistente"],
+    "source": "Manual 3DeT Victory (p. 84)"
+  },
+  {
+    "id": "arq_009",
+    "name": "Ciborgue",
+    "type": "Arquétipo",
+    "description": "“Organismo cibernético”, parte máquina, parte ser vivo. Humanos (ou outros) com partes robóticas, ou máquinas com partes orgânicas. Podem ser bem-sucedidos em áreas inesperadas.\n• Construto Vivo: Você pode recuperar PV normalmente, mas também pode ser consertado por outro personagem; ambos os métodos funcionam. Veja a desvantagem Sem Vida.\n• Imune: (Vantagem) Você é Imune a Abiótico, Doenças, Resiliente.\n• Diretriz: Sua mente tem travas de programação. Escolha um Código ou Transtorno (Desvantagens).",
+    "cost": 2,
+    "tags": ["cibernético", "robô", "tecnológico", "mecânico"],
+    "source": "Manual 3DeT Victory (p. 85)"
+  },
+  {
+    "id": "arq_010",
+    "name": "Construto",
+    "type": "Arquétipo",
+    "description": "Você não nasceu; foi construído. Androides produzidos em massa, ou golens mágicos. Representa construtos de forma e tamanho humanos.\n• Imune (Abiótico, Doenças, Resiliente, Sem Mente): (Vantagem) Construtos não têm funções biológicas, nem estão sujeitos a certas limitações dos seres vivos.\n• Bateria: (Desvantagem) Construtos não comem, bebem ou dormem, mas ainda precisam recarregar energia (bateria de lítio, gasolina, cristal mágico, etc.).\n• Sem Vida: (Desvantagem) Construtos não podem ser curados, apenas consertados.",
+    "cost": 1,
+    "tags": ["robô", "androide", "golem", "artificial", "mecânico"],
+    "source": "Manual 3DeT Victory (p. 86)"
+  },
+  {
+    "id": "arq_011",
+    "name": "Dahllan",
+    "type": "Arquétipo",
+    "description": "Parte humanas, parte fadas, parte plantas. Seiva de árvores nas veias. Nascem de pais humanos e fadas, ou emergem das matas. Quase todas mulheres. Tipos físicos variados. Cabelo como folhas (muda com estações), flores brotam no cabelo.\n• Benção da Natureza: Você pode gastar um movimento e 2PM para transformar sua pele em casca de árvore, recebendo Ganho em todas as jogadas de Defesa até seu próximo turno.\n• Empatia Selvagem: Toda dahllan tem ligação intrínseca com animais naturais ou mágicos. Em todos os testes de Animais (mesmo sem a perícia), o atributo correspondente tem +1.\n• Código Dahllan: (Desvantagem) Dahllan são veganas. Nunca atacam um animal, nem deixam de prestar ajuda a um animal em dificuldade.",
+    "cost": 1,
+    "tags": ["natureza", "planta", "fada", "druida"],
+    "source": "Manual 3DeT Victory (p. 87)"
+  },
+  {
+    "id": "arq_012",
+    "name": "Elfo",
+    "type": "Arquétipo",
+    "description": "Belos e esguios; orelhas pontiagudas, olhos amendoados, traços delicados, talento para mágica e vidas longas. Cores de pele, olhos e cabelos variados, alguns com traços incomuns (patas, cauda). Vivem isolados ou integrados.\n• Impecável: Elfos são elegantes. Escolha uma vantagem entre Ágil, Carismático ou Gênio.\n• Natureza Mística: Mesmo sem poderes mágicos, todo elfo tem ligação intrínseca com a magia. Em todos os testes de Mística (mesmo sem a perícia), o atributo correspondente tem +1.\n• Frágil: (Desvantagem) Elfos têm compleição física delicada, sendoulneráveis a efeitos nocivos.",
+    "cost": 1,
+    "tags": ["elegante", "mágico", "longevo", "arcano"],
+    "source": "Manual 3DeT Victory (p. 88)"
+  },
+  {
+    "id": "arq_013",
+    "name": "Fada",
+    "type": "Arquétipo",
+    "description": "Nome genérico para seres mágicos ligados à natureza (dríades, sílfides, duendes, sátiros, ninfas). Aparência feminina, infantil ou andrógina. Muitas diminutas (tamanho de gatos), outras de tamanho humano. Flores/folhagens no corpo/vestes, asas de inseto/folhas. Natureza curiosa e brincalhona.\n• Magia das Fadas: Escolha entre Magia ou Ilusão. Além de ganhar a vantagem, você sempre gasta –1PM (mínimo 1PM) para usá-la. Pode comprar a outra vantagem separadamente, mas sem desconto em PM.\n• Infame: (Desvantagem) Fadas não são levadas muito a sério.\n• Delicada: Escolha entre Diferente (uma fada pequenina) ou Frágil (tamanho normal) (Desvantagens).",
+    "cost": 1,
+    "tags": ["natureza", "mágica", "elemental", "pequeno"],
+    "source": "Manual 3DeT Victory (p. 89)"
+  },
+  {
+    "id": "arq_014",
+    "name": "Fantasma",
+    "type": "Arquétipo",
+    "description": "Mortos-vivos imateriais, espíritos descarnados. Surgem quando evento poderoso impede alma de encontrar descanso. Podem se passar por vivos (exceto ao toque) ou revelar natureza translúcida ao usar poderes.\n• Espírito: Fantasmas têm uma versão invertida de Incorpóreo; estão sempre em estado imaterial, incapazes de causar ou receber dano, mas podem gastar PM para se tornar sólidos durante uma cena. Além disso, um fantasma é Imune (abiótico, doenças) e Sem Vida (só recupera PV com descanso ou vantagens).\n• Paralisia: (Vantagem) Você pode paralisar vítimas com sua aura de pânico.\n• Devoto: (Desvantagem) Um fantasma está preso a este mundo por amor, raiva, vingança, uma promessa ou razões que ele próprio não entende, sempre envolvido em uma missão interminável.",
+    "cost": 2,
+    "tags": ["espírito", "morto-vivo", "imaterial", "assombração"],
+    "source": "Manual 3DeT Victory (p. 90)"
+  },
+  {
+    "id": "arq_015",
+    "name": "Goblin",
+    "type": "Arquétipo",
+    "description": "Humanoides pequenos (cerca de 1m), pele cinzenta/rugosa, orelhas longas, olhos amarelos/vermelhos brilhantes. Numerosos, curiosos, hiperativos, sempre acham solução (mesmo que desajeitada). Lógica diferente e desafiadora.\n• Espertalhão: Goblins sabem se virar. Sempre que testar Manha (mesmo sem a perícia), o atributo correspondente tem +1.\n• Subterrâneo: Você recebe Sentido (Infravisão). Também tem Ganho em testes de R para evitar ou cancelar doenças e venenos, sejam naturais ou mágicos.\n• Diferente: (Desvantagem) Goblins são pequenos e, mandando a real, não fazem muita questão de se vestir bem.",
+    "cost": 1,
+    "tags": ["pequeno", "esperto", "inventor", "caótico"],
+    "source": "Manual 3DeT Victory (p. 91)"
+  },
+  {
+    "id": "arq_016",
+    "name": "Hynne",
+    "type": "Arquétipo",
+    "description": "Halflings ou “pequeninos” (não ultrapassam 90cm). Muitos têm pés peludos. Gostam de vida tranquila, boa comida e bebida. Ótimos chefs, gerentes. Alguns são aventureiros, usando mãos ligeiras e aparência inofensiva.\n• Atirador: Hynne têm aptidão natural para arremessar coisas. Você pode gastar 2PM para ter Ganho em um teste para atacar Longe, em combate violento.\n• Encantador: O sorriso inocente do hynne consegue o que quer. Sempre que testar Influência (mesmo sem a perícia), o atributo correspondente tem +1.\n• Diferente: (Desvantagem) Quando um hynne pernoitar na sua casa, ele pode dormir em uma gaveta aberta.",
+    "cost": 1,
+    "tags": ["pequeno", "sortudo", "habilidoso", "furtivo"],
+    "source": "Manual 3DeT Victory (p. 92)"
+  },
+  {
+    "id": "arq_017",
+    "name": "Kallyanach",
+    "type": "Arquétipo",
+    "description": "Meios-dragões. Nascem de romance, proximidade a covil de dragão, maldições, experimentos ou por razões desconhecidas. Têm garras, presas, cauda e/ou escamas, grandes asas coriáceas. Elegantes e belos ou monstruosos.\n• Baforada: Você recebe um Ataque Especial (escolha entre Área, Distante ou Potente). Este ataque pode ser combinado com outros, e sempre gasta –1PM (mínimo 1PM).\n• Poder Dracônico: Dragões são poderosos em força física e força de personalidade. Escolha um entre Forte e Carismático.\n• Código dos Dragões: (Desvantagem) Seja por honra, gratidão, vingança ou orgulho, um meio-dragão tem o ímpeto natural de nunca esquecer e sempre cumprir uma promessa feita.",
+    "cost": 2,
+    "tags": ["dragão", "meio-dragão", "poderoso", "elemental"],
+    "source": "Manual 3DeT Victory (p. 93)"
+  },
+  {
+    "id": "arq_018",
+    "name": "Kemono",
+    "type": "Arquétipo",
+    "description": "Animais antropomórficos. Bichos que andam, falam e agem como humanos; ou humanoides com traços ferais. Exceto pela aparência, são humanos. Moreaus são os mais conhecidos.\n• Percepção Apurada: Kemono têm sentidos aguçados. Sempre que testar Percepção (mesmo sem a perícia, nem Sentido), o atributo correspondente tem +1.\n• Talento: Kemono têm certas aptidões físicas ou mentais, dependendo de sua herança animal. Escolha uma vantagem entre Ágil, Carismático, Forte, Gênio, Resoluto ou Vigoroso.\n• Cacoete: (Desvantagem) Kemono demonstram algum traço negativo ligado a seu lado animal. Escolha uma desvantagem entre Antipático, Atrapalhado, Fracote, Frágil, Indeciso ou Tapado.",
+    "cost": 1,
+    "tags": ["animal", "fera", "antropomórfico", "moreau"],
+    "source": "Manual 3DeT Victory (p. 94)"
+  },
+  {
+    "id": "arq_019",
+    "name": "Medusa",
+    "type": "Arquétipo",
+    "description": "Raça de corpo humanoide e cabelo feito de serpentes. Olhos de cores exóticas, pupilas verticais, pele escamada e/ou língua bifurcada. Civilizadas, sociáveis, comunicativas, vaidosas. Amam redes sociais, produtoras de conteúdo, influenciadoras, streamers.\n• Carismático: (Vantagem) Medusas têm facilidade para influenciar pessoas.\n• Olhar Atordoante: Você pode gastar um movimento e 3PM para forçar uma criatura Perto a fazer um teste de Resistência, oposto a seu Poder. Se falhar, durante uma rodada o alvo não pode fazer ações, e tem Perda em testes de defesa.\n• Fracote: (Desvantagem) As medusas deviam sair da hypernet e se exercitar mais.",
+    "cost": 1,
+    "tags": ["serpente", "olhar petrificante", "social", "influenciador"],
+    "source": "Manual 3DeT Victory (p. 95)"
+  },
+  {
+    "id": "arq_020",
+    "name": "Minotauro",
+    "type": "Arquétipo",
+    "description": "Humanoides robustos com cabeças bovinas (touro, búfalo, gnu, etc.). Alguns têm cascos bipartidos. Orgulhosos, sisudos, determinados, competitivos. Fêmeas são minauras, com relação tensa com minotauros.\n• Atlético: Minotauros são adeptos de atividades físicas. Sempre que testar Esporte (mesmo sem a perícia), o atributo correspondente tem +1.\n• Sentido Labiríntico: Você sempre sabe o caminho de qualquer lugar em que tenha estado. Além disso, sempre tem Ganho em testes de Percepção para farejar.\n• Transtorno (Fobia): (Desvantagem) Minotauros têm medo de altura. Estar perto de uma queda de 3m ou mais ativa esta desvantagem.",
+    "cost": 1,
+    "tags": ["bovino", "forte", "labirinto", "honrado"],
+    "source": "Manual 3DeT Victory (p. 96)"
+  },
+  {
+    "id": "arq_021",
+    "name": "Ogro",
+    "type": "Arquétipo",
+    "description": "Humanoides imensos e brutais. Selvagens habitam Arcas, outros vivem em cidades ou são Arcanautas. Atuam como seguranças, soldados, mercenários; alguns peritos em áreas inesperadas.\n• Destruidor: Quase nada causa mais estrago que um ogro. Em combate violento, quando consegue um acerto crítico ao atacar um oponente Perto, você pode pagar 2PM para somar seu Poder mais uma vez. Você só pode fazer isso uma vez por ataque, mesmo que consiga mais de um crítico.\n• Intimidador: Quase nada é tão assustador quanto um ogro. Você sempre tem Ganho em testes de Influência para assustar, intimidar ou amedrontar alguém.\n• Diferente: (Desvantagem) Quase nada é tão grande quanto um ogro.",
+    "cost": 1,
+    "tags": ["gigante", "bruto", "forte", "intimidador"],
+    "source": "Manual 3DeT Victory (p. 97)"
+  },
+  {
+    "id": "arq_022",
+    "name": "Osteon",
+    "type": "Arquétipo",
+    "description": "Esqueletos com inteligência e vontade própria. Demonstram a mesma consciência e civilidade de outros povos. Podem ser viajantes ou falecidos que retornam.\n• Imune (Abiótico, Doenças, Resiliente): (Vantagem) Então, você é um morto-vivo.\n• Memória Póstuma: Escolha uma perícia qualquer. Sempre que testá-la (mesmo sem a perícia), o atributo correspondente tem +1.\n• Sem Vida: (Desvantagem) Pois é, você ainda é um morto-vivo.",
+    "cost": 2,
+    "tags": ["morto-vivo", "esqueleto", "imortal", "resistente"],
+    "source": "Manual 3DeT Victory (p. 98)"
+  },
+  {
+    "id": "arq_023",
+    "name": "Qareen",
+    "type": "Arquétipo",
+    "description": "Seres mágicos, descendentes de mortais e criaturas arcanas (gênios, ninfas, fadas). Meios-gênios. Nascem com tatuagens elaboradas que brilham ao usar poderes. Generosos, prestativos, gostam de viver entre outros povos, emprestando seu poder arcano.\n• Desejos: Você tem a vantagem Magia. Além disso, quando lança uma magia que outra pessoa pediu desde seu último turno, o custo diminui em –2PM (mínimo 1PM). Fazer um desejo ao qareen não gasta ações ou movimentos (mas o qareen ainda precisa de ações/movimentos para lançar a magia).\n• Carismático: (Vantagem) Qareen têm facilidade para influenciar pessoas.\n• Código da Gratidão: (Desvantagem) Todo qareen será grato a alguém que tenha lhe prestado um grande favor, adotando essa pessoa como seu “amo” até igualar a dívida de gratidão. Um qareen pode ter mais de um amo por vez.",
+    "cost": 2,
+    "tags": ["gênio", "mágico", "desejos", "social"],
+    "source": "Manual 3DeT Victory (p. 99)"
+  },
+  {
+    "id": "arq_024",
+    "name": "Sauroide",
+    "type": "Arquétipo",
+    "description": "Seres-répteis (lagartos, crocodilos, serpentes, dinossauros). Cabeça reptiliana, corpos escamados, caudas, cristas, garras, carapaças. Robustos e rústicos, mas capazes de viver em sociedade moderna.\n• Cascudo: Você recebe Resoluto e Vigoroso (Vantagens).\n• Camuflagem: Sauroides têm movimentos cuidadosos, coloração igual ao ambiente e muita paciência. Você sempre tem Ganho em testes para se esconder.\n• Fraqueza (Frio): (Desvantagem) Você fica lerdo no frio. Leva um casaquinho.",
+    "cost": 2,
+    "tags": ["réptil", "lagarto", "dinossauro", "robusto", "furtivo"],
+    "source": "Manual 3DeT Victory (p. 100)"
+  },
+  {
+    "id": "arq_025",
+    "name": "Vampiro",
+    "type": "Arquétipo",
+    "description": "Galantes e sedutores, entre os seres mais poderosos. Podem ser mortos-vivos ou não. Surgem de várias maneiras (maldição, ritual, doença, criação). Imortais, precisam sugar a vida dos vivos (sangue, energia). Podem ser não assassinos.\n• Talento: Vampiros têm aptidões superiores. Escolha uma vantagem entre Ágil, Carismático, Forte, Gênio, Resoluto ou Vigoroso.\n• Imortal: (Vantagem) Você é vampiro raiz, não gótico chorão. Mesmo depois de virar cinzas, você volta.\n• Fraqueza (luz do dia): (Desvantagem) Você meio que não gosta do sol.\n• Dependência: (Desvantagem) Você não tem esta desvantagem, pois achou um jeito de superá-la. Está aqui apenas para vilões NPCs. O custo total do arquétipo não muda.",
+    "cost": 1,
+    "tags": ["morto-vivo", "sanguessuga", "noturno", "imortal", "sedutor"],
+    "source": "Manual 3DeT Victory (p. 101)"
+  }
+]

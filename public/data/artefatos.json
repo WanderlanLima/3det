@@ -1,0 +1,20 @@
+
+[
+  {
+    "id": "art_001",
+    "name": "Blazdall",
+    "type": "Artefato",
+    "description": "Uma espada mágica única e poderosa, relíquia dos pais de Ágata, com o nome “Blazdall” brilhando na lâmina. Sua criação envolve a Vantagem Artefato (1 ponto de personagem).\n\nNo exemplo de criação de Ágata, a qualidade \"Encantado +1\" foi escolhida para Blazdall. Esta qualidade garante um bônus de P+1 (Poder +1) em todos os testes para atacar com a espada.\n\nO custo da Vantagem Artefato (1 ponto) concede 10XP para serem gastos em Qualidades de Artefato. A qualidade \"Encantado +1\" tem um custo de 10XP (para um bônus de +1), que é coberto por este ponto da Vantagem.",
+    "qualities": [
+      "Encantado +1"
+    ],
+    "cost": 10,
+    "tags": [
+      "espada",
+      "mágica",
+      "encantado",
+      "arma"
+    ],
+    "source": "Manual 3DeT Victory (p. 34, p. 48, p. 139)"
+  }
+]
