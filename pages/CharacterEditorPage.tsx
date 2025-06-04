@@ -58,6 +58,13 @@ const CharacterEditorCore: React.FC = () => {
     setTimeout(() => setNotification(null), duration);
   };
 
+  // Helper to update form data fields using the reducer
+  const updateFormData = useCallback((data: Partial<CharacterFormData>) => {
+    Object.entries(data).forEach(([key, value]) => {
+      dispatch({ type: 'SET_FIELD', field: key as keyof CharacterFormData, value });
+    });
+  }, [dispatch]);
+
   // Load Compendium Data
   useEffect(() => {
     setLoadingCompendium(true);
@@ -406,9 +413,45 @@ const CharacterEditorCore: React.FC = () => {
       case 2: return <StepSkills {...stepProps} />;
       case 3: return <StepAdvantagesDisadvantages {...stepProps} />;
       case 4: return <StepArchetypes {...stepProps} />;
-      case 5: return <StepKits {...stepProps} />; // Integrate StepKits
-      case 6: return <StepCombinedItems {...stepProps} />; // Shifted to step 6
-      case 7: return <StepReview {...stepProps} isLastStep={true} onSave={handleSave} />; // Shifted to step 7
+      case 5:
+        return <StepKits {...stepProps} />; // Integrate StepKits
+      case 6: {
+        const artefatos = allCompendiumItems.filter(ci => ci.type === 'Artefato');
+        const consumiveis = allCompendiumItems.filter(ci => ci.type === 'Consumível');
+        return (
+          <StepCombinedItems
+            {...stepProps}
+            formData={{
+              techniquesAndTricks: formData.techniquesAndTricks,
+              equipment: formData.equipment,
+              attributes: formData.attributes,
+              skills: formData.skills,
+              advantages: formData.advantages,
+              xp: formData.xp,
+            }}
+            updateFormData={updateFormData}
+            artefatos={artefatos}
+            consumiveis={consumiveis}
+            remainingXP={remainingXP}
+          />
+        );
+      }
+      case 7: {
+        const spentXP =
+          (formData.techniquesAndTricks?.reduce((t, i) => t + (i.cost || 0), 0) || 0) +
+          (formData.equipment
+            ?.filter(e => e.subtype === 'Artefato' && e.costType === 'XP')
+            .reduce((t, e) => t + (e.cost || 0), 0) || 0);
+        return (
+          <StepReview
+            {...stepProps}
+            formData={formData}
+            spentXP={spentXP}
+            isLastStep={true}
+            onSave={handleSave}
+          />
+        );
+      }
       default: return <div>Passo desconhecido</div>;
     }
   };
