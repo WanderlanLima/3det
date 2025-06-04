@@ -51,7 +51,7 @@ const CompendiumPage: React.FC = () => {
   }, [searchTerm, selectedTypes]);
 
   useEffect(() => {
-    fetch('/data/compendium.json')
+    fetch(`${import.meta.env.BASE_URL}data/compendium.json`)
       .then(response => {
          if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
          return response.json();

@@ -142,7 +142,7 @@ const CharacterGalleryPage: React.FC = () => {
       setAllCharactersData(charactersFullData);
 
       // Carregar arquétipos para o filtro
-      const archetypesResponse = await fetch('/data/arquetipos.json');
+      const archetypesResponse = await fetch(`${import.meta.env.BASE_URL}data/arquetipos.json`);
       if (!archetypesResponse.ok) throw new Error('Falha ao carregar arquétipos');
       const archetypesData: CompendiumItem[] = await archetypesResponse.json();
       setArchetypeOptions(archetypesData.map(arch => ({ id: arch.id, name: arch.name })));
