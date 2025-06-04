@@ -69,11 +69,11 @@ const CharacterEditorCore: React.FC = () => {
   useEffect(() => {
     setLoadingCompendium(true);
     Promise.all([
-      fetch('/data/compendium.json').then(res => {
+      fetch(`${import.meta.env.BASE_URL}data/compendium.json`).then(res => {
         if (!res.ok) throw new Error('Falha ao carregar compendium.json');
         return res.json();
       }),
-      fetch('/data/kits.json').then(res => {
+      fetch(`${import.meta.env.BASE_URL}data/kits.json`).then(res => {
         if (!res.ok) throw new Error('Falha ao carregar kits.json');
         return res.json();
       })
