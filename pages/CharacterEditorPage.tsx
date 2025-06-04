@@ -61,14 +61,35 @@ const CharacterEditorCore: React.FC = () => {
   // Load Compendium Data
   useEffect(() => {
     setLoadingCompendium(true);
-    fetch('/data/compendium.json') // Assuming compendium.json now contains all base items
-      .then(res => { if (!res.ok) throw new Error('Falha ao carregar compendium.json'); return res.json(); })
-      .then(data => {
-        setAllCompendiumItems(data);
+    Promise.all([
+      fetch('/data/compendium.json').then(res => {
+        if (!res.ok) throw new Error('Falha ao carregar compendium.json');
+        return res.json();
+      }),
+      fetch('/data/kits.json').then(res => {
+        if (!res.ok) throw new Error('Falha ao carregar kits.json');
+        return res.json();
+      })
+    ])
+      .then(([items, kits]) => {
+        const normalizedKits: CompendiumItem[] = kits.map((k: any) => ({
+          id: k.id,
+          name: k.nome,
+          type: 'Kit',
+          description: [
+            k.exigencias && k.exigencias.length ? `Pré-requisitos: ${k.exigencias.join(', ')}` : null,
+            ...k.poderes.map((p: any) => `• ${p.nome}: ${p.descricao}`)
+          ].filter(Boolean).join('\n'),
+          cost: 1,
+          prerequisites: k.exigencias ? k.exigencias.join(', ') : undefined,
+          nucleos: k.nucleos,
+          powers: k.poderes
+        }));
+        setAllCompendiumItems([...items, ...normalizedKits]);
         setLoadingCompendium(false);
       })
       .catch(err => {
-        console.error("Falha ao carregar dados base:", err);
+        console.error('Falha ao carregar dados base:', err);
         setLoadingCompendium(false);
         showNotification(`Erro ao carregar dados base: ${err.message}`, 5000);
       });

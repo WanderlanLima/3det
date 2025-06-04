@@ -121,7 +121,7 @@ export interface CampaignFull extends CampaignFormData {
 export interface CompendiumItem {
   id: string;
   name: string;
-  type: 'Vantagem' | 'Desvantagem' | 'Perícia' | 'Técnica' | 'Arquétipo' | 'Consumível' | 'Artefato' | 'Regra Opcional' | 'Monstro';
+  type: 'Vantagem' | 'Desvantagem' | 'Perícia' | 'Técnica' | 'Arquétipo' | 'Consumível' | 'Artefato' | 'Regra Opcional' | 'Monstro' | 'Kit';
   subtype?: 'Truque' | 'Comum' | 'Lendária' | 'Arma' | 'Armadura' | 'Escudo' | 'Item' | 'Acessório' | 'Qualidade de Artefato' | 'Artefato' | 'Consumível';
   description: string;
   rules?: string;
