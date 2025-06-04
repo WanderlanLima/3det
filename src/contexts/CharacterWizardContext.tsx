@@ -1,30 +1,21 @@
 import React, { createContext, useReducer, useContext, Dispatch, ReactNode } from 'react';
-
-// Define a interface para os dados do personagem (simplificada inicialmente)
-// TODO: Expandir esta interface conforme necessário com todos os campos do formulário
-interface CharacterFormData {
-  name: string;
-  archetype: string | null;
-  attributes: {
-    poder: number;
-    habilidade: number;
-    resistencia: number;
-    armadura: number;
-    agilidade: number; // Adicionado para o simulador de combate
-  };
-  advantages: string[];
-  disadvantages: string[];
-  skills: string[];
-  kits: string[]; // Adicionado para a funcionalidade de Kits
-  // Adicionar outros campos conforme necessário: pv, pm, tecnicas, truques, equipamento, historia, etc.
-  points: number; // Pontos totais calculados
-  hp: number; // Pontos de Vida
-  mp: number; // Pontos de Magia
-}
+import {
+  CharacterFormData,
+  SelectedCompendiumItem,
+  SelectedEquipmentItem,
+} from '../../types';
 
 // Estado inicial
 const initialState: CharacterFormData = {
   name: '',
+  avatarUrl: '',
+  conceito: '',
+  aparencia: '',
+  nivelDePoder: 0,
+  xpInicial: 0,
+  xp: 0,
+  escala: 'Ningen',
+  description: '',
   archetype: null,
   attributes: {
     poder: 0,
@@ -32,11 +23,16 @@ const initialState: CharacterFormData = {
     resistencia: 0,
     armadura: 0,
     agilidade: 0,
+    pontosDeVida: 0,
+    pontosDeMana: 0,
+    pontosDeAcao: 0,
   },
-  advantages: [],
-  disadvantages: [],
-  skills: [],
-  kits: [],
+  advantages: [] as SelectedCompendiumItem[],
+  disadvantages: [] as SelectedCompendiumItem[],
+  skills: [] as SelectedCompendiumItem[],
+  kits: [] as SelectedCompendiumItem[],
+  techniquesAndTricks: [] as SelectedCompendiumItem[],
+  equipment: [] as SelectedEquipmentItem[],
   points: 0,
   hp: 0,
   mp: 0,
@@ -44,11 +40,19 @@ const initialState: CharacterFormData = {
 
 // Define as ações possíveis para o reducer
 // TODO: Adicionar mais tipos de ação conforme necessário
-type Action = 
+type ListField =
+  | 'advantages'
+  | 'disadvantages'
+  | 'skills'
+  | 'kits'
+  | 'techniquesAndTricks'
+  | 'equipment';
+
+type Action =
   | { type: 'SET_FIELD'; field: keyof CharacterFormData; value: any }
   | { type: 'SET_ATTRIBUTE'; attribute: keyof CharacterFormData['attributes']; value: number }
-  | { type: 'ADD_ITEM'; field: 'advantages' | 'disadvantages' | 'skills' | 'kits'; value: string }
-  | { type: 'REMOVE_ITEM'; field: 'advantages' | 'disadvantages' | 'skills' | 'kits'; value: string }
+  | { type: 'ADD_ITEM'; field: ListField; value: SelectedCompendiumItem | SelectedEquipmentItem }
+  | { type: 'REMOVE_ITEM'; field: ListField; value: string }
   | { type: 'RESET_FORM' }
   | { type: 'LOAD_CHARACTER'; payload: CharacterFormData }; // Para carregar um personagem existente
 
@@ -65,19 +69,19 @@ const characterReducer = (state: CharacterFormData, action: Action): CharacterFo
           [action.attribute]: action.value,
         },
       };
-    case 'ADD_ITEM':
-      // Evita duplicatas
-      if (!state[action.field].includes(action.value)) {
-        return {
-          ...state,
-          [action.field]: [...state[action.field], action.value],
-        };
+    case 'ADD_ITEM': {
+      const list = state[action.field] as (SelectedCompendiumItem | SelectedEquipmentItem)[];
+      if (!list.some((item) => item.id === action.value.id)) {
+        return { ...state, [action.field]: [...list, action.value] };
       }
       return state;
+    }
     case 'REMOVE_ITEM':
       return {
         ...state,
-        [action.field]: state[action.field].filter((item) => item !== action.value),
+        [action.field]: (state[action.field] as (SelectedCompendiumItem | SelectedEquipmentItem)[]).filter(
+          (item) => item.id !== action.value
+        ),
       };
     case 'RESET_FORM':
       return initialState;
