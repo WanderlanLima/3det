@@ -1,22 +1,38 @@
 
 import React, { useState, useMemo } from 'react';
 import { CharacterFormData, SelectedCompendiumItem, CompendiumItem, SelectedEquipmentItem } from '../../types';
+import StepTemplate from '../../src/components/StepTemplate';
 
 interface Props {
-  formData: Pick<CharacterFormData, 'techniquesAndTricks' | 'equipment' | 'attributes' | 'skills' | 'advantages' | 'xp'>; 
+  formData: Pick<CharacterFormData, 'techniquesAndTricks' | 'equipment' | 'attributes' | 'skills' | 'advantages' | 'xp'>;
   updateFormData: (data: Partial<CharacterFormData>) => void;
   compendiumItems: CompendiumItem[]; // For Técnicas (includes Truques, Comuns, Lendárias)
-  artefatos: CompendiumItem[]; 
-  consumiveis: CompendiumItem[]; 
+  artefatos: CompendiumItem[];
+  consumiveis: CompendiumItem[];
   // availablePoints: number; // PP available for this step (after archetype) - REMOVIDO
   // currentXP: number; // Total XP character has - REMOVIDO, usar formData.xp
   remainingXP: number; // XP remaining after spending on techniques & artefatos
+  onNext?: () => void;
+  onPrevious?: () => void;
+  isFirstStep?: boolean;
+  isLastStep?: boolean;
 }
 
 const labelClass = "block text-sm font-medium text-slate-300 mb-1";
 const buttonClass = "bg-sky-500 hover:bg-sky-600 text-white font-semibold py-2 px-3 rounded-lg transition duration-300 text-xs";
 
-const StepCombinedItems: React.FC<Props> = ({ formData, updateFormData, compendiumItems, artefatos, consumiveis, /*availablePoints, currentXP,*/ remainingXP }) => {
+const StepCombinedItems: React.FC<Props> = ({
+  formData,
+  updateFormData,
+  compendiumItems,
+  artefatos,
+  consumiveis,
+  /*availablePoints, currentXP,*/ remainingXP,
+  onNext,
+  onPrevious,
+  isFirstStep = false,
+  isLastStep = false,
+}) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedItemTypeFilter, setSelectedItemTypeFilter] = useState<'Técnica' | 'Artefato' | 'Consumível' | ''>('');
   const [showModal, setShowModal] = useState(false);
@@ -213,8 +229,18 @@ const StepCombinedItems: React.FC<Props> = ({ formData, updateFormData, compendi
   const tecnicasLendarias = useMemo(() => filteredItems.filter(i => i.type === 'Técnica' && i.subtype === 'Lendária'), [filteredItems]);
   const currentArtefatos = useMemo(() => filteredItems.filter(i => i.type === 'Artefato'), [filteredItems]);
   const currentConsumiveis = useMemo(() => filteredItems.filter(i => i.type === 'Consumível'), [filteredItems]);
-  
+
+  const canProceed = remainingXP >= 0;
+
   return (
+    <StepTemplate
+        title="Técnicas & Equipamentos"
+        onNext={onNext}
+        onPrevious={onPrevious}
+        canProceed={canProceed}
+        isFirstStep={isFirstStep}
+        isLastStep={isLastStep}
+    >
     <div className="space-y-6">
       <div className="p-4 bg-slate-700/50 rounded-lg">
         <p className="text-lg font-semibold">
@@ -292,6 +318,7 @@ const StepCombinedItems: React.FC<Props> = ({ formData, updateFormData, compendi
         </div>
       )}
     </div>
+    </StepTemplate>
   );
 };
 

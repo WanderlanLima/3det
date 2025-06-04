@@ -421,6 +421,8 @@ const CharacterEditorCore: React.FC = () => {
         return (
           <StepCombinedItems
             {...stepProps}
+            isFirstStep={false}
+            isLastStep={false}
             formData={{
               techniquesAndTricks: formData.techniquesAndTricks,
               equipment: formData.equipment,

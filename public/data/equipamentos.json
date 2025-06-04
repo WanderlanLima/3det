@@ -1,1 +1,273 @@
-[]
+[
+  {
+    "id": "art_001",
+    "name": "Blazdall",
+    "type": "Artefato",
+    "description": "Uma espada mágica única e poderosa, relíquia dos pais de Ágata, com o nome “Blazdall” brilhando na lâmina. Sua criação envolve a Vantagem Artefato (1 ponto de personagem).\n\nNo exemplo de criação de Ágata, a qualidade \"Encantado +1\" foi escolhida para Blazdall. Esta qualidade garante um bônus de P+1 (Poder +1) em todos os testes para atacar com a espada.\n\nO custo da Vantagem Artefato (1 ponto) concede 10XP para serem gastos em Qualidades de Artefato. A qualidade \"Encantado +1\" tem um custo de 10XP (para um bônus de +1), que é coberto por este ponto da Vantagem.",
+    "qualities": [
+      "Encantado +1"
+    ],
+    "cost": 10,
+    "tags": [
+      "espada",
+      "mágica",
+      "encantado",
+      "arma"
+    ],
+    "source": "Manual 3DeT Victory (p. 34, p. 48, p. 139)"
+  },
+  {
+    "id": "con_001",
+    "name": "Cura menor",
+    "type": "Consumível",
+    "description": "Recupera 5PV. Item Comum. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "cura",
+      "pv",
+      "comum",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_002",
+    "name": "Magia menor",
+    "type": "Consumível",
+    "description": "Concede o benefício da vantagem Magia, uma única vez, sem gastar PM. O custo máximo do efeito usado é 1PM. Item Comum. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "magia",
+      "buff",
+      "comum",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_003",
+    "name": "Ataque simples",
+    "type": "Consumível",
+    "description": "Concede o benefício de um Ataque Especial de 1 ponto uma única vez, sem gastar PM. Item Incomum. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "ataque",
+      "buff",
+      "incomum",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_004",
+    "name": "Cura maior",
+    "type": "Consumível",
+    "description": "Recupera 10PV. Item Incomum. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "cura",
+      "pv",
+      "incomum",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_005",
+    "name": "Energia menor",
+    "type": "Consumível",
+    "description": "Recupera 5PM. Item Incomum. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "energia",
+      "pm",
+      "incomum",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_006",
+    "name": "Magia média",
+    "type": "Consumível",
+    "description": "Concede o benefício da vantagem Magia, uma única vez, sem gastar PM. O custo máximo do efeito usado é 3PM (similar à Magia menor, mas mais potente). Item Incomum. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "magia",
+      "buff",
+      "incomum",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_007",
+    "name": "Remédio menor",
+    "type": "Consumível",
+    "description": "Permite um novo teste de Resistência para curar efeitos negativos, como a vantagem Cura. Item Incomum. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "cura",
+      "suporte",
+      "incomum",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_008",
+    "name": "Adrenalina menor",
+    "type": "Consumível",
+    "description": "Recupera 1PA. Item Raro. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "recurso",
+      "pa",
+      "raro",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_009",
+    "name": "Ataque maior",
+    "type": "Consumível",
+    "description": "Concede o benefício de um Ataque Especial de 2 pontos uma única vez, sem gastar PM. Item Raro. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "ataque",
+      "buff",
+      "raro",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_010",
+    "name": "Cura total",
+    "type": "Consumível",
+    "description": "Recupera todos os PV. Item Raro. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "cura",
+      "pv",
+      "raro",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_011",
+    "name": "Energia maior",
+    "type": "Consumível",
+    "description": "Recupera 10PM. Item Raro. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "energia",
+      "pm",
+      "raro",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_012",
+    "name": "Magia maior",
+    "type": "Consumível",
+    "description": "Concede o benefício da vantagem Magia, uma única vez, sem gastar PM. O custo máximo do efeito usado é 6PM (similar à Magia menor, mas mais potente). Item Raro. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "magia",
+      "buff",
+      "raro",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_013",
+    "name": "Remédio maior",
+    "type": "Consumível",
+    "description": "Permite um novo teste de Resistência para curar efeitos negativos, como a vantagem Cura, com Ganho. Item Raro. Consumíveis são tipicamente obtidos através da Vantagem Inventário.",
+    "cost": 0,
+    "tags": [
+      "cura",
+      "suporte",
+      "raro",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_014",
+    "name": "Adrenalina maior",
+    "type": "Consumível",
+    "description": "Recupera todos os PA. Item Lendário. Consumíveis são tipicamente obtidos através da Vantagem Inventário ou como recompensa especial.",
+    "cost": 0,
+    "tags": [
+      "recurso",
+      "pa",
+      "lendário",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_015",
+    "name": "Ataque supremo",
+    "type": "Consumível",
+    "description": "Concede o benefício de um Ataque Especial de 3 pontos uma única vez, sem gastar PM. Item Lendário. Consumíveis são tipicamente obtidos através da Vantagem Inventário ou como recompensa especial.",
+    "cost": 0,
+    "tags": [
+      "ataque",
+      "buff",
+      "lendário",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_016",
+    "name": "Recuperação",
+    "type": "Consumível",
+    "description": "Recupera todos os PV e PM. Item Lendário. Consumíveis são tipicamente obtidos através da Vantagem Inventário ou como recompensa especial.",
+    "cost": 0,
+    "tags": [
+      "cura",
+      "energia",
+      "pv",
+      "pm",
+      "lendário",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_017",
+    "name": "Magia suprema",
+    "type": "Consumível",
+    "description": "Concede o benefício da vantagem Magia, uma única vez, sem gastar PM. O custo máximo do efeito usado é 10PM (similar à Magia menor, mas muito mais potente). Item Lendário. Consumíveis são tipicamente obtidos através da Vantagem Inventário ou como recompensa especial.",
+    "cost": 0,
+    "tags": [
+      "magia",
+      "buff",
+      "lendário",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  },
+  {
+    "id": "con_018",
+    "name": "Remédio perfeito",
+    "type": "Consumível",
+    "description": "Cura automaticamente todos os efeitos negativos sobre o personagem. Item Lendário. Consumíveis são tipicamente obtidos através da Vantagem Inventário ou como recompensa especial.",
+    "cost": 0,
+    "tags": [
+      "cura",
+      "suporte",
+      "lendário",
+      "inventário"
+    ],
+    "source": "Manual 3DeT Victory (p. 134)"
+  }
+]
