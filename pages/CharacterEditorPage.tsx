@@ -76,9 +76,21 @@ const CharacterEditorCore: React.FC = () => {
       fetch(`${import.meta.env.BASE_URL}data/kits.json`).then(res => {
         if (!res.ok) throw new Error('Falha ao carregar kits.json');
         return res.json();
+      }),
+      fetch(`${import.meta.env.BASE_URL}data/artefatos.json`).then(res => {
+        if (!res.ok) throw new Error('Falha ao carregar artefatos.json');
+        return res.json();
+      }),
+      fetch(`${import.meta.env.BASE_URL}data/consumiveis.json`).then(res => {
+        if (!res.ok) throw new Error('Falha ao carregar consumiveis.json');
+        return res.json();
+      }),
+      fetch(`${import.meta.env.BASE_URL}data/equipamentos.json`).then(res => {
+        if (!res.ok) throw new Error('Falha ao carregar equipamentos.json');
+        return res.json();
       })
     ])
-      .then(([items, kits]) => {
+      .then(([items, kits, artefatos, consumiveis, equipamentos]) => {
         const normalizedKits: CompendiumItem[] = kits.map((k: any) => ({
           id: k.id,
           name: k.nome,
@@ -92,7 +104,13 @@ const CharacterEditorCore: React.FC = () => {
           nucleos: k.nucleos,
           powers: k.poderes
         }));
-        setAllCompendiumItems([...items, ...normalizedKits]);
+        setAllCompendiumItems([
+          ...items,
+          ...normalizedKits,
+          ...artefatos,
+          ...consumiveis,
+          ...equipamentos
+        ]);
         setLoadingCompendium(false);
       })
       .catch(err => {
@@ -108,7 +126,7 @@ const CharacterEditorCore: React.FC = () => {
     if (queueJson) {
       try {
         const queuedItemData: { id: string } = JSON.parse(queueJson);
-        const fullItem = allCompendiumItems.find(ci => ci.id === queuedItemData.id);
+        const fullItem = allCompendiumItems.find((ci: CompendiumItem) => ci.id === queuedItemData.id);
 
         if (fullItem) {
           let actionType: CharacterWizardAction['type'] | null = null;
@@ -199,7 +217,61 @@ const CharacterEditorCore: React.FC = () => {
           // Validate loaded data against schema (optional but recommended)
           const validation = characterSchema.safeParse(charData);
           if (validation.success) {
-            dispatch({ type: 'LOAD_CHARACTER', payload: validation.data });
+            // Preenche campos obrigatórios ausentes e corrige avatarUrl
+            const data: CharacterFormData = {
+              ...validation.data,
+              skills: (validation.data.skills as SelectedCompendiumItem[]) ?? [],
+              advantages: (validation.data.advantages as SelectedCompendiumItem[]) ?? [],
+              disadvantages: (validation.data.disadvantages as SelectedCompendiumItem[]) ?? [],
+              techniquesAndTricks: (validation.data as any).techniquesAndTricks ?? [],
+              equipment: (validation.data as any).equipment ?? [],
+              avatarUrl: validation.data.avatarUrl ?? undefined,
+              description: validation.data.description ?? undefined,
+              archetype: validation.data.archetype
+                ? {
+                    ...validation.data.archetype,
+                    type: (['Vantagem', 'Desvantagem', 'Perícia', 'Técnica', 'Arquétipo', 'Consumível', 'Artefato', 'Regra Opcional', 'Monstro', 'Kit'] as const).includes(validation.data.archetype.type as any)
+                      ? validation.data.archetype.type as SelectedCompendiumItem['type']
+                      : 'Arquétipo',
+                    costType: (validation.data.archetype.costType === 'XP' || validation.data.archetype.costType === 'PP')
+                      ? validation.data.archetype.costType
+                      : undefined,
+                    powers: Array.isArray(validation.data.archetype.powers)
+                      ? (validation.data.archetype.powers as any[]).map((p: any) =>
+                          typeof p === 'string'
+                            ? { name: p, description: '' }
+                            : { name: p.nome || p.name || '', description: p.descricao || p.description || '' }
+                        )
+                      : undefined,
+                  }
+                : null,
+              attributes: {
+                poder: validation.data.attributes?.poder ?? 0,
+                habilidade: validation.data.attributes?.habilidade ?? 0,
+                resistencia: validation.data.attributes?.resistencia ?? 0,
+                armadura: validation.data.attributes?.armadura ?? 0,
+                agilidade: validation.data.attributes?.agilidade ?? 0,
+                pontosDeVida: 'pontosDeVida' in (validation.data.attributes ?? {}) ? (validation.data.attributes as any).pontosDeVida ?? 1 : 1,
+                pontosDeMana: 'pontosDeMana' in (validation.data.attributes ?? {}) ? (validation.data.attributes as any).pontosDeMana ?? 1 : 1,
+                pontosDeAcao: 'pontosDeAcao' in (validation.data.attributes ?? {}) ? (validation.data.attributes as any).pontosDeAcao ?? 1 : 1,
+              },
+              history: validation.data.history ?? undefined,
+              notes: validation.data.notes ?? undefined,
+              kits: Array.isArray(validation.data.kits)
+                ? (validation.data.kits as any[]).map((k: any) => ({
+                    ...k,
+                    type: 'Kit',
+                    powers: Array.isArray(k.powers)
+                      ? k.powers.map((p: any) =>
+                          typeof p === 'string'
+                            ? { name: p, description: '' }
+                            : { name: p.nome || p.name || '', description: p.descricao || p.description || '' }
+                        )
+                      : undefined,
+                  }))
+                : [],
+            };
+            dispatch({ type: 'LOAD_CHARACTER', payload: data });
             setIsEditing(true);
             localStorage.setItem(LAST_EDITED_CHAR_ID_KEY, charIdToLoad);
           } else {
@@ -235,12 +307,12 @@ const CharacterEditorCore: React.FC = () => {
     const { poder = 0, habilidade = 0, resistencia = 0 } = formData.attributes;
     
     // Calculate HP/MP based on attributes and advantages
-    const maisVidaAdv = formData.advantages.find(adv => adv.id === 'van_057'); // +Vida
+    const maisVidaAdv = formData.advantages.find((adv: SelectedCompendiumItem) => adv.id === 'van_057'); // +Vida
     const pvFromAdvantage = maisVidaAdv ? (maisVidaAdv.currentLevel || 0) * 10 : 0;
     const basePVFromResistencia = resistencia === 0 ? 1 : resistencia * 5;
     const finalPV = Math.max(1, basePVFromResistencia + pvFromAdvantage);
 
-    const maisManaAdv = formData.advantages.find(adv => adv.id === 'van_042'); // +Mana
+    const maisManaAdv = formData.advantages.find((adv: SelectedCompendiumItem) => adv.id === 'van_042'); // +Mana
     const pmFromAdvantage = maisManaAdv ? (maisManaAdv.currentLevel || 0) * 10 : 0;
     const basePMFromHabilidade = habilidade === 0 ? 1 : habilidade * 5;
     const finalPM = Math.max(1, basePMFromHabilidade + pmFromAdvantage);
@@ -259,10 +331,10 @@ const CharacterEditorCore: React.FC = () => {
 
     // Calculate total PP spent
     const attributePoints = poder + habilidade + resistencia;
-    const skillPoints = formData.skills.reduce((acc, item) => acc + (item.cost || 0), 0);
-    const advantagePoints = formData.advantages.filter(v => !v.isFromArchetype).reduce((acc, item) => acc + (item.cost || 0), 0);
+    const skillPoints = formData.skills.reduce((acc: number, item: SelectedCompendiumItem) => acc + (item.cost || 0), 0);
+    const advantagePoints = formData.advantages.filter((v: SelectedCompendiumItem) => !v.isFromArchetype).reduce((acc: number, item: SelectedCompendiumItem) => acc + (item.cost || 0), 0);
     const disadvantagePointsGained = Math.min(
-      formData.disadvantages.filter(d => !d.isFromArchetype).reduce((acc, item) => acc + Math.abs(item.cost || 0), 0),
+      formData.disadvantages.filter((d: SelectedCompendiumItem) => !d.isFromArchetype).reduce((acc: number, item: SelectedCompendiumItem) => acc + Math.abs(item.cost || 0), 0),
       2
     );
     const archetypeCost = formData.archetype?.cost || 0;
@@ -279,10 +351,10 @@ const CharacterEditorCore: React.FC = () => {
     }
 
     // Calculate total XP spent
-    const xpGastosEmTecnicas = formData.techniquesAndTricks?.reduce((total, tech) => total + (tech.cost || 0), 0) || 0;
+    const xpGastosEmTecnicas = formData.techniquesAndTricks?.reduce((total: number, tech: SelectedCompendiumItem) => total + (tech.cost || 0), 0) || 0;
     const xpGastosEmArtefatos = formData.equipment
-        ?.filter(e => e.subtype === 'Artefato' && e.costType === 'XP')
-        .reduce((total, art) => total + (art.cost || 0), 0) || 0;
+        ?.filter((e: SelectedEquipmentItem) => e.subtype === 'Artefato' && e.costType === 'XP')
+        .reduce((total: number, art: SelectedEquipmentItem) => total + (art.cost || 0), 0) || 0;
     const totalSpentXP = xpGastosEmTecnicas + xpGastosEmArtefatos;
     setRemainingXP((formData.xp || 0) - totalSpentXP);
 
@@ -334,7 +406,7 @@ const CharacterEditorCore: React.FC = () => {
       };
       const listJson = localStorage.getItem(CHARACTER_GALLERY_LIST_KEY);
       let list: CharacterSummary[] = listJson ? JSON.parse(listJson) : [];
-      const existingIndex = list.findIndex(c => c.id === finalCharId);
+      const existingIndex = list.findIndex((c: CharacterSummary) => c.id === finalCharId);
       if (existingIndex > -1) {
         list[existingIndex] = summary;
       } else {
@@ -361,14 +433,14 @@ const CharacterEditorCore: React.FC = () => {
         return;
     }
     // Check PP before leaving PP-spending steps
-    if (currentStep < WIZARD_STEPS.findIndex(step => step.includes("Técnicas"))) { // Check before moving to XP steps
+    if (currentStep < WIZARD_STEPS.findIndex((step: string) => step.includes("Técnicas"))) { // Check before moving to XP steps
         if (pontosRestantes < 0) {
             showNotification(`Pontos de Personagem insuficientes (${pontosRestantes}). Ajuste suas escolhas.`, 4000);
             return;
         }
     }
      // Check XP before leaving XP-spending step
-    if (currentStep === WIZARD_STEPS.findIndex(step => step.includes("Técnicas"))) {
+    if (currentStep === WIZARD_STEPS.findIndex((step: string) => step.includes("Técnicas"))) {
         if (remainingXP < 0) {
             showNotification(`XP insuficiente (${remainingXP}). Ajuste suas escolhas.`, 4000);
             return;
@@ -416,8 +488,8 @@ const CharacterEditorCore: React.FC = () => {
       case 5:
         return <StepKits {...stepProps} />; // Integrate StepKits
       case 6: {
-        const artefatos = allCompendiumItems.filter(ci => ci.type === 'Artefato');
-        const consumiveis = allCompendiumItems.filter(ci => ci.type === 'Consumível');
+        const artefatos = allCompendiumItems.filter((ci: CompendiumItem) => ci.type === 'Artefato');
+        const consumiveis = allCompendiumItems.filter((ci: CompendiumItem) => ci.type === 'Consumível');
         return (
           <StepCombinedItems
             {...stepProps}
@@ -440,17 +512,16 @@ const CharacterEditorCore: React.FC = () => {
       }
       case 7: {
         const spentXP =
-          (formData.techniquesAndTricks?.reduce((t, i) => t + (i.cost || 0), 0) || 0) +
+          (formData.techniquesAndTricks?.reduce((t: number, i: SelectedCompendiumItem) => t + (i.cost || 0), 0) || 0) +
           (formData.equipment
-            ?.filter(e => e.subtype === 'Artefato' && e.costType === 'XP')
-            .reduce((t, e) => t + (e.cost || 0), 0) || 0);
+            ?.filter((e: SelectedEquipmentItem) => e.subtype === 'Artefato' && e.costType === 'XP')
+            .reduce((t: number, e: SelectedEquipmentItem) => t + (e.cost || 0), 0) || 0);
         return (
           <StepReview
             {...stepProps}
             formData={formData}
             spentXP={spentXP}
             isLastStep={true}
-            onSave={handleSave}
           />
         );
       }

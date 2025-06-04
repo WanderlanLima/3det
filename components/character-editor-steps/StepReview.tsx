@@ -1,10 +1,10 @@
-
 import React from 'react';
 import { CharacterFormData, CompendiumItem, SelectedCompendiumItem, SelectedEquipmentItem } from '../../types';
 
 interface Props {
   formData: CharacterFormData;
   spentXP: number; // XP spent on Techniques & Artifacts
+  isLastStep?: boolean;
 }
 
 const SectionTitle: React.FC<{ title: string }> = ({ title }) => (

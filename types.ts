@@ -1,4 +1,3 @@
-
 export interface CharacterSummary {
   id: string;
   name: string;
@@ -6,6 +5,8 @@ export interface CharacterSummary {
   description?: string; 
   avatarUrl?: string;
   nivelDePoder?: number;
+  archetype?: string;
+  lastModified: string;
 }
 
 // CharacterAttributes for 3DeT Victory
@@ -38,7 +39,7 @@ export interface SelectedCompendiumItem {
   currentLevel?: number; 
   originalCost?: number; 
 
-  costType?: 'XP' | 'PP'; 
+  costType?: 'XP' | 'PP';
 }
 
 export interface SelectedEquipmentItem extends SelectedCompendiumItem {
@@ -135,7 +136,13 @@ export interface CompendiumItem {
   min?: number;
   max?: number;
 
-  costType?: 'XP'; 
+  costType?: 'XP' | 'PP';
+  
+  // Kit specific fields (optional on the base type)
+  nucleos?: string[];
+  requirements?: KitRequirement[];
+  powers?: KitPower[];
+  baseCost?: number;
 }
 
 export interface UserProfile {
@@ -160,7 +167,7 @@ export interface QueuedCompendiumItem {
   type: CompendiumItem['type']; 
   name: string;
   cost?: number; 
-  costType?: 'XP' | 'PP'; 
+  costType?: 'XP' | 'PP';
   variableCost?: boolean;
   costDetails?: string;
   min?: number;
@@ -381,33 +388,6 @@ export interface Kit {
   type: 'Kit'; // To distinguish from other CompendiumItems
 }
 
-// Add Kit to CompendiumItem union type
-export interface CompendiumItem {
-  id: string;
-  name: string;
-  type: 'Vantagem' | 'Desvantagem' | 'Perícia' | 'Técnica' | 'Arquétipo' | 'Consumível' | 'Artefato' | 'Regra Opcional' | 'Monstro' | 'Kit'; // Added Kit
-  subtype?: 'Truque' | 'Comum' | 'Lendária' | 'Arma' | 'Armadura' | 'Escudo' | 'Item' | 'Acessório' | 'Qualidade de Artefato' | 'Artefato' | 'Consumível';
-  description: string;
-  rules?: string;
-  source?: string;
-  tags?: string[];
-  cost?: number; 
-  prerequisites?: string;
-
-  variableCost?: boolean;
-  costDetails?: string;
-  min?: number;
-  max?: number;
-
-  costType?: 'XP' | 'PP'; 
-  
-  // Kit specific fields (optional on the base type)
-  nucleos?: string[];
-  requirements?: KitRequirement[];
-  powers?: KitPower[];
-  baseCost?: number;
-}
-
 // Update CharacterFormData to include kits
 export interface CharacterFormData {
   id?: string;
@@ -456,7 +436,7 @@ export interface SelectedCompendiumItem {
   currentLevel?: number; 
   originalCost?: number; 
 
-  costType?: 'XP' | 'PP'; 
+  costType?: 'XP' | 'PP';
   
   // Kit specific fields (might be useful to carry over)
   nucleos?: string[]; 
